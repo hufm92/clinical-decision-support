@@ -7,11 +7,14 @@ Author: Fengmin Hu
 This is a module to define the query class
 '''
 
+import parse
+
 class query():
     '''Define a query class'''
     querytype = ''
     summary = ''
     description = ''
+    neg_list = []
 
     def __init__(self, dir_text, dir_MetaMap):
 	self.text_init(dir_text)
@@ -19,7 +22,7 @@ class query():
 
     def text_init(dir_text):
 	'''
-	Get information from Text input
+	Get the information from Text files.
 	Type: Diagnosis/Test/Treatment
 	Summary: A simplified version of the narratives that contain less irrelevent information.
 	Description: A complete account of the patients' visits, including details such as their vital statistics, drug dosages, etc.
@@ -31,5 +34,20 @@ class query():
 	self.description = text_info[2].strip()
 
     def MetaMap_init(dir_MetaMap):
+	'''
+	Get the information from MetaMapped files.
+	Format:
+	1. args
+	2. aas
+	3. neg_list
+	4. utterance
+	    A list of (phrase, candidate, mappings)
+	5. 'EOU': End of Utterance Marker.
+	'''
+	MetaMapinput = open(dir_MetaMap,'rU')
+	MetaMap_info = MetaMapinput.readlines()
+	for line in MetaMap_info:
+	    if line.startswith('neg_list'):
+		self.neg_list = parse.neg_list(line)
 	
 
