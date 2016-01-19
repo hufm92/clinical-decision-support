@@ -9,6 +9,9 @@ This is a module to parse the MetaMapped files.
 
 def neg_list(line):
     negation = []
+    
 
-def utterance
+def utterance(lines):
+    line_num = len(line)
+
 
