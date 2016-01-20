@@ -16,6 +16,7 @@ class query():
     summary = ''
     summary_pos = 0
     neg_list = []
+    utterance_list = []
 
     def __init__(self, dir_text, dir_MetaMap):
 	self.text_init(dir_text)
@@ -49,8 +50,26 @@ class query():
 	'''
 	MetaMapinput = open(dir_MetaMap,'rU')
 	MetaMap_info = MetaMapinput.readlines()
-	for line in MetaMap_info:
+	MetaMap_len = len(MetaMap)
+	line_idx = 0
+	while line_idx < MetaMap_len:
+	    line = MetaMap_info[line_idx]
 	    if line.startswith('neg_list'):
 		self.neg_list = parse.neg_list(line, self.summary_pos)
-	
+		line_idx += 1
+		continue
+	    if line.startswith('utterance'):
+		utterance_tmp = {}
+		utterance_tmp['Info'] = parse.utterance_info(line)
+		utterance_tmp['Component'] = []
+		line_idx += 1
+		while (line_idx < MetaMap_len):
+		    phrase_tmp = MetaMap_info[line_idx]
+		    candidate_tmp = MetaMap_info[line_idx+1]
+		    mapping_tmp = MetaMap_info[line_idx+2]
+		    utterance_tmp['Component'].append(parse.utterance_term(phrase_tmp, candidate_tmp, mapping_tmp))
+		    line_idx += 3
+		    if MetaMap[line_idx].startswith("'EOU'"):
+			break
+		self.utterance_list.append(parse.utterance(utterance_tmp))
 

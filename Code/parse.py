@@ -32,8 +32,10 @@ def neg_list(line, summary_pos = 0):
 	negation.append(tmp_Neg)
     return negation
 
+def utterance_info(line):
+    
 
-def utterance(lines):
+def utterance_term(lines):
     line_num = len(line)
 
 
