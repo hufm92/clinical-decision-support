@@ -12,15 +12,16 @@ import parse
 class query():
     '''Define a query class'''
     querytype = ''
-    summary = ''
     description = ''
+    summary = ''
+    summary_pos = 0
     neg_list = []
 
     def __init__(self, dir_text, dir_MetaMap):
 	self.text_init(dir_text)
 	self.MetaMap_init(dir_MetaMap)
 
-    def text_init(dir_text):
+    def text_init(self, dir_text):
 	'''
 	Get the information from Text files.
 	Type: Diagnosis/Test/Treatment
@@ -30,10 +31,12 @@ class query():
 	textinput = open(dir_text,'rU')
 	text_info = textinput.readlines()
 	self.querytype = text_info[0].strip().strip('.')
-	self.summary = text_info[1].strip()
-	self.description = text_info[2].strip()
+	self.description = text_info[1].strip()
+	self.summary = text_info[2].strip()
+	self.summary_pos = len(text_info[0])+len(text_info[1])
+	# print self.summary_pos
 
-    def MetaMap_init(dir_MetaMap):
+    def MetaMap_init(self, dir_MetaMap):
 	'''
 	Get the information from MetaMapped files.
 	Format:
@@ -48,6 +51,6 @@ class query():
 	MetaMap_info = MetaMapinput.readlines()
 	for line in MetaMap_info:
 	    if line.startswith('neg_list'):
-		self.neg_list = parse.neg_list(line)
+		self.neg_list = parse.neg_list(line, self.summary_pos)
 	
 

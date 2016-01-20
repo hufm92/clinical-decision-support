@@ -8,6 +8,7 @@ This is the main function
 '''
 
 import os
+import sys
 import query
 
 class data():
@@ -23,6 +24,8 @@ class data():
 	self.file_name_MetaMap.sort()
 	'''Get the filelists in text and MetaMapped text formats and keep them ordered'''
 	if len(self.file_name_text) != len(self.file_name_MetaMap):
+	    print "Number of Text files: "+str(len(self.file_name_text))
+	    print "Number of MetaMap files: "+str(len(self.file_name_MetaMap))
 	    sys.exit("Error: The numbers of files in text and MetaMapped text formats don't match!")
 	self.num = len(self.file_name_text)
 	for idx in xrange(self.num):
@@ -41,6 +44,8 @@ def Dir_init():
     directory['train']['MetaMap'] = '/storage6/users/hufm/SIGIR/Query/2014/2014-original-MMed'
     directory['test']['text'] = '/storage6/users/hufm/SIGIR/Query/2015/2015-original'
     directory['test']['MetaMap'] = '/storage6/users/hufm/SIGIR/Query/2015/2015-original-MMed'
+    directory['stopwords'] = '/storage6/users/hufm/SIGIR/Data/stopwords.txt'
+    directory['semantictype'] = '/storage6/users/hufm/SIGIR/Data/SemanticTypes.txt'
 
 def main():
     Dir_init()
@@ -49,6 +54,8 @@ def main():
     print train_data.querylist[0].querytype
     print train_data.querylist[0].summary
     print train_data.querylist[0].description
+    
+    
 
  
 if __name__ == "__main__":
