@@ -32,10 +32,28 @@ def neg_list(line, summary_pos = 0):
 	negation.append(tmp_Neg)
     return negation
 
-def utterance_info(line):
+def utterance(utterance_tmp):
+    info = utterance_info(utterance_tmp['Info'])
+    component = []
+    for item in utterance_tmp['Component']:
+	component.append(utterance_term(item))
     
 
-def utterance_term(lines):
-    line_num = len(line)
+def utterance_info(line):
+    '''
+    The form of utterance_info:
+    utterance(UtteranceID, UtteranceText, PosInfo, CRPos)
+    '''
+    info = {}
+    line_data = line.split('(')[1].strip(').')
+    info['UtteranceID'] = line_data.split(',')[0].strip("'")
+    info['UtteranceText'] =  line_data.split(',',1)[1].rsplit(',',2)[0].strip('"')
+    info['PosInfo'] = {}
+    info['PosInfo']['StartPos'] = int(line_data.split(',',1)[1].rsplit(',',2)[1].split('/')[0])
+    info['PosInfo']['Length'] = int(line_data.split(',',1)[1].rsplit(',',2)[1].split('/')[1])
+    return info
 
+def utterance_term(lines):
+    line_num = len(lines)
+    
 
