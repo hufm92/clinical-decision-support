@@ -1,0 +1,84 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2014-original/9.txt ../../TREC-CDS/results/9.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2014-original/9.txt',outfile-'../../TREC-CDS/results/9.txt.out']).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"diagnosis. ",0/11,[10]).
+phrase('diagnosis.',[head([lexmatch([diagnosis]),inputmatch([diagnosis]),tag(noun),tokens([diagnosis])]),punc([inputmatch(['.']),tokens([])])],0/10,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0011900','Diagnosis','Diagnosis',[diagnosis],[fndg],[[[1,1],[1,1],0]],yes,no,['CCS','CHV','LNC','MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1704338',diagnosis,'diagnosis aspect',[diagnosis],[qlco],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1704656','DIAGNOSIS','Diagnosis Study',[diagnosis],[resa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 43-year-old woman visits her dermatologist for lesions on her neck. ",11/70,[]).
+phrase('A 43-year-old woman',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['43']),features([integer]),tokens(['43'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])])],11/19,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[25/5],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[25/5],0,0)])]).
+phrase(visits,[verb([lexmatch([visits]),inputmatch([visits]),tag(verb),tokens([visits])])],31/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0545082','Visit','Visit',[visit],[bhvr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','SNM'],[31/6],0,0)]),map(-1000,[ev(-1000,'C1512346',visit,'Patient Visit',[visit],[hlca],[[[1,1],[1,1],0]],yes,no,['HL7V3.0','MTH','NCI','NLMSubSyn'],[31/6],0,0)]),map(-1000,[ev(-1000,'C2826704','VISIT','Visit Name',[visit],[inpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[31/6],0,0)])]).
+phrase('her dermatologist for lesions',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),head([lexmatch([dermatologist]),inputmatch([dermatologist]),tag(noun),tokens([dermatologist])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])])],38/29,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-708,[ev(-770,'C0259831','Dermatologist','Dermatologist',[dermatologist],[prog],[[[2,2],[1,1],0]],yes,no,['LCH','SNOMEDCT_US'],[42/13],0,0),ev(-604,'C0221198',lesions,'Lesion',[lesions],[fndg],[[[4,4],[1,1],0]],no,no,['CHV','MTH','NCI','NLMSubSyn'],[60/7],0,0)])]).
+phrase('on her neck.',[prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),head([lexmatch([neck]),inputmatch([neck]),tag(noun),tokens([neck])]),punc([inputmatch(['.']),tokens([])])],68/12,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0027530','Neck','Neck',[neck],[blor],[[[1,1],[1,1],0]],yes,no,['CHV','FMA','MSH','MTH','NCI','SNOMEDCT_US'],[75/4],0,0)]),map(-1000,[ev(-1000,'C1281592','Neck','Entire neck',[neck],[bpoc],[[[1,1],[1,1],0]],yes,no,['MTH','NLMSubSyn','SNOMEDCT_US'],[75/4],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"On examination, multiple lesions are seen. ",81/43,[]).
+phrase('On examination,',[prep([lexmatch([on]),inputmatch(['On']),tag(prep),tokens([on])]),head([lexmatch([examination]),inputmatch([examination]),tag(noun),tokens([examination])]),punc([inputmatch([',']),tokens([])])],81/15,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('multiple lesions',[mod([lexmatch([multiple]),inputmatch([multiple]),tag(adj),tokens([multiple])]),head([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])])],97/16,[]).
+candidates(4,1,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0577305','Multiple lesions','Multiple lesions',[multiple,lesions],[fndg],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['NLMSubSyn','SNOMEDCT_US'],[97/16],0,0)])]).
+phrase(are,[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])],114/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('seen.',[verb([lexmatch([seen]),inputmatch([seen]),tag(verb),tokens([seen])]),punc([inputmatch(['.']),tokens([])])],118/5,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0205397','Seen','Seen',[seen],[qlco],[[[1,1],[1,1],0]],yes,no,['SNMI'],[118/4],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"Each lesion is small soft, and pedunculated. ",124/45,[]).
+phrase('Each lesion',[det([lexmatch([each]),inputmatch(['Each']),tag(det),tokens([each])]),head([lexmatch([lesion]),inputmatch([lesion]),tag(noun),tokens([lesion])])],124/11,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0221198','Lesion','Lesion',[lesion],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn'],[129/6],0,0)]),map(-1000,[ev(-1000,'C1546698','Lesion','Specimen Source Codes - Lesion',[lesion],[inpr],[[[1,1],[1,1],0]],yes,no,['HL7V2.5','MTH'],[129/6],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],136/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('small soft,',[mod([lexmatch([small]),inputmatch([small]),tag(adj),tokens([small])]),head([lexmatch([soft]),inputmatch([soft]),tag(adj),tokens([soft])]),punc([inputmatch([',']),tokens([])])],139/11,[]).
+candidates(4,1,0,3,[]).
+mappings([map(-888,[ev(-694,'C0700321','Small','Small',[small],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','SNMI','SNOMEDCT_US'],[139/5],0,0),ev(-861,'C0205358','Soft','Soft',[soft],[qlco],[[[2,2],[1,1],0]],yes,no,['MTH','NCI'],[145/4],0,0)]),map(-888,[ev(-694,'C0700321','Small','Small',[small],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','SNMI','SNOMEDCT_US'],[139/5],0,0),ev(-861,'C3542022','SOFT','SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME',[soft],[dsyn],[[[2,2],[1,1],0]],yes,no,['MTH','OMIM'],[145/4],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],151/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('pedunculated.',[head([lexmatch([pedunculated]),inputmatch([pedunculated]),tag(adj),tokens([pedunculated])]),punc([inputmatch(['.']),tokens([])])],155/13,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0205320','Pedunculated','Pedunculated',[pedunculated],[spco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[155/12],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"The largest lesion is about 4 mm in diameter. ",169/46,[]).
+phrase('The largest lesion',[det([lexmatch([the]),inputmatch(['The']),tag(det),tokens([the])]),mod([lexmatch([largest]),inputmatch([largest]),tag(adj),tokens([largest])]),head([lexmatch([lesion]),inputmatch([lesion]),tag(noun),tokens([lesion])])],169/18,[]).
+candidates(4,1,0,3,[]).
+mappings([map(-888,[ev(-694,'C0443228','Largest','Largest',[largest],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH'],[173/7],0,0),ev(-861,'C0221198','Lesion','Lesion',[lesion],[fndg],[[[2,2],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn'],[181/6],0,0)]),map(-888,[ev(-694,'C0443228','Largest','Largest',[largest],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH'],[173/7],0,0),ev(-861,'C1546698','Lesion','Specimen Source Codes - Lesion',[lesion],[inpr],[[[2,2],[1,1],0]],yes,no,['HL7V2.5','MTH'],[181/6],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],188/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('about 4 mm in diameter.',[adv([lexmatch([about]),inputmatch([about]),tag(adv),tokens([about])]),shapes([inputmatch(['4']),features([integer]),tokens(['4'])]),head([lexmatch([mm]),inputmatch([mm]),tag(noun),tokens([mm])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([diameter]),inputmatch([diameter]),tag(noun),tokens([diameter])]),punc([inputmatch(['.']),tokens([])])],191/23,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-593,[ev(-593,'C1301886','Diameter','Diameter (qualifier value)',[diameter],[qnco],[[[5,5],[1,1],0]],no,no,['CHV','LNC','SNOMEDCT_US'],[205/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"The color of different lesions varies from flesh colored to slightly hyperpigmented. ",215/85,[299]).
+phrase('The color of different lesions',[det([lexmatch([the]),inputmatch(['The']),tag(det),tokens([the])]),head([lexmatch([color]),inputmatch([color]),tag(noun),tokens([color])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([different]),inputmatch([different]),tag(adj),tokens([different])]),mod([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])])],215/30,[]).
+candidates(11,4,0,7,[]).
+mappings([map(-734,[ev(-595,'C0025320','the difference','Menopause',[the,difference],[phsf],[[[1,1],[1,1],0],[[4,4],[2,2],3]],no,no,['CHV','MEDLINEPLUS','MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[215/3,228/9],0,0),ev(-760,'C0009393','Color','Color',[color],[npop],[[[2,2],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[219/5],0,0),ev(-593,'C0221198',lesions,'Lesion',[lesions],[fndg],[[[5,5],[1,1],0]],no,no,['CHV','MTH','NCI','NLMSubSyn'],[238/7],0,0)]),map(-734,[ev(-595,'C0025320','the difference','Menopause',[the,difference],[phsf],[[[1,1],[1,1],0],[[4,4],[2,2],3]],no,no,['CHV','MEDLINEPLUS','MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[215/3,228/9],0,0),ev(-760,'C1550604',color,'color additive',[color],[irda],[[[2,2],[1,1],0]],yes,no,['HL7V3.0'],[219/5],0,0),ev(-593,'C0221198',lesions,'Lesion',[lesions],[fndg],[[[5,5],[1,1],0]],no,no,['CHV','MTH','NCI','NLMSubSyn'],[238/7],0,0)]),map(-734,[ev(-595,'C0025320','the difference','Menopause',[the,difference],[phsf],[[[1,1],[1,1],0],[[4,4],[2,2],3]],no,no,['CHV','MEDLINEPLUS','MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[215/3,228/9],0,0),ev(-760,'C1705245','Color','Coloring Excipient',[color],[phsu],[[[2,2],[1,1],0]],yes,no,['MTH','NCI'],[219/5],0,0),ev(-593,'C0221198',lesions,'Lesion',[lesions],[fndg],[[[5,5],[1,1],0]],no,no,['CHV','MTH','NCI','NLMSubSyn'],[238/7],0,0)])]).
+phrase('varies from flesh colored to slightly',[verb([lexmatch([varies]),inputmatch([varies]),tag(verb),tokens([varies])]),prep([lexmatch([from]),inputmatch([from]),tag(prep),tokens([from])]),mod([lexmatch(['flesh colored']),inputmatch([flesh,colored]),tag(adj),tokens([flesh,colored])]),adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])]),adv([lexmatch([slightly]),inputmatch([slightly]),tag(adv),tokens([slightly])])],246/37,[]).
+candidates(6,3,0,3,[]).
+mappings([map(-666,[ev(-753,'C1548673','Varies','Varies',[varies],[inpr],[[[1,1],[1,1],0]],yes,no,['HL7V2.5'],[246/6],0,0),ev(-753,'C0522507',colored,'With color',[colored],[qlco],[[[4,4],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[264/7],0,0),ev(-753,'C0750482','Slightly','Slightly',[slightly],[idcn],[[[6,6],[1,1],0]],yes,no,['SNOMEDCT_US'],[275/8],0,0)])]).
+phrase('hyperpigmented.',[verb([lexmatch([hyperpigmented]),inputmatch([hyperpigmented]),tag(verb),tokens([hyperpigmented])]),punc([inputmatch(['.']),tokens([])])],284/15,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0333615','Hyperpigmented','Hyperpigmented',[hyperpigmented],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','SNMI'],[284/14],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"43-year-old woman with soft, flesh-colored, pedunculated lesions on her neck.",300/77,[]).
+phrase('43-year-old woman with soft, flesh-colored, pedunculated lesions',[shapes([inputmatch(['43']),features([integer]),tokens(['43'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([soft]),inputmatch([soft]),tag(adj),tokens([soft])]),punc([inputmatch([',']),tokens([])]),mod([lexmatch(['flesh-colored']),inputmatch([flesh,-,colored]),tag(adj),tokens([flesh,colored])]),punc([inputmatch([',']),tokens([])]),mod([lexmatch([pedunculated]),inputmatch([pedunculated]),tag(adj),tokens([pedunculated])]),mod([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])])],300/64,[]).
+candidates(15,5,0,10,[]).
+mappings([map(-673,[ev(-573,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[303/4],0,0),ev(-573,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[308/3],0,0),ev(-739,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[312/5],0,0),ev(-573,'C0205358','Soft','Soft',[soft],[qlco],[[[6,6],[1,1],0]],no,no,['MTH','NCI'],[323/4],0,0),ev(-573,'C0522507',colored,'With color',[colored],[qlco],[[[8,8],[1,1],0]],no,no,['CHV','SNOMEDCT_US'],[335/7],0,0),ev(-576,'C1335371','Pedunculated Lesion','Pedunculated Lesion',[pedunculated,lesion],[fndg],[[[9,9],[1,1],0],[[10,10],[2,2],1]],no,no,['MTH'],[344/20],0,0)]),map(-673,[ev(-573,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[303/4],0,0),ev(-573,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[308/3],0,0),ev(-739,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[312/5],0,0),ev(-573,'C3542022','SOFT','SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME',[soft],[dsyn],[[[6,6],[1,1],0]],no,no,['MTH','OMIM'],[323/4],0,0),ev(-573,'C0522507',colored,'With color',[colored],[qlco],[[[8,8],[1,1],0]],no,no,['CHV','SNOMEDCT_US'],[335/7],0,0),ev(-576,'C1335371','Pedunculated Lesion','Pedunculated Lesion',[pedunculated,lesion],[fndg],[[[9,9],[1,1],0],[[10,10],[2,2],1]],no,no,['MTH'],[344/20],0,0)]),map(-673,[ev(-573,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[303/4],0,0),ev(-573,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[308/3],0,0),ev(-739,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[312/5],0,0),ev(-573,'C0205358','Soft','Soft',[soft],[qlco],[[[6,6],[1,1],0]],no,no,['MTH','NCI'],[323/4],0,0),ev(-573,'C0522507',colored,'With color',[colored],[qlco],[[[8,8],[1,1],0]],no,no,['CHV','SNOMEDCT_US'],[335/7],0,0),ev(-576,'C1335371','Pedunculated Lesion','Pedunculated Lesion',[pedunculated,lesion],[fndg],[[[9,9],[1,1],0],[[10,10],[2,2],1]],no,no,['MTH'],[344/20],0,0)]),map(-673,[ev(-573,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[303/4],0,0),ev(-573,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[308/3],0,0),ev(-739,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[312/5],0,0),ev(-573,'C3542022','SOFT','SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME',[soft],[dsyn],[[[6,6],[1,1],0]],no,no,['MTH','OMIM'],[323/4],0,0),ev(-573,'C0522507',colored,'With color',[colored],[qlco],[[[8,8],[1,1],0]],no,no,['CHV','SNOMEDCT_US'],[335/7],0,0),ev(-576,'C1335371','Pedunculated Lesion','Pedunculated Lesion',[pedunculated,lesion],[fndg],[[[9,9],[1,1],0],[[10,10],[2,2],1]],no,no,['MTH'],[344/20],0,0)])]).
+phrase('on her neck.',[prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),head([lexmatch([neck]),inputmatch([neck]),tag(noun),tokens([neck])]),punc([inputmatch(['.']),tokens([])])],365/12,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0027530','Neck','Neck',[neck],[blor],[[[1,1],[1,1],0]],yes,no,['CHV','FMA','MSH','MTH','NCI','SNOMEDCT_US'],[372/4],0,0)]),map(-1000,[ev(-1000,'C1281592','Neck','Entire neck',[neck],[bpoc],[[[1,1],[1,1],0]],yes,no,['MTH','NLMSubSyn','SNOMEDCT_US'],[372/4],0,0)])]).
+'EOU'.
+'EOT'.

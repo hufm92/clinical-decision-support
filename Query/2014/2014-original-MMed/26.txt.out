@@ -1,0 +1,103 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2014-original/26.txt ../../TREC-CDS/results/26.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2014-original/26.txt',outfile-'../../TREC-CDS/results/26.txt.out']).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"treatment. ",0/11,[10]).
+phrase('treatment.',[head([lexmatch([treatment]),inputmatch([treatment]),tag(noun),tokens([treatment])]),punc([inputmatch(['.']),tokens([])])],0/10,[]).
+candidates(6,0,0,6,[]).
+mappings([map(-1000,[ev(-1000,'C0039798',treatment,'therapeutic aspects',[treatment],[ftcn],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn'],[0/9],0,0)]),map(-1000,[ev(-1000,'C0087111','Treatment','Therapeutic procedure',[treatment],[topp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LNC','MSH','MTH','MTHHH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1522326','Treatment','Treating',[treatment],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1533734','Treatment','Administration procedure',[treatment],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1705169','Treatment','Biomaterial Treatment',[treatment],[cnce],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C3538994','TREATMENT','Treatment Epoch',[treatment],[resa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[0/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil. ",11/106,[]).
+phrase('A group of 14 humanitarian service workers',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),head([lexmatch([group]),inputmatch([group]),tag(noun),tokens([group])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),shapes([inputmatch(['14']),features([integer]),tokens(['14'])]),mod([lexmatch([humanitarian]),inputmatch([humanitarian]),tag(adj),tokens([humanitarian])]),mod([lexmatch([service]),inputmatch([service]),tag(noun),tokens([service])]),mod([lexmatch([workers]),inputmatch([workers]),tag(noun),tokens([workers])])],11/42,[]).
+candidates(14,0,0,14,[]).
+mappings([map(-724,[ev(-778,'C0441835','a group','Group A',[a,group],[clas],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[11/7],0,0),ev(-612,'C0335306','SERVICE WORKERS','Service worker',[service,workers],[prog],[[[6,6],[1,1],0],[[7,7],[2,2],0]],no,no,['CHV','NLMSubSyn','SNMI','SNOMEDCT_US'],[38/15],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],54/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(preparing,[verb([lexmatch([preparing]),inputmatch([preparing]),tag(verb),tokens([preparing])])],57/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-966,[ev(-966,'C1521827','Prepare','Preparation',[prepare],[ftcn],[[[1,1],[1,1],1]],yes,no,['MTH','NCI'],[57/9],0,0)])]).
+phrase('a trip to the Amazon Rainforest region',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([trip]),inputmatch([trip]),tag(noun),tokens([trip])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([amazon]),inputmatch(['Amazon']),tag(noun),tokens([amazon])]),mod([lexmatch([rainforest]),inputmatch(['Rainforest']),tag(noun),tokens([rainforest])]),mod([lexmatch([region]),inputmatch([region]),tag(noun),tokens([region])])],67/38,[]).
+candidates(6,2,0,4,[]).
+mappings([map(-652,[ev(-748,'C0221188',trip,'Tripping',[trip],[phpr],[[[2,2],[1,1],0]],yes,no,['CHV','MTH'],[69/4],0,0),ev(-581,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[81/6],0,0),ev(-581,'C0017446','Region','Geographic Locations',[region],[geoa],[[[7,7],[1,1],0]],no,no,['CSP','MTH','NCI'],[99/6],0,0)]),map(-652,[ev(-748,'C0221188',trip,'Tripping',[trip],[phpr],[[[2,2],[1,1],0]],yes,no,['CHV','MTH'],[69/4],0,0),ev(-581,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[81/6],0,0),ev(-581,'C0205147','Region',regional,[region],[spco],[[[7,7],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[99/6],0,0)])]).
+phrase('in Brazil.',[prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([brazil]),inputmatch(['Brazil']),tag(noun),tokens([brazil])]),punc([inputmatch(['.']),tokens([])])],106/10,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0006137','Brazil','Brazil',[brazil],[geoa],[[[1,1],[1,1],0]],yes,no,['MTH'],[109/6],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates. ",117/107,[]).
+phrase('All',[det([lexmatch([all]),inputmatch(['All']),tag(det),tokens([all])])],117/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('the members of the group',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([members]),inputmatch([members]),tag(noun),tokens([members])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([group]),inputmatch([group]),tag(noun),tokens([group])])],121/24,[]).
+candidates(9,1,0,8,[]).
+mappings([map(-781,[ev(-781,'C0450059','group member','Member of public',[group,member],[humn],[[[5,5],[1,1],0],[[2,2],[2,2],1]],yes,no,['NCI','NLMSubSyn','SNOMEDCT_US'],[125/7,140/5],0,0)])]).
+phrase(have,[aux([lexmatch([have]),inputmatch([have]),tag(aux),tokens([have])])],146/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('traveled on multiple occasions',[verb([lexmatch([traveled]),inputmatch([traveled]),tag(verb),tokens([traveled])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),mod([lexmatch([multiple]),inputmatch([multiple]),tag(adj),tokens([multiple])]),mod([lexmatch([occasions]),inputmatch([occasions]),tag(noun),tokens([occasions])])],151/30,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-694,[ev(-737,'C0040802',travel,travel,[travel],[dora],[[[1,1],[1,1],1]],yes,no,['MSH','MTH','SNOMEDCT_US'],[151/8],0,0),ev(-770,'C0439064','Multiple','Numerous',[multiple],[qnco],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[163/8],0,0),ev(-687,'C0521114','Occasional','Infrequent',[occasional],[tmco],[[[4,4],[1,1],4]],yes,no,['MTH','NCI','SNMI','SNOMEDCT_US'],[172/9],0,0)]),map(-694,[ev(-737,'C1555670',travel,'Act Code - travel',[travel],[idcn],[[[1,1],[1,1],1]],yes,no,['HL7V3.0','MTH'],[151/8],0,0),ev(-770,'C0439064','Multiple','Numerous',[multiple],[qnco],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[163/8],0,0),ev(-687,'C0521114','Occasional','Infrequent',[occasional],[tmco],[[[4,4],[1,1],4]],yes,no,['MTH','NCI','SNMI','SNOMEDCT_US'],[172/9],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],182/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(have,[aux([lexmatch([have]),inputmatch([have]),tag(aux),tokens([have])])],186/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('up-to-date vaccine certificates.',[mod([lexmatch(['up-to-date']),inputmatch([up,-,to,-,date]),tag(adj),tokens([up,to,date])]),mod([lexmatch([vaccine]),inputmatch([vaccine]),tag(noun),tokens([vaccine])]),head([lexmatch([certificates]),inputmatch([certificates]),tag(noun),tokens([certificates])]),punc([inputmatch(['.']),tokens([])])],191/32,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-736,[ev(-637,'C0011008','Date','Date in time',[date],[tmco],[[[3,3],[1,1],0]],no,no,['MSH','MTH','SNOMEDCT_US'],[197/4],0,0),ev(-637,'C0042210','Vaccine','Vaccines',[vaccine],[imft,phsu],[[[4,4],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[202/7],0,0),ev(-804,'C0586303','Certificates','Certificate (record artifact)',[certificates],[inpr],[[[5,5],[1,1],0]],yes,no,['SNOMEDCT_US'],[210/12],0,0)]),map(-736,[ev(-637,'C0011008','Date','Date in time',[date],[tmco],[[[3,3],[1,1],0]],no,no,['MSH','MTH','SNOMEDCT_US'],[197/4],0,0),ev(-637,'C1552558','Vaccine','Vaccine - EntityCode',[vaccine],[inpr],[[[4,4],[1,1],0]],no,no,['HL7V3.0','MTH'],[202/7],0,0),ev(-804,'C0586303','Certificates','Certificate (record artifact)',[certificates],[inpr],[[[5,5],[1,1],0]],yes,no,['SNOMEDCT_US'],[210/12],0,0)]),map(-736,[ev(-637,'C2348077','Date','Date Fruit',[date],[food],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[197/4],0,0),ev(-637,'C0042210','Vaccine','Vaccines',[vaccine],[imft,phsu],[[[4,4],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[202/7],0,0),ev(-804,'C0586303','Certificates','Certificate (record artifact)',[certificates],[inpr],[[[5,5],[1,1],0]],yes,no,['SNOMEDCT_US'],[210/12],0,0)]),map(-736,[ev(-637,'C2348077','Date','Date Fruit',[date],[food],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[197/4],0,0),ev(-637,'C1552558','Vaccine','Vaccine - EntityCode',[vaccine],[inpr],[[[4,4],[1,1],0]],no,no,['HL7V3.0','MTH'],[202/7],0,0),ev(-804,'C0586303','Certificates','Certificate (record artifact)',[certificates],[inpr],[[[5,5],[1,1],0]],yes,no,['SNOMEDCT_US'],[210/12],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy. ",224/99,[322]).
+phrase('Malaria Chemoprophylaxis',[mod([lexmatch([malaria]),inputmatch(['Malaria']),tag(noun),tokens([malaria])]),head([lexmatch([chemoprophylaxis]),inputmatch(['Chemoprophylaxis']),tag(noun),tokens([chemoprophylaxis])])],224/24,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-888,[ev(-694,'C0024530','Malaria','Malaria',[malaria],[dsyn],[[[1,1],[1,1],0]],no,no,['CHV','ICD10CM','MSH','MTH','MTHICD9','NLMSubSyn','SNMI','SNOMEDCT_US'],[224/7],0,0),ev(-861,'C0282515','Chemoprophylaxis','Chemoprevention',[chemoprophylaxis],[topp],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[232/16],0,0)]),map(-888,[ev(-694,'C0024530','Malaria','Malaria',[malaria],[dsyn],[[[1,1],[1,1],0]],no,no,['CHV','ICD10CM','MSH','MTH','MTHICD9','NLMSubSyn','SNMI','SNOMEDCT_US'],[224/7],0,0),ev(-861,'C0362063',chemoprophylaxis,'Other prophylactic chemotherapy',[chemoprophylaxis],[fndg],[[[2,2],[1,1],0]],yes,no,['CHV','MTH','NLMSubSyn'],[232/16],0,0)]),map(-888,[ev(-694,'C0024530','Malaria','Malaria',[malaria],[dsyn],[[[1,1],[1,1],0]],no,no,['CHV','ICD10CM','MSH','MTH','MTHICD9','NLMSubSyn','SNMI','SNOMEDCT_US'],[224/7],0,0),ev(-861,'C2939437','Chemoprophylaxis','Antineoplastic agent prophylaxis',[chemoprophylaxis],[topp],[[[2,2],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[232/16],0,0)]),map(-888,[ev(-694,'C2984572','Malaria','Malaria Pathway',[malaria],[ftcn],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[224/7],0,0),ev(-861,'C0282515','Chemoprophylaxis','Chemoprevention',[chemoprophylaxis],[topp],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[232/16],0,0)]),map(-888,[ev(-694,'C2984572','Malaria','Malaria Pathway',[malaria],[ftcn],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[224/7],0,0),ev(-861,'C0362063',chemoprophylaxis,'Other prophylactic chemotherapy',[chemoprophylaxis],[fndg],[[[2,2],[1,1],0]],yes,no,['CHV','MTH','NLMSubSyn'],[232/16],0,0)]),map(-888,[ev(-694,'C2984572','Malaria','Malaria Pathway',[malaria],[ftcn],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[224/7],0,0),ev(-861,'C2939437','Chemoprophylaxis','Antineoplastic agent prophylaxis',[chemoprophylaxis],[topp],[[[2,2],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[232/16],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],249/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(indicated,[verb([lexmatch([indicated]),inputmatch([indicated]),tag(verb),tokens([indicated])])],252/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1444656','Indicated','Indicated',[indicated],[fndg],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[252/9],0,0)])]).
+phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],262/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('three of the women',[shapes([inputmatch([three]),features([word_numeral]),tokens([three])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([women]),inputmatch([women]),tag(noun),tokens([women])])],266/18,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-708,[ev(-770,'C0205449','Three','Three',[three],[qnco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[266/5],0,0),ev(-770,'C0043210','Women','Woman',[women],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[279/5],0,0)])]).
+phrase('are in different stages of pregnancy.',[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([different]),inputmatch([different]),tag(adj),tokens([different])]),mod([lexmatch([stages]),inputmatch([stages]),tag(noun),tokens([stages])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([pregnancy]),inputmatch([pregnancy]),tag(noun),tokens([pregnancy])]),punc([inputmatch(['.']),tokens([])])],285/37,[]).
+candidates(16,8,0,8,[]).
+mappings([map(-782,[ev(-753,'C1551058','Are','are unit of measure',[are],[qnco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[285/3],0,0),ev(-753,'C1705242','Different','Different',[different],[qlco],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[292/9],0,0),ev(-822,'C0814007','stage of pregnancy','gestation stage',[stage,of,pregnancy],[tmco],[[[4,4],[1,1],1],[[5,5],[2,2],0],[[6,6],[3,3],0]],yes,no,['AOD','CHV','NLMSubSyn'],[302/19],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"Group traveling to the Amazon rainforest, including 3 pregnant women. ",323/70,[]).
+phrase('Group traveling to the Amazon rainforest,',[mod([lexmatch([group]),inputmatch(['Group']),tag(noun),tokens([group])]),head([lexmatch([traveling]),inputmatch([traveling]),tag(noun),tokens([traveling])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([amazon]),inputmatch(['Amazon']),tag(noun),tokens([amazon])]),mod([lexmatch([rainforest]),inputmatch([rainforest]),tag(noun),tokens([rainforest])]),punc([inputmatch([',']),tokens([])])],323/41,[]).
+candidates(9,1,0,8,[]).
+mappings([map(-672,[ev(-586,'C0441833','Group','Groups',[group],[idcn],[[[1,1],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[323/5],0,0),ev(-753,'C0040802','Traveling',travel,[traveling],[dora],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[329/9],0,0),ev(-586,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[346/6],0,0)]),map(-672,[ev(-586,'C0687744',group,'Social group',[group],[popg],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NLMSubSyn'],[323/5],0,0),ev(-753,'C0040802','Traveling',travel,[traveling],[dora],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[329/9],0,0),ev(-586,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[346/6],0,0)]),map(-672,[ev(-586,'C1257890','Group','Population Group',[group],[popg],[[[1,1],[1,1],0]],no,no,['CHV','MSH','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[323/5],0,0),ev(-753,'C0040802','Traveling',travel,[traveling],[dora],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[329/9],0,0),ev(-586,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[346/6],0,0)]),map(-672,[ev(-586,'C1552516','Group','Specialty Group',[group],[hcro],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH','NLMSubSyn'],[323/5],0,0),ev(-753,'C0040802','Traveling',travel,[traveling],[dora],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[329/9],0,0),ev(-586,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[346/6],0,0)]),map(-672,[ev(-586,'C1705428','Group','Group Object',[group],[cnce],[[[1,1],[1,1],0]],no,no,['MTH','NCI','NLMSubSyn'],[323/5],0,0),ev(-753,'C0040802','Traveling',travel,[traveling],[dora],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[329/9],0,0),ev(-586,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[346/6],0,0)]),map(-672,[ev(-586,'C1705429','Group','User Group',[group],[popg],[[[1,1],[1,1],0]],no,no,['MTH','NCI','NLMSubSyn'],[323/5],0,0),ev(-753,'C0040802','Traveling',travel,[traveling],[dora],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[329/9],0,0),ev(-586,'C0325969','Amazon, NOS','Amazona',[amazon],[bird],[[[5,5],[1,1],0]],no,no,['MSH','SNMI','SNOMEDCT_US'],[346/6],0,0)])]).
+phrase(including,[verb([lexmatch([including]),inputmatch([including]),tag(verb),tokens([including])])],365/9,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332257','Including','Including (qualifier)',[including],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[365/9],0,0)])]).
+phrase('3 pregnant women.',[shapes([inputmatch(['3']),features([integer]),tokens(['3'])]),mod([lexmatch([pregnant]),inputmatch([pregnant]),tag(adj),tokens([pregnant])]),head([lexmatch([women]),inputmatch([women]),tag(noun),tokens([women])]),punc([inputmatch(['.']),tokens([])])],375/17,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-901,[ev(-660,'C0439086','<3','<3 (qualifier value)',['3'],[qnco],[[[1,1],[1,1],0]],no,no,['SNOMEDCT_US'],[375/1],0,0),ev(-901,'C0033011','Pregnant Women','Pregnant Women',[pregnant,women],[popg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['AOD','MSH','NLMSubSyn'],[377/14],0,0)]),map(-901,[ev(-660,'C2827736','3+','3+ Score',['3'],[qnco],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[375/1],0,0),ev(-901,'C0033011','Pregnant Women','Pregnant Women',[pregnant,women],[popg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['AOD','MSH','NLMSubSyn'],[377/14],0,0)]),map(-901,[ev(-660,'C2981702','3+','3+ Score, WHO',['3'],[clas],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[375/1],0,0),ev(-901,'C0033011','Pregnant Women','Pregnant Women',[pregnant,women],[popg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['AOD','MSH','NLMSubSyn'],[377/14],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"All members' immunizations are up-to-date but they require malaria prophylaxis.",393/79,[]).
+phrase('All members\' immunizations',[det([lexmatch([all]),inputmatch(['All']),tag(det),tokens([all])]),mod([lexmatch([members]),inputmatch([members]),tag(noun),tokens([members])]),punc([inputmatch(['\'']),tokens([])]),head([lexmatch([immunizations]),inputmatch([immunizations]),tag(noun),tokens([immunizations])])],393/26,[]).
+candidates(5,3,0,2,[]).
+mappings([map(-888,[ev(-694,'C0680022',members,member,[members],[popg],[[[1,1],[1,1],0]],no,no,['CHV','MTH'],[397/7],0,0),ev(-861,'C0020971','Immunizations','Immunization',[immunizations],[topp],[[[2,2],[1,1],0]],yes,no,['CHV','MSH','MTH','NLMSubSyn','SNM','SNOMEDCT_US'],[406/13],0,0)])]).
+phrase(are,[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])],420/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('up-to-date',[head([lexmatch(['up-to-date']),inputmatch([up,-,to,-,date]),tag(adj),tokens([up,to,date])])],424/10,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-827,[ev(-827,'C0011008','Date','Date in time',[date],[tmco],[[[3,3],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[430/4],0,0)]),map(-827,[ev(-827,'C2348077','Date','Date Fruit',[date],[food],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[430/4],0,0)])]).
+phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],435/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(they,[pron([lexmatch([they]),inputmatch([they]),tag(pron),tokens([they])])],439/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(require,[verb([lexmatch([require]),inputmatch([require]),tag(verb),tokens([require])])],444/7,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('malaria prophylaxis.',[head([lexmatch(['malaria prophylaxis']),inputmatch([malaria,prophylaxis]),tag(noun),tokens([malaria,prophylaxis])]),punc([inputmatch(['.']),tokens([])])],452/20,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-1000,[ev(-1000,'C0199244','Malaria prophylaxis','Antimalarial prophylaxis',[malaria,prophylaxis],[topp],[[[1,2],[1,2],0]],yes,no,['NLMSubSyn','SNMI','SNOMEDCT_US'],[452/19],0,0)])]).
+'EOU'.
+'EOT'.

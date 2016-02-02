@@ -1,0 +1,171 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2014-original/21.txt ../../TREC-CDS/results/21.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2014-original/21.txt',outfile-'../../TREC-CDS/results/21.txt.out']).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"treatment. ",0/11,[10]).
+phrase('treatment.',[head([lexmatch([treatment]),inputmatch([treatment]),tag(noun),tokens([treatment])]),punc([inputmatch(['.']),tokens([])])],0/10,[]).
+candidates(6,0,0,6,[]).
+mappings([map(-1000,[ev(-1000,'C0039798',treatment,'therapeutic aspects',[treatment],[ftcn],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn'],[0/9],0,0)]),map(-1000,[ev(-1000,'C0087111','Treatment','Therapeutic procedure',[treatment],[topp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LNC','MSH','MTH','MTHHH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1522326','Treatment','Treating',[treatment],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1533734','Treatment','Administration procedure',[treatment],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1705169','Treatment','Biomaterial Treatment',[treatment],[cnce],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C3538994','TREATMENT','Treatment Epoch',[treatment],[resa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[0/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 21-year-old female is evaluated for progressive arthralgias and malaise. ",11/75,[]).
+phrase('A 21-year-old female',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['21']),features([integer]),tokens(['21'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([female]),inputmatch([female]),tag(noun),tokens([female])])],11/20,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0015780','Female','Female',[female],[orga],[[[4,4],[1,1],0]],yes,no,['DXP','MSH','MTH','NCI','NDFRT','NLMSubSyn','QMR','SNOMEDCT_US'],[25/6],0,0)]),map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0043210',female,'Woman',[female],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[25/6],0,0)]),map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0086287',female,'Females',[female],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MTH'],[25/6],0,0)]),map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C1705497','Female','Female, Self-Report',[female],[qlco],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[25/6],0,0)]),map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C1705498','Female','Female Phenotype',[female],[qlco],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[25/6],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0015780','Female','Female',[female],[orga],[[[4,4],[1,1],0]],yes,no,['DXP','MSH','MTH','NCI','NDFRT','NLMSubSyn','QMR','SNOMEDCT_US'],[25/6],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0043210',female,'Woman',[female],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[25/6],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C0086287',female,'Females',[female],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MTH'],[25/6],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C1705497','Female','Female, Self-Report',[female],[qlco],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[25/6],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-812,'C1705498','Female','Female Phenotype',[female],[qlco],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[25/6],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],32/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('evaluated for progressive arthralgias',[verb([lexmatch([evaluated]),inputmatch([evaluated]),tag(verb),tokens([evaluated])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([progressive]),inputmatch([progressive]),tag(adj),tokens([progressive])]),mod([lexmatch([arthralgias]),inputmatch([arthralgias]),tag(noun),tokens([arthralgias])])],35/37,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-733,[ev(-770,'C0220825','Evaluated','Evaluation',[evaluated],[ftcn],[[[1,1],[1,1],0]],yes,no,['AOD','MSH','MTH','NCI','NLMSubSyn'],[35/9],0,0),ev(-770,'C0205329','Progressive','Progressive',[progressive],[ftcn],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[49/11],0,0),ev(-770,'C0003862','Arthralgias','Arthralgia',[arthralgias],[sosy],[[[4,4],[1,1],0]],yes,no,['CHV','CST','ICD10CM','ICF','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[61/11],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],73/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('malaise.',[head([lexmatch([malaise]),inputmatch([malaise]),tag(noun),tokens([malaise])]),punc([inputmatch(['.']),tokens([])])],77/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0231218','Malaise','Malaise',[malaise],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','CST','MTH','NLMSubSyn','SNOMEDCT_US'],[77/7],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles. ",86/215,[]).
+phrase('On examination',[prep([lexmatch([on]),inputmatch(['On']),tag(prep),tokens([on])]),head([lexmatch([examination]),inputmatch([examination]),tag(noun),tokens([examination])])],86/14,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],101/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],105/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(found,[verb([lexmatch([found]),inputmatch([found]),tag(verb),tokens([found])])],108/5,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0150312','Found','Present',[found],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[108/5],0,0)])]).
+phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],114/2,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1883351','To','To',[to],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH'],[114/2],0,0)])]).
+phrase(have,[aux([lexmatch([have]),inputmatch([have]),tag(aux),tokens([have])])],117/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('alopecia,',[head([lexmatch([alopecia]),inputmatch([alopecia]),tag(noun),tokens([alopecia])]),punc([inputmatch([',']),tokens([])])],122/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0002170','Alopecia','Alopecia',[alopecia],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','CST','ICD9CM','MSH','MTH','NCI','NLMSubSyn','SNM','SNOMEDCT_US','SNOMEDCT_VET'],[122/8],0,0)])]).
+phrase('a rash mainly',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([rash]),inputmatch([rash]),tag(noun),tokens([rash])]),adv([lexmatch([mainly]),inputmatch([mainly]),tag(adv),tokens([mainly])])],132/13,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-861,[ev(-861,'C0015230','Rash','Exanthema',[rash],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MSH','MTH','OMIM','SNOMEDCT_US'],[134/4],0,0)])]).
+phrase('distributed on the bridge of her nose',[verb([lexmatch([distributed]),inputmatch([distributed]),tag(verb),tokens([distributed])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([bridge]),inputmatch([bridge]),tag(noun),tokens([bridge])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch([nose]),inputmatch([nose]),tag(noun),tokens([nose])])],146/37,[]).
+candidates(7,1,0,6,[]).
+mappings([map(-747,[ev(-748,'C1704711','Distributed','Distribution',[distributed],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[146/11],0,0),ev(-804,'C0225414','Bridge of nose','Bridge of nose',[bridge,of,nose],[bpoc],[[[4,4],[1,1],0],[[5,5],[2,2],0],[[7,7],[3,3],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[165/9,179/4],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],184/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('her cheeks,',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),head([lexmatch([cheeks]),inputmatch([cheeks]),tag(noun),tokens([cheeks])]),punc([inputmatch([',']),tokens([])])],188/11,[]).
+candidates(5,4,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0007966','Cheeks','Cheek structure',[cheeks],[blor],[[[1,1],[1,1],0]],yes,no,['FMA','MSH','MTH','SNOMEDCT_US'],[192/6],0,0)])]).
+phrase('a delicate non-palpable purpura on her calves,',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([delicate]),inputmatch([delicate]),tag(adj),tokens([delicate])]),mod([lexmatch(['non-palpable']),inputmatch([non,-,palpable]),tag(adj),tokens([non,palpable])]),head([lexmatch([purpura]),inputmatch([purpura]),tag(noun),tokens([purpura])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch([calves]),inputmatch([calves]),tag(noun),tokens([calves])]),punc([inputmatch([',']),tokens([])])],200/46,[]).
+candidates(9,1,0,8,[]).
+mappings([map(-672,[ev(-578,'C1518422','Non','Negation',[non],[ftcn],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[211/3],0,0),ev(-770,'C0151190','Palpable purpura','Palpable purpura',[palpable,purpura],[fndg],[[[4,5],[1,2],0]],yes,no,['AIR'],[215/16],0,0),ev(-544,'C0230445','Calf','Structure of calf of leg',[calf],[blor],[[[8,8],[1,1],1]],no,no,['CHV','FMA','MTH','NLMSubSyn','SNOMEDCT_US'],[239/6],0,0)]),map(-672,[ev(-578,'C1518422','Non','Negation',[non],[ftcn],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[211/3],0,0),ev(-770,'C0151190','Palpable purpura','Palpable purpura',[palpable,purpura],[fndg],[[[4,5],[1,2],0]],yes,no,['AIR'],[215/16],0,0),ev(-544,'C1305418','Calf','Entire calf of leg (body structure)',[calf],[bpoc],[[[8,8],[1,1],1]],no,no,['SNOMEDCT_US'],[239/6],0,0)]),map(-672,[ev(-578,'C1518422','Non','Negation',[non],[ftcn],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[211/3],0,0),ev(-770,'C0151190','Palpable purpura','Palpable purpura',[palpable,purpura],[fndg],[[[4,5],[1,2],0]],yes,no,['AIR'],[215/16],0,0),ev(-544,'C3668829','Calf','Cattle calf (organism)',[calf],[mamm],[[[8,8],[1,1],1]],no,no,['SNOMEDCT_VET'],[239/6],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],247/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(swelling,[head([lexmatch([swelling]),inputmatch([swelling]),tag(noun),tokens([swelling])])],251/8,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0013604','SWELLING','Edema',[swelling],[patf],[[[1,1],[1,1],0]],yes,no,['CHV','CST','ICD10CM','MSH','MTH','NLMSubSyn','SNMI','SNOMEDCT_US','SNOMEDCT_VET'],[251/8],0,0)]),map(-1000,[ev(-1000,'C0038999','Swelling','Swelling',[swelling],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNMI','SNOMEDCT_US'],[251/8],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],260/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('tenderness of her wrists',[head([lexmatch([tenderness]),inputmatch([tenderness]),tag(noun),tokens([tenderness])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch([wrists]),inputmatch([wrists]),tag(noun),tokens([wrists])])],264/24,[]).
+candidates(7,4,0,3,[]).
+mappings([map(-708,[ev(-770,'C0234233','Tenderness','Sore to touch',[tenderness],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[264/10],0,0),ev(-604,'C0043262','Wrists','Wrist',[wrists],[blor],[[[4,4],[1,1],0]],no,no,['FMA','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[282/6],0,0)]),map(-708,[ev(-770,'C0684239',tenderness,'Emotional tenderness',[tenderness],[menp],[[[1,1],[1,1],0]],yes,no,['AOD','MTH'],[264/10],0,0),ev(-604,'C0043262','Wrists','Wrist',[wrists],[blor],[[[4,4],[1,1],0]],no,no,['FMA','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[282/6],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],289/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('ankles.',[head([lexmatch([ankles]),inputmatch([ankles]),tag(noun),tokens([ankles])]),punc([inputmatch(['.']),tokens([])])],293/7,[]).
+candidates(4,3,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0003086','Ankles','Ankle',[ankles],[blor],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[293/6],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA. ",301/86,[]).
+phrase('Her lab',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),head([lexmatch([lab]),inputmatch([lab]),tag(noun),tokens([lab])])],301/7,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0022877','Lab','Laboratory',[lab],[mnob,orgt],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NCI'],[305/3],0,0)])]).
+phrase(shows,[verb([lexmatch([shows]),inputmatch([shows]),tag(verb),tokens([shows])])],309/5,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1547282','Show','Show',[show],[inpr],[[[1,1],[1,1],0]],yes,no,['HL7V3.0'],[309/5],0,0)])]).
+phrase('normocytic anemia,',[head([lexmatch(['normocytic anemia']),inputmatch([normocytic,anemia]),tag(noun),tokens([normocytic,anemia])]),punc([inputmatch([',']),tokens([])])],315/18,[]).
+candidates(5,1,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0085577','Normocytic anaemia','Normocytic anemia',[normocytic,anaemia],[dsyn],[[[1,2],[1,2],0]],yes,no,['MTH','SNOMEDCT_US'],[315/17],0,0)])]).
+phrase('thrombocytopenia,',[head([lexmatch([thrombocytopenia]),inputmatch([thrombocytopenia]),tag(noun),tokens([thrombocytopenia])]),punc([inputmatch([',']),tokens([])])],334/17,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0040034','Thrombocytopenia','Thrombocytopenia',[thrombocytopenia],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','ICD10CM','MSH','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[334/16],0,0)])]).
+phrase('a 4/4 positive ANA',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),shapes([inputmatch(['4',/,'4']),features([fraction]),tokens(['4','4'])]),mod([lexmatch([positive]),inputmatch([positive]),tag(adj),tokens([positive])]),head([lexmatch([ana]),inputmatch(['ANA']),tag(noun),tokens([ana])])],352/18,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-861,[ev(-861,'C0151480','Positive ANA','Anti-nuclear factor positive',[positive,ana],[lbtr],[[[3,3],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','CST','DXP','NCI','NLMSubSyn','SNOMEDCT_US','SNOMEDCT_VET'],[358/12],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],371/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('anti-dsDNA.',[head([lexmatch(['anti-dsdna']),inputmatch([anti,-,dsDNA]),tag(noun),tokens([anti,dsdna])]),punc([inputmatch(['.']),tokens([])])],375/11,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-861,[ev(-861,'C0311474','ds-DNA','DNA, Double-Stranded',[ds,dna],[bacs,nnon],[[[2,2],[1,2],0]],yes,no,['CHV','MSH','SNM','SNOMEDCT_US'],[380/5],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"Her urine is positive for protein and RBC casts. ",387/49,[435]).
+phrase('Her urine',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),head([lexmatch([urine]),inputmatch([urine]),tag(noun),tokens([urine])])],387/9,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0042036','Urine','Urine',[urine],[bdsu],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[391/5],0,0)]),map(-1000,[ev(-1000,'C0042037',urine,'In Urine',[urine],[ftcn],[[[1,1],[1,1],0]],yes,no,['MSH','MTH'],[391/5],0,0)]),map(-1000,[ev(-1000,'C2963137','Urine','Portion of urine',[urine],[bdsu],[[[1,1],[1,1],0]],yes,no,['FMA','MTH'],[391/5],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],397/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('positive for protein',[head([lexmatch([positive]),inputmatch([positive]),tag(adj),tokens([positive])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([protein]),inputmatch([protein]),tag(noun),tokens([protein])])],400/20,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-746,[ev(-790,'C0439178','% Positive','percent positive cells',[positive],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[400/8],0,0),ev(-623,'C0033684','Protein','Proteins',[protein],[aapp,bacs],[[[3,3],[1,1],0]],no,no,['CSP','MTH','SNOMEDCT_US'],[413/7],0,0)]),map(-746,[ev(-790,'C1446409','Positive','Positive',[positive],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH'],[400/8],0,0),ev(-623,'C0033684','Protein','Proteins',[protein],[aapp,bacs],[[[3,3],[1,1],0]],no,no,['CSP','MTH','SNOMEDCT_US'],[413/7],0,0)]),map(-746,[ev(-790,'C1514241','Positive','Positive Finding',[positive],[fndg],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[400/8],0,0),ev(-623,'C0033684','Protein','Proteins',[protein],[aapp,bacs],[[[3,3],[1,1],0]],no,no,['CSP','MTH','SNOMEDCT_US'],[413/7],0,0)]),map(-746,[ev(-790,'C2825490','Positive','Positive Charge',[positive],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[400/8],0,0),ev(-623,'C0033684','Protein','Proteins',[protein],[aapp,bacs],[[[3,3],[1,1],0]],no,no,['CSP','MTH','SNOMEDCT_US'],[413/7],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],421/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('RBC',[head([lexmatch([rbc]),inputmatch(['RBC']),tag(noun),tokens([rbc])])],425/3,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0014792','RBC','Erythrocytes',[rbc],[cell],[[[1,1],[1,1],0]],yes,no,['CHV','FMA','MSH','MTH','NCI','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[425/3],0,0)])]).
+phrase('casts.',[verb([lexmatch([casts]),inputmatch([casts]),tag(verb),tokens([casts])]),punc([inputmatch(['.']),tokens([])])],429/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0179686','Cast','Orthopedic Cast',[cast],[medd],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[429/5],0,0)]),map(-1000,[ev(-1000,'C0302143','Cast','Casts body substance',[cast],[bdsu],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[429/5],0,0)]),map(-1000,[ev(-1000,'C2699127','CASTS','Cast Present Or Absent (lab procedure)',[casts],[lbpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[429/5],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"21-year-old female with progressive arthralgias, fatigue, and butterfly-shaped facial rash. ",436/92,[]).
+phrase('21-year-old female with progressive arthralgias,',[shapes([inputmatch(['21']),features([integer]),tokens(['21'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([female]),inputmatch([female]),tag(noun),tokens([female])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([progressive]),inputmatch([progressive]),tag(adj),tokens([progressive])]),mod([lexmatch([arthralgias]),inputmatch([arthralgias]),tag(noun),tokens([arthralgias])]),punc([inputmatch([',']),tokens([])])],436/48,[]).
+candidates(11,0,0,11,[]).
+mappings([map(-762,[ev(-633,'C0001675','21 old year','Adult',['21',old,year],[aggp],[[[1,1],[1,1],0],[[3,3],[2,2],0],[[2,2],[3,3],0]],no,no,['CHV','MSH','MTH','NCI'],[436/11],0,0),ev(-748,'C0015780','Female','Female',[female],[orga],[[[4,4],[1,1],0]],yes,no,['DXP','MSH','MTH','NCI','NDFRT','NLMSubSyn','QMR','SNOMEDCT_US'],[448/6],0,0),ev(-581,'C0205329','Progressive','Progressive',[progressive],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[460/11],0,0),ev(-581,'C0003862','Arthralgias','Arthralgia',[arthralgias],[sosy],[[[7,7],[1,1],0]],no,no,['CHV','CST','ICD10CM','ICF','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[472/11],0,0)]),map(-762,[ev(-633,'C0001675','21 old year','Adult',['21',old,year],[aggp],[[[1,1],[1,1],0],[[3,3],[2,2],0],[[2,2],[3,3],0]],no,no,['CHV','MSH','MTH','NCI'],[436/11],0,0),ev(-748,'C0043210',female,'Woman',[female],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[448/6],0,0),ev(-581,'C0205329','Progressive','Progressive',[progressive],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[460/11],0,0),ev(-581,'C0003862','Arthralgias','Arthralgia',[arthralgias],[sosy],[[[7,7],[1,1],0]],no,no,['CHV','CST','ICD10CM','ICF','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[472/11],0,0)]),map(-762,[ev(-633,'C0001675','21 old year','Adult',['21',old,year],[aggp],[[[1,1],[1,1],0],[[3,3],[2,2],0],[[2,2],[3,3],0]],no,no,['CHV','MSH','MTH','NCI'],[436/11],0,0),ev(-748,'C0086287',female,'Females',[female],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MTH'],[448/6],0,0),ev(-581,'C0205329','Progressive','Progressive',[progressive],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[460/11],0,0),ev(-581,'C0003862','Arthralgias','Arthralgia',[arthralgias],[sosy],[[[7,7],[1,1],0]],no,no,['CHV','CST','ICD10CM','ICF','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[472/11],0,0)]),map(-762,[ev(-633,'C0001675','21 old year','Adult',['21',old,year],[aggp],[[[1,1],[1,1],0],[[3,3],[2,2],0],[[2,2],[3,3],0]],no,no,['CHV','MSH','MTH','NCI'],[436/11],0,0),ev(-748,'C1705497','Female','Female, Self-Report',[female],[qlco],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[448/6],0,0),ev(-581,'C0205329','Progressive','Progressive',[progressive],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[460/11],0,0),ev(-581,'C0003862','Arthralgias','Arthralgia',[arthralgias],[sosy],[[[7,7],[1,1],0]],no,no,['CHV','CST','ICD10CM','ICF','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[472/11],0,0)]),map(-762,[ev(-633,'C0001675','21 old year','Adult',['21',old,year],[aggp],[[[1,1],[1,1],0],[[3,3],[2,2],0],[[2,2],[3,3],0]],no,no,['CHV','MSH','MTH','NCI'],[436/11],0,0),ev(-748,'C1705498','Female','Female Phenotype',[female],[qlco],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[448/6],0,0),ev(-581,'C0205329','Progressive','Progressive',[progressive],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[460/11],0,0),ev(-581,'C0003862','Arthralgias','Arthralgia',[arthralgias],[sosy],[[[7,7],[1,1],0]],no,no,['CHV','CST','ICD10CM','ICF','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[472/11],0,0)])]).
+phrase('fatigue,',[head([lexmatch([fatigue]),inputmatch([fatigue]),tag(noun),tokens([fatigue])]),punc([inputmatch([',']),tokens([])])],485/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0015672','Fatigue','Fatigue',[fatigue],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[485/7],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],494/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('butterfly-shaped facial rash.',[mod([lexmatch([butterfly]),inputmatch([butterfly]),tag(noun),tokens([butterfly])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([shaped]),inputmatch([shaped]),tag(adj),tokens([shaped])]),mod([lexmatch([facial]),inputmatch([facial]),tag(adj),tokens([facial])]),head([lexmatch([rash]),inputmatch([rash]),tag(noun),tokens([rash])]),punc([inputmatch(['.']),tokens([])])],498/29,[]).
+candidates(9,1,0,8,[]).
+mappings([map(-861,[ev(-902,'C0277942','Butterfly rash','Butterfly rash',[butterfly,rash],[fndg],[[[1,1],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','SNOMEDCT_US'],[498/9,522/4],0,0),ev(-645,'C0332479',shaped,'Shapes',[shaped],[spco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[508/6],0,0),ev(-645,'C0015450','Facial','Face',[facial],[blor],[[[3,3],[1,1],0]],no,no,['FMA','MSH','MTH','NCI','SNOMEDCT_US'],[515/6],0,0)]),map(-861,[ev(-902,'C0277942','Butterfly rash','Butterfly rash',[butterfly,rash],[fndg],[[[1,1],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','SNOMEDCT_US'],[498/9,522/4],0,0),ev(-645,'C0332479',shaped,'Shapes',[shaped],[spco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[508/6],0,0),ev(-645,'C0524465','Facial','Facial',[facial],[spco],[[[3,3],[1,1],0]],no,no,['CHV','MTH'],[515/6],0,0)]),map(-861,[ev(-902,'C0277942','Butterfly rash','Butterfly rash',[butterfly,rash],[fndg],[[[1,1],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','SNOMEDCT_US'],[498/9,522/4],0,0),ev(-645,'C0522512',shaped,'With shape',[shaped],[spco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[508/6],0,0),ev(-645,'C0015450','Facial','Face',[facial],[blor],[[[3,3],[1,1],0]],no,no,['FMA','MSH','MTH','NCI','SNOMEDCT_US'],[515/6],0,0)]),map(-861,[ev(-902,'C0277942','Butterfly rash','Butterfly rash',[butterfly,rash],[fndg],[[[1,1],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','SNOMEDCT_US'],[498/9,522/4],0,0),ev(-645,'C0522512',shaped,'With shape',[shaped],[spco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[508/6],0,0),ev(-645,'C0524465','Facial','Facial',[facial],[spco],[[[3,3],[1,1],0]],no,no,['CHV','MTH'],[515/6],0,0)]),map(-861,[ev(-645,'C0006496','Butterfly','Butterflies',[butterfly],[euka],[[[1,1],[1,1],0]],no,no,['MTH','NCBI','SNOMEDCT_US'],[498/9],0,0),ev(-645,'C0332479',shaped,'Shapes',[shaped],[spco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[508/6],0,0),ev(-861,'C0239521','FACIAL RASH','FACIAL RASH',[facial,rash],[fndg],[[[3,3],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','DXP'],[515/11],0,0)]),map(-861,[ev(-645,'C0006496','Butterfly','Butterflies',[butterfly],[euka],[[[1,1],[1,1],0]],no,no,['MTH','NCBI','SNOMEDCT_US'],[498/9],0,0),ev(-645,'C0522512',shaped,'With shape',[shaped],[spco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[508/6],0,0),ev(-861,'C0239521','FACIAL RASH','FACIAL RASH',[facial,rash],[fndg],[[[3,3],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','DXP'],[515/11],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"Labs are significant for positive ANA and anti-double-stranded DNA, as well as proteinuria and RBC casts.",528/105,[]).
+phrase('Labs',[head([lexmatch([labs]),inputmatch(['Labs']),tag(noun),tokens([labs])])],528/4,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0587081','Labs','Laboratory test finding',[labs],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[528/4],0,0)])]).
+phrase(are,[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])],533/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('significant for positive ANA',[head([lexmatch([significant]),inputmatch([significant]),tag(adj),tokens([significant])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([positive]),inputmatch([positive]),tag(adj),tokens([positive])]),mod([lexmatch([ana]),inputmatch(['ANA']),tag(noun),tokens([ana])])],537/28,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-783,[ev(-770,'C0237881',significant,'Statistical Significance',[significant],[qnco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[537/11],0,0),ev(-666,'C0151480','Positive ANA','Anti-nuclear factor positive',[positive,ana],[lbtr],[[[3,3],[1,1],0],[[4,4],[2,2],0]],no,no,['CHV','CST','DXP','NCI','NLMSubSyn','SNOMEDCT_US','SNOMEDCT_VET'],[553/12],0,0)]),map(-783,[ev(-770,'C0750502','Significant','Significant',[significant],[idcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[537/11],0,0),ev(-666,'C0151480','Positive ANA','Anti-nuclear factor positive',[positive,ana],[lbtr],[[[3,3],[1,1],0],[[4,4],[2,2],0]],no,no,['CHV','CST','DXP','NCI','NLMSubSyn','SNOMEDCT_US','SNOMEDCT_VET'],[553/12],0,0)]),map(-783,[ev(-770,'C1546944','Significant','Event Seriousness - Significant',[significant],[qlco],[[[1,1],[1,1],0]],yes,no,['HL7V2.5','MTH'],[537/11],0,0),ev(-666,'C0151480','Positive ANA','Anti-nuclear factor positive',[positive,ana],[lbtr],[[[3,3],[1,1],0],[[4,4],[2,2],0]],no,no,['CHV','CST','DXP','NCI','NLMSubSyn','SNOMEDCT_US','SNOMEDCT_VET'],[553/12],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],566/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('anti-double-stranded DNA,',[head([lexmatch(['anti-double-stranded dna']),inputmatch([anti,-,double,-,stranded,'DNA']),tag(noun),tokens([anti,double,stranded,dna])]),punc([inputmatch([',']),tokens([])])],570/25,[]).
+candidates(11,0,0,11,[]).
+mappings([map(-1000,[ev(-1000,'C0741099','anti double stranded dna','anti ds dna',[anti,double,stranded,dna],[fndg],[[[1,3],[1,3],0],[[4,4],[4,4],0]],yes,no,['CHV','NLMSubSyn'],[570/24],0,0)]),map(-1000,[ev(-1000,'C2698136','Anti-Double Stranded DNA','Anti-Double Stranded DNA Measurement',[anti,double,stranded,dna],[lbpr],[[[1,3],[1,3],0],[[4,4],[4,4],0]],yes,no,['NCI'],[570/24],0,0)])]).
+phrase('as well as',[conj([lexmatch(['as well as']),inputmatch([as,well,as]),tag(conj),tokens([as,well,as])])],596/10,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(proteinuria,[head([lexmatch([proteinuria]),inputmatch([proteinuria]),tag(noun),tokens([proteinuria])])],607/11,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0033687','Proteinuria','Proteinuria',[proteinuria],[fndg],[[[1,1],[1,1],0]],yes,no,['ICD10CM','MSH','MTH','SNM'],[607/11],0,0)]),map(-1000,[ev(-1000,'C1962972','Proteinuria','Proteinuria Adverse Event',[proteinuria],[fndg],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[607/11],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],619/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('RBC',[head([lexmatch([rbc]),inputmatch(['RBC']),tag(noun),tokens([rbc])])],623/3,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0014792','RBC','Erythrocytes',[rbc],[cell],[[[1,1],[1,1],0]],yes,no,['CHV','FMA','MSH','MTH','NCI','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[623/3],0,0)])]).
+phrase('casts.',[verb([lexmatch([casts]),inputmatch([casts]),tag(verb),tokens([casts])]),punc([inputmatch(['.']),tokens([])])],627/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0179686','Cast','Orthopedic Cast',[cast],[medd],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[627/5],0,0)]),map(-1000,[ev(-1000,'C0302143','Cast','Casts body substance',[cast],[bdsu],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[627/5],0,0)]),map(-1000,[ev(-1000,'C2699127','CASTS','Cast Present Or Absent (lab procedure)',[casts],[lbpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[627/5],0,0)])]).
+'EOU'.
+'EOT'.

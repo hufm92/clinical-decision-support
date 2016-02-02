@@ -1,0 +1,198 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2015-original/16.txt ../../TREC-CDS/2015-original-MMed/16.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2015-original/16.txt',outfile-'../../TREC-CDS/2015-original-MMed/16.txt.out']).
+aas([]).
+neg_list([negation(nega,no,[116/2],['C0043144':'Wheezing'],[130/8])]).
+utterance('00000000.tx.1',"test. ",0/6,[5]).
+phrase('test.',[head([lexmatch([test]),inputmatch([test]),tag(noun),tokens([test])]),punc([inputmatch(['.']),tokens([])])],0/5,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0022885','Test','Laboratory Procedures',[test],[lbpr],[[[1,1],[1,1],0]],yes,no,['CHV','MEDLINEPLUS','MTH','NCI','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[0/4],0,0)]),map(-1000,[ev(-1000,'C0039593','Test','Testing',[test],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn'],[0/4],0,0)]),map(-1000,[ev(-1000,'C0392366',test,'Tests (qualifier value)',[test],[inpr],[[[1,1],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[0/4],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 4 year old boy presents to the emergency room with wheezing. ",6/63,[]).
+phrase('A 4 year old boy',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['4']),features([integer]),tokens(['4'])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([boy]),inputmatch([boy]),tag(noun),tokens([boy])])],6/16,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[10/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[15/3],0,0),ev(-812,'C0870221','Boy','Male child',[boy],[aggp],[[[4,4],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[19/3],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[10/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[15/3],0,0),ev(-812,'C0870221','Boy','Male child',[boy],[aggp],[[[4,4],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[19/3],0,0)])]).
+phrase('presents to the emergency room',[verb([lexmatch([presents]),inputmatch([presents]),tag(verb),tokens([presents])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch(['emergency room']),inputmatch([emergency,room]),tag(noun),tokens([emergency,room])])],23/30,[]).
+candidates(7,0,0,7,[]).
+mappings([map(-745,[ev(-760,'C0150312','Present','Present',[present],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[23/8],0,0),ev(-806,'C0562508','Emergency Room','Accident and Emergency department',[emergency,room],[hcro],[[[4,5],[1,2],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[39/14],0,0)]),map(-745,[ev(-760,'C0449450','Present','Presentation',[present],[idcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[23/8],0,0),ev(-806,'C0562508','Emergency Room','Accident and Emergency department',[emergency,room],[hcro],[[[4,5],[1,2],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[39/14],0,0)])]).
+phrase('with wheezing.',[prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),head([lexmatch([wheezing]),inputmatch([wheezing]),tag(noun),tokens([wheezing])]),punc([inputmatch(['.']),tokens([])])],54/14,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0043144','Wheezing','Wheezing',[wheezing],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[59/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"He has had a history of allergic rhinitis, but no history of wheezing. ",69/71,[]).
+phrase('He',[pron([lexmatch([he]),inputmatch(['He']),tag(pron),tokens([he])])],69/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],72/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],76/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('a history of allergic rhinitis,',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([history]),inputmatch([history]),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch(['allergic rhinitis']),inputmatch([allergic,rhinitis]),tag(noun),tokens([allergic,rhinitis])]),punc([inputmatch([',']),tokens([])])],80/31,[]).
+candidates(12,2,0,10,[]).
+mappings([map(-745,[ev(-760,'C0019664','History','History',[history],[ocdi],[[[2,2],[1,1],0]],yes,no,['CHV','MSH','MTH'],[82/7],0,0),ev(-640,'C1334103','allergic rhinitis','IL13 gene',[allergic,rhinitis],[gngm],[[[4,5],[1,2],0]],no,no,['HGNC','MTH','NCI','OMIM'],[93/17],0,0)]),map(-745,[ev(-760,'C0019664','History','History',[history],[ocdi],[[[2,2],[1,1],0]],yes,no,['CHV','MSH','MTH'],[82/7],0,0),ev(-640,'C2607914','Allergic Rhinitis','Allergic rhinitis (disorder)',[allergic,rhinitis],[dsyn],[[[4,5],[1,2],0]],no,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[93/17],0,0)]),map(-745,[ev(-760,'C0019665',history,'Historical aspects qualifier',[history],[inpr],[[[2,2],[1,1],0]],yes,no,['MSH','MTH'],[82/7],0,0),ev(-640,'C1334103','allergic rhinitis','IL13 gene',[allergic,rhinitis],[gngm],[[[4,5],[1,2],0]],no,no,['HGNC','MTH','NCI','OMIM'],[93/17],0,0)]),map(-745,[ev(-760,'C0019665',history,'Historical aspects qualifier',[history],[inpr],[[[2,2],[1,1],0]],yes,no,['MSH','MTH'],[82/7],0,0),ev(-640,'C2607914','Allergic Rhinitis','Allergic rhinitis (disorder)',[allergic,rhinitis],[dsyn],[[[4,5],[1,2],0]],no,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[93/17],0,0)]),map(-745,[ev(-760,'C0262512','History, NOS','History of present illness',[history],[orga],[[[2,2],[1,1],0]],yes,no,['MTH','SNMI'],[82/7],0,0),ev(-640,'C1334103','allergic rhinitis','IL13 gene',[allergic,rhinitis],[gngm],[[[4,5],[1,2],0]],no,no,['HGNC','MTH','NCI','OMIM'],[93/17],0,0)]),map(-745,[ev(-760,'C0262512','History, NOS','History of present illness',[history],[orga],[[[2,2],[1,1],0]],yes,no,['MTH','SNMI'],[82/7],0,0),ev(-640,'C2607914','Allergic Rhinitis','Allergic rhinitis (disorder)',[allergic,rhinitis],[dsyn],[[[4,5],[1,2],0]],no,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[93/17],0,0)]),map(-745,[ev(-760,'C0262926','History','Medical History',[history],[fndg],[[[2,2],[1,1],0]],yes,no,['LNC','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[82/7],0,0),ev(-640,'C1334103','allergic rhinitis','IL13 gene',[allergic,rhinitis],[gngm],[[[4,5],[1,2],0]],no,no,['HGNC','MTH','NCI','OMIM'],[93/17],0,0)]),map(-745,[ev(-760,'C0262926','History','Medical History',[history],[fndg],[[[2,2],[1,1],0]],yes,no,['LNC','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[82/7],0,0),ev(-640,'C2607914','Allergic Rhinitis','Allergic rhinitis (disorder)',[allergic,rhinitis],[dsyn],[[[4,5],[1,2],0]],no,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[93/17],0,0)]),map(-745,[ev(-760,'C1705255','History','Concept History',[history],[cnce],[[[2,2],[1,1],0]],yes,no,['MTH','NCI'],[82/7],0,0),ev(-640,'C1334103','allergic rhinitis','IL13 gene',[allergic,rhinitis],[gngm],[[[4,5],[1,2],0]],no,no,['HGNC','MTH','NCI','OMIM'],[93/17],0,0)]),map(-745,[ev(-760,'C1705255','History','Concept History',[history],[cnce],[[[2,2],[1,1],0]],yes,no,['MTH','NCI'],[82/7],0,0),ev(-640,'C2607914','Allergic Rhinitis','Allergic rhinitis (disorder)',[allergic,rhinitis],[dsyn],[[[4,5],[1,2],0]],no,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[93/17],0,0)]),map(-745,[ev(-760,'C2004062','History','History of previous events',[history],[fndg],[[[2,2],[1,1],0]],yes,no,['MTH','NCI'],[82/7],0,0),ev(-640,'C1334103','allergic rhinitis','IL13 gene',[allergic,rhinitis],[gngm],[[[4,5],[1,2],0]],no,no,['HGNC','MTH','NCI','OMIM'],[93/17],0,0)]),map(-745,[ev(-760,'C2004062','History','History of previous events',[history],[fndg],[[[2,2],[1,1],0]],yes,no,['MTH','NCI'],[82/7],0,0),ev(-640,'C2607914','Allergic Rhinitis','Allergic rhinitis (disorder)',[allergic,rhinitis],[dsyn],[[[4,5],[1,2],0]],no,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[93/17],0,0)])]).
+phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],112/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('no history of wheezing.',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch([history]),inputmatch([history]),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([wheezing]),inputmatch([wheezing]),tag(noun),tokens([wheezing])]),punc([inputmatch(['.']),tokens([])])],116/23,[]).
+candidates(13,2,0,11,[]).
+mappings([map(-916,[ev(-909,'C0332122','No history of','No history of',[no,history,of],[qlco],[[[1,1],[1,1],0],[[2,2],[2,2],0],[[3,3],[3,3],0]],yes,no,['NLMSubSyn','SNMI','SNOMEDCT_US'],[116/13],0,0),ev(-604,'C0043144','Wheezing','Wheezing',[wheezing],[sosy],[[[4,4],[1,1],0]],no,no,['CHV','MSH','MTH','SNOMEDCT_US'],[130/8],0,1)])]).
+'EOU'.
+utterance('00000000.tx.4',"His mother reports that 5 hours ago patient was playing in the backyard sandbox when she heard him suddenly start coughing. ",140/124,[]).
+phrase('His mother',[pron([lexmatch([his]),inputmatch(['His']),tag(pron),tokens([his])]),head([lexmatch([mother]),inputmatch([mother]),tag(noun),tokens([mother])])],140/10,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0026591','Mother','Mother (person)',[mother],[famg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MSH','SNOMEDCT_US'],[144/6],0,0)])]).
+phrase(reports,[verb([lexmatch([reports]),inputmatch([reports]),tag(verb),tokens([reports])])],151/7,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0684224','Report','Report (document)',[report],[inpr],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI'],[151/7],0,0)]),map(-1000,[ev(-1000,'C0700287','Report','Reporting',[report],[hlca],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','SNOMEDCT_US'],[151/7],0,0)]),map(-1000,[ev(-1000,'C3273238','Report','Regulatory Report',[report],[inpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[151/7],0,0)])]).
+phrase('that 5 hours ago patient',[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])]),shapes([inputmatch(['5']),features([integer]),tokens(['5'])]),mod([lexmatch([hours]),inputmatch([hours]),tag(noun),tokens([hours])]),adv([lexmatch([ago]),inputmatch([ago]),tag(adv),tokens([ago])]),head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],159/24,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-824,[ev(-694,'C1442467','5 Hours','5 Hours',['5',hours],[tmco],[[[1,1],[1,1],0],[[2,2],[2,2],0]],no,no,['LNC','MTH'],[164/7],0,0),ev(-812,'C0030705','*^patient','Patients',[patient],[podg],[[[4,4],[1,1],0]],yes,no,['LNC','MTH','NCI','SNOMEDCT_US'],[176/7],0,0)])]).
+phrase(was,[aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])],184/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('playing in the backyard sandbox',[head([lexmatch([playing]),inputmatch([playing]),tag(noun),tokens([playing])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([backyard]),inputmatch([backyard]),tag(noun),tokens([backyard])]),mod([lexmatch([sandbox]),inputmatch([sandbox]),tag(noun),tokens([sandbox])])],188/31,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-699,[ev(-760,'C0032214',playing,'Play',[playing],[dora],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH'],[188/7],0,0),ev(-593,'C0562731','Back yard','Back yard',[back,yard],[geoa],[[[4,4],[1,2],0]],no,no,['SNOMEDCT_US'],[203/8],0,0)]),map(-699,[ev(-760,'C0600138',playing,'Does play',[playing],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[188/7],0,0),ev(-593,'C0562731','Back yard','Back yard',[back,yard],[geoa],[[[4,4],[1,2],0]],no,no,['SNOMEDCT_US'],[203/8],0,0)])]).
+phrase(when,[conj([lexmatch([when]),inputmatch([when]),tag(conj),tokens([when])])],220/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],225/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(heard,[verb([lexmatch([heard]),inputmatch([heard]),tag(verb),tokens([heard])])],229/5,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-966,[ev(-966,'C0018767',hear,'Hearing',[hear],[phsf],[[[1,1],[1,1],1]],yes,no,['AOD','CHV','CSP','GO','ICF','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[229/5],0,0)])]).
+phrase('him suddenly',[pron([lexmatch([him]),inputmatch([him]),tag(pron),tokens([him])]),adv([lexmatch([suddenly]),inputmatch([suddenly]),tag(adv),tokens([suddenly])])],235/12,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(start,[verb([lexmatch([start]),inputmatch([start]),tag(verb),tokens([start])])],248/5,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0439659','Start','Beginning',[start],[tmco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[248/5],0,0)])]).
+phrase('coughing.',[head([lexmatch([coughing]),inputmatch([coughing]),tag(noun),tokens([coughing])]),punc([inputmatch(['.']),tokens([])])],254/9,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0010200','Coughing','Coughing',[coughing],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNMI','SNOMEDCT_US'],[254/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"The coughing lasted only moments, but he has been audibly wheezing since. ",264/74,[]).
+phrase('The coughing',[det([lexmatch([the]),inputmatch(['The']),tag(det),tokens([the])]),head([lexmatch([coughing]),inputmatch([coughing]),tag(noun),tokens([coughing])])],264/12,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0010200','Coughing','Coughing',[coughing],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNMI','SNOMEDCT_US'],[268/8],0,0)])]).
+phrase(lasted,[verb([lexmatch([lasted]),inputmatch([lasted]),tag(verb),tokens([lasted])])],277/6,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-966,[ev(-966,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],1]],yes,no,['NCI'],[277/6],0,0)])]).
+phrase('only moments,',[adv([lexmatch([only]),inputmatch([only]),tag(adv),tokens([only])]),head([lexmatch([moments]),inputmatch([moments]),tag(noun),tokens([moments])]),punc([inputmatch([',']),tokens([])])],284/13,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-694,[ev(-694,'C0205171','Only','Singular',[only],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[284/4],0,0)]),map(-694,[ev(-694,'C1720467','Only','Only - dosing instruction fragment',[only],[inpr],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[284/4],0,0)])]).
+phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],298/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(he,[pron([lexmatch([he]),inputmatch([he]),tag(pron),tokens([he])])],302/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],305/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(been,[aux([lexmatch([been]),inputmatch([been]),tag(aux),tokens([been])])],309/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('audibly wheezing since.',[adv([lexmatch([audibly]),inputmatch([audibly]),tag(adv),tokens([audibly])]),mod([lexmatch([wheezing]),inputmatch([wheezing]),tag(adj),tokens([wheezing])]),adv([lexmatch([since]),inputmatch([since]),tag(adv),tokens([since])]),punc([inputmatch(['.']),tokens([])])],314/23,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-827,[ev(-827,'C0043144','Wheezing','Wheezing',[wheezing],[sosy],[[[2,2],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[322/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"Mother was concerned, because his breathing has not returned to normal, so she brought him to the ED. ",338/102,[]).
+phrase('Mother',[head([lexmatch([mother]),inputmatch(['Mother']),tag(noun),tokens([mother])])],338/6,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0026591','Mother','Mother (person)',[mother],[famg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MSH','SNOMEDCT_US'],[338/6],0,0)])]).
+phrase(was,[aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])],345/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(concerned,[verb([lexmatch([concerned]),inputmatch([concerned]),tag(verb),tokens([concerned])])],349/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-966,[ev(-966,'C2699424','Concern','Concern',[concern],[idcn],[[[1,1],[1,1],1]],yes,no,['NCI'],[349/9],0,0)])]).
+phrase(',',[punc([inputmatch([',']),tokens([])])],358/1,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(because,[conj([lexmatch([because]),inputmatch([because]),tag(conj),tokens([because])])],360/7,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('his breathing',[pron([lexmatch([his]),inputmatch([his]),tag(pron),tokens([his])]),head([lexmatch([breathing]),inputmatch([breathing]),tag(noun),tokens([breathing])])],368/13,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0004048',breathing,'Inspiration function',[breathing],[orgf],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[372/9],0,0)]),map(-1000,[ev(-1000,'C0035203','Breathing','Respiration',[breathing],[phsf],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[372/9],0,0)]),map(-1000,[ev(-1000,'C1160636',breathing,'respiratory gaseous exchange in organisms',[breathing],[biof],[[[1,1],[1,1],0]],yes,no,['AOD','GO','MTH'],[372/9],0,0)])]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],382/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(not,[adv([lexmatch([not]),inputmatch([not]),tag(adv),tokens([not])])],386/3,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1518422','Not','Negation',[not],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[386/3],0,0)])]).
+phrase('returned to normal,',[verb([lexmatch([returned]),inputmatch([returned]),tag(verb),tokens([returned])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),mod([lexmatch([normal]),inputmatch([normal]),tag(adj),tokens([normal])]),punc([inputmatch([',']),tokens([])])],390/19,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-890,[ev(-866,'C0332156','Return to','Return to',[return,to],[qlco],[[[1,1],[1,1],1],[[2,2],[2,2],0]],yes,no,['NCI','SNOMEDCT_US'],[390/11],0,0),ev(-790,'C0205307','Normal','Normal',[normal],[qlco],[[[3,3],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[402/6],0,0)]),map(-890,[ev(-866,'C0332156','Return to','Return to',[return,to],[qlco],[[[1,1],[1,1],1],[[2,2],[2,2],0]],yes,no,['NCI','SNOMEDCT_US'],[390/11],0,0),ev(-790,'C0439166','% normal','Percent normal',[normal],[qnco],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[402/6],0,0)]),map(-890,[ev(-866,'C0332156','Return to','Return to',[return,to],[qlco],[[[1,1],[1,1],1],[[2,2],[2,2],0]],yes,no,['NCI','SNOMEDCT_US'],[390/11],0,0),ev(-790,'C2347086','% Normal','Mean Percent of Normal',[normal],[qnco],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[402/6],0,0)])]).
+phrase(so,[conj([lexmatch([so]),inputmatch([so]),tag(conj),tokens([so])])],410/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],413/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(brought,[verb([lexmatch([brought]),inputmatch([brought]),tag(verb),tokens([brought])])],417/7,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332302',brought,'Brought on by',[brought],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','SNMI'],[417/7],0,0)])]).
+phrase('him to the ED.',[pron([lexmatch([him]),inputmatch([him]),tag(pron),tokens([him])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([ed]),inputmatch(['ED']),tag(noun),tokens([ed])]),punc([inputmatch(['.']),tokens([])])],425/14,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-770,[ev(-770,'C3538926','ED','Endocrine System Findings Domain',[ed],[idcn],[[[4,4],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[436/2],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"On exam, the child is playful and well appearing. ",440/50,[]).
+phrase('On exam,',[prep([lexmatch([on]),inputmatch(['On']),tag(prep),tokens([on])]),head([lexmatch([exam]),inputmatch([exam]),tag(noun),tokens([exam])]),punc([inputmatch([',']),tokens([])])],440/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0582103','Exam','Medical Examination',[exam],[hlca],[[[1,1],[1,1],0]],yes,no,['LCH','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[443/4],0,0)])]).
+phrase('the child',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([child]),inputmatch([child]),tag(noun),tokens([child])])],449/9,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0008059','Child','Child',[child],[aggp],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[453/5],0,0)]),map(-1000,[ev(-1000,'C0680063','CHILD','Offspring',[child],[famg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MTH','NCI'],[453/5],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],459/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(playful,[head([lexmatch([playful]),inputmatch([playful]),tag(adj),tokens([playful])])],462/7,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-928,[ev(-928,'C0032214','Play','Play',[play],[dora],[[[1,1],[1,1],3]],yes,no,['CHV','MSH','MTH'],[462/7],0,0)]),map(-928,[ev(-928,'C0600138','Plays','Does play',[plays],[fndg],[[[1,1],[1,1],3]],yes,no,['CHV','SNOMEDCT_US'],[462/7],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],470/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('well appearing.',[adv([lexmatch([well]),inputmatch([well]),tag(adv),tokens([well])]),head([lexmatch([appearing]),inputmatch([appearing]),tag(noun),tokens([appearing])]),punc([inputmatch(['.']),tokens([])])],474/15,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-872,[ev(-694,'C0205170','Well','Good',[well],[qlco],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[474/4],0,0),ev(-827,'C0700364','APPEAR','Appearance',[appear],[qlco],[[[2,2],[1,1],1]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[479/9],0,0)]),map(-872,[ev(-694,'C3146287','Well','Well',[well],[mnob],[[[1,1],[1,1],0]],no,no,['MTH'],[474/4],0,0),ev(-827,'C0700364','APPEAR','Appearance',[appear],[qlco],[[[2,2],[1,1],1]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[479/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.8',"Wheezing is heard in the mid-right chest area. ",490/47,[]).
+phrase('Wheezing',[head([lexmatch([wheezing]),inputmatch(['Wheezing']),tag(noun),tokens([wheezing])])],490/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0043144','Wheezing','Wheezing',[wheezing],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[490/8],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],499/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('heard in the mid-right chest area.',[verb([lexmatch([heard]),inputmatch([heard]),tag(verb),tokens([heard])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([mid]),inputmatch([mid]),tag(adj),tokens([mid])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([right]),inputmatch([right]),tag(adj),tokens([right])]),mod([lexmatch([chest]),inputmatch([chest]),tag(noun),tokens([chest])]),mod([lexmatch([area]),inputmatch([area]),tag(noun),tokens([area])]),punc([inputmatch(['.']),tokens([])])],502/34,[]).
+candidates(14,4,0,10,[]).
+mappings([map(-734,[ev(-714,'C0018767',hear,'Hearing',[hear],[phsf],[[[1,1],[1,1],1]],yes,no,['AOD','CHV','CSP','GO','ICF','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[502/5],0,0),ev(-795,'C0230127','right thoracic area','Right thorax structure',[right,thoracic,area],[blor],[[[5,5],[1,1],0],[[6,6],[2,2],2],[[7,7],[3,3],0]],yes,no,['FMA','MTH','NLMSubSyn','SNOMEDCT_US'],[519/16],0,0)])]).
+'EOU'.
+utterance('00000000.tx.9',"O2 sats are 100% on room air. ",537/30,[566]).
+phrase('O2 sats',[mod([inputmatch(['O2']),tag(noun),tokens([o2])]),head([lexmatch([sats]),inputmatch([sats]),tag(noun),tokens([sats])])],537/7,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-888,[ev(-694,'C0030054','O2','Oxygen',[o2],[elii,phsu],[[[1,1],[1,1],0]],no,no,['CHV','CSP','MTH','NLMSubSyn','SNOMEDCT_US'],[537/2],0,0),ev(-861,'C0312448','SATS','Short-acting thyroid stimulator',[sats],[aapp,horm,phsu],[[[2,2],[1,1],0]],yes,no,['SNOMEDCT_US'],[540/4],0,0)])]).
+phrase(are,[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])],545/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('100% on room air.',[shapes([inputmatch(['100','%']),features([percentage,integer]),tokens(['100'])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),mod([lexmatch([room]),inputmatch([room]),tag(noun),tokens([room])]),mod([lexmatch([air]),inputmatch([air]),tag(noun),tokens([air])]),punc([inputmatch(['.']),tokens([])])],549/17,[]).
+candidates(4,1,0,3,[]).
+mappings([map(-722,[ev(-770,'C1547703','Room','Room',[room],[spco],[[[3,3],[1,1],0]],yes,no,['MTH'],[557/4],0,0),ev(-770,'C0001861','Air','Air (substance)',[air],[sbst],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','SNOMEDCT_US'],[562/3],0,0)]),map(-722,[ev(-770,'C1547703','Room','Room',[room],[spco],[[[3,3],[1,1],0]],yes,no,['MTH'],[557/4],0,0),ev(-770,'C3536832','Air','Air',[air],[inch,phsu],[[[4,4],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[562/3],0,0)])]).
+'EOU'.
+utterance('00000000.tx.10',"A 4 year old boy presents with wheezing after playing in the backyard unobserved.",567/81,[]).
+phrase('A 4 year old boy',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['4']),features([integer]),tokens(['4'])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([boy]),inputmatch([boy]),tag(noun),tokens([boy])])],567/16,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[571/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[576/3],0,0),ev(-812,'C0870221','Boy','Male child',[boy],[aggp],[[[4,4],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[580/3],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[571/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[576/3],0,0),ev(-812,'C0870221','Boy','Male child',[boy],[aggp],[[[4,4],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[580/3],0,0)])]).
+phrase('presents with wheezing',[verb([lexmatch([presents]),inputmatch([presents]),tag(verb),tokens([presents])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([wheezing]),inputmatch([wheezing]),tag(noun),tokens([wheezing])])],584/22,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-746,[ev(-790,'C0150312','Present','Present',[present],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[584/8],0,0),ev(-790,'C0043144','Wheezing','Wheezing',[wheezing],[sosy],[[[3,3],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[598/8],0,0)]),map(-746,[ev(-790,'C0449450','Present','Presentation',[present],[idcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[584/8],0,0),ev(-790,'C0043144','Wheezing','Wheezing',[wheezing],[sosy],[[[3,3],[1,1],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[598/8],0,0)])]).
+phrase('after playing in the backyard',[prep([lexmatch([after]),inputmatch([after]),tag(prep),tokens([after])]),head([lexmatch([playing]),inputmatch([playing]),tag(noun),tokens([playing])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([backyard]),inputmatch([backyard]),tag(noun),tokens([backyard])])],607/29,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-705,[ev(-593,'C0231290','After','Status post',[after],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[607/5],0,0),ev(-760,'C0032214',playing,'Play',[playing],[dora],[[[2,2],[1,1],0]],yes,no,['CHV','MSH','MTH'],[613/7],0,0),ev(-593,'C0562731','Back yard','Back yard',[back,yard],[geoa],[[[5,5],[1,2],0]],no,no,['SNOMEDCT_US'],[628/8],0,0)]),map(-705,[ev(-593,'C0231290','After','Status post',[after],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[607/5],0,0),ev(-760,'C0600138',playing,'Does play',[playing],[fndg],[[[2,2],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[613/7],0,0),ev(-593,'C0562731','Back yard','Back yard',[back,yard],[geoa],[[[5,5],[1,2],0]],no,no,['SNOMEDCT_US'],[628/8],0,0)]),map(-705,[ev(-593,'C0687676','After','Post',[after],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[607/5],0,0),ev(-760,'C0032214',playing,'Play',[playing],[dora],[[[2,2],[1,1],0]],yes,no,['CHV','MSH','MTH'],[613/7],0,0),ev(-593,'C0562731','Back yard','Back yard',[back,yard],[geoa],[[[5,5],[1,2],0]],no,no,['SNOMEDCT_US'],[628/8],0,0)]),map(-705,[ev(-593,'C0687676','After','Post',[after],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[607/5],0,0),ev(-760,'C0600138',playing,'Does play',[playing],[fndg],[[[2,2],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[613/7],0,0),ev(-593,'C0562731','Back yard','Back yard',[back,yard],[geoa],[[[5,5],[1,2],0]],no,no,['SNOMEDCT_US'],[628/8],0,0)])]).
+phrase('unobserved.',[head([lexmatch([unobserved]),inputmatch([unobserved]),tag(adj),tokens([unobserved])]),punc([inputmatch(['.']),tokens([])])],637/11,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+'EOU'.
+'EOT'.

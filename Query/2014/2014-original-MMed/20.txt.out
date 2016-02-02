@@ -1,0 +1,169 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2014-original/20.txt ../../TREC-CDS/results/20.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2014-original/20.txt',outfile-'../../TREC-CDS/results/20.txt.out']).
+aas([]).
+neg_list([negation(nega,no,[405/2],['C0232693':'Bowel sounds'],[408/12])]).
+utterance('00000000.tx.1',"test. ",0/6,[5]).
+phrase('test.',[head([lexmatch([test]),inputmatch([test]),tag(noun),tokens([test])]),punc([inputmatch(['.']),tokens([])])],0/5,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0022885','Test','Laboratory Procedures',[test],[lbpr],[[[1,1],[1,1],0]],yes,no,['CHV','MEDLINEPLUS','MTH','NCI','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[0/4],0,0)]),map(-1000,[ev(-1000,'C0039593','Test','Testing',[test],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn'],[0/4],0,0)]),map(-1000,[ev(-1000,'C0392366',test,'Tests (qualifier value)',[test],[inpr],[[[1,1],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[0/4],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 32-year-old woman is admitted to the ER following a car accident. ",6/68,[]).
+phrase('A 32-year-old woman',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['32']),features([integer]),tokens(['32'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])])],6/19,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[11/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[16/3],0,0),ev(-812,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[20/5],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[11/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[16/3],0,0),ev(-812,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[20/5],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],26/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('admitted to the ER',[verb([lexmatch([admitted]),inputmatch([admitted]),tag(verb),tokens([admitted])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([er]),inputmatch(['ER']),tag(noun),tokens([er])])],29/18,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-770,[ev(-770,'C0184666',admitted,'Hospital admission',[admitted],[hlca],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNMI','SNOMEDCT_US'],[29/8],0,0)])]).
+phrase(following,[verb([lexmatch([following]),inputmatch([following]),tag(verb),tokens([following])])],48/9,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332282','Following','Following',[following],[tmco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[48/9],0,0)])]).
+phrase('a car accident.',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([car]),inputmatch([car]),tag(noun),tokens([car])]),head([lexmatch([accident]),inputmatch([accident]),tag(noun),tokens([accident])]),punc([inputmatch(['.']),tokens([])])],58/15,[]).
+candidates(7,1,0,6,[]).
+mappings([map(-1000,[ev(-1000,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['MTH'],[60/12],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"She has sustained multiple injuries including upper and lower extremity fractures. ",74/83,[]).
+phrase('She',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])])],74/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],78/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('sustained multiple injuries',[mod([lexmatch([sustained]),inputmatch([sustained]),tag(adj),tokens([sustained])]),mod([lexmatch([multiple]),inputmatch([multiple]),tag(adj),tokens([multiple])]),head([lexmatch([injuries]),inputmatch([injuries]),tag(noun),tokens([injuries])])],82/27,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-901,[ev(-660,'C0443318','Sustained','Sustained',[sustained],[ftcn],[[[1,1],[1,1],0]],no,no,['CHV','MTH'],[82/9],0,0),ev(-901,'C0026771','Injuries, Multiple','Multiple Trauma',[multiple,injuries],[inpo],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['CHV','ICD10CM','MSH','NLMSubSyn','SNOMEDCT_US'],[92/17],0,0)])]).
+phrase(including,[verb([lexmatch([including]),inputmatch([including]),tag(verb),tokens([including])])],110/9,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332257','Including','Including (qualifier)',[including],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[110/9],0,0)])]).
+phrase(upper,[head([lexmatch([upper]),inputmatch([upper]),tag(adj),tokens([upper])])],120/5,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1282910','Upper','Upper',[upper],[spco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[120/5],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],126/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('lower extremity fractures.',[mod([lexmatch(['lower extremity']),inputmatch([lower,extremity]),tag(noun),tokens([lower,extremity])]),head([lexmatch([fractures]),inputmatch([fractures]),tag(noun),tokens([fractures])]),punc([inputmatch(['.']),tokens([])])],130/26,[]).
+candidates(15,7,0,8,[]).
+mappings([map(-1000,[ev(-1000,'C1542178','lower extremity fractures','Fracture of lower leg',[lower,extremity,fractures],[inpo],[[[1,2],[1,2],0],[[3,3],[3,3],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[130/25],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"She is fully awake and alert, and she reports that she was not wearing a seat belt. ",157/84,[]).
+phrase('She',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])])],157/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],161/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('fully awake',[adv([lexmatch([fully]),inputmatch([fully]),tag(adv),tokens([fully])]),head([lexmatch([awake]),inputmatch([awake]),tag(adj),tokens([awake])])],164/11,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-861,[ev(-861,'C0234422','Awake','Awake',[awake],[fndg],[[[2,2],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[170/5],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],176/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('alert,',[head([lexmatch([alert]),inputmatch([alert]),tag(noun),tokens([alert])]),punc([inputmatch([',']),tokens([])])],180/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0239110','ALERT','Consciousness clear',[alert],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','DXP','SNOMEDCT_US'],[180/5],0,0)]),map(-1000,[ev(-1000,'C3665546','Alert','Alert',[alert],[ftcn],[[[1,1],[1,1],0]],yes,no,['NCI'],[180/5],0,0)]),map(-1000,[ev(-1000,'C3669039','Alert','Alert:Type:Point in time:^Patient:Nominal',[alert],[clna],[[[1,1],[1,1],0]],yes,no,['LNC'],[180/5],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],187/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],191/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(reports,[verb([lexmatch([reports]),inputmatch([reports]),tag(verb),tokens([reports])])],195/7,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0684224','Report','Report (document)',[report],[inpr],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI'],[195/7],0,0)]),map(-1000,[ev(-1000,'C0700287','Report','Reporting',[report],[hlca],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','SNOMEDCT_US'],[195/7],0,0)]),map(-1000,[ev(-1000,'C3273238','Report','Regulatory Report',[report],[inpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[195/7],0,0)])]).
+phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],203/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],208/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(was,[aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])],212/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(not,[adv([lexmatch([not]),inputmatch([not]),tag(adv),tokens([not])])],216/3,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1518422','Not','Negation',[not],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[216/3],0,0)])]).
+phrase(wearing,[verb([lexmatch([wearing]),inputmatch([wearing]),tag(verb),tokens([wearing])])],220/7,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('a seat belt.',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch(['seat belt']),inputmatch([seat,belt]),tag(noun),tokens([seat,belt])]),punc([inputmatch(['.']),tokens([])])],228/12,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0036498','Seat belt','Seat Belts',[seat,belt],[mnob],[[[1,2],[1,2],0]],yes,no,['MSH','SNOMEDCT_US'],[230/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"Her blood pressure is 134/74 mm Hg, and her pulse is 87/min. ",241/61,[]).
+phrase('Her blood pressure',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),head([lexmatch(['blood pressure']),inputmatch([blood,pressure]),tag(noun),tokens([blood,pressure])])],241/18,[]).
+candidates(16,7,0,9,[]).
+mappings([map(-1000,[ev(-1000,'C0005823','Blood Pressure','Blood Pressure',[blood,pressure],[orgf],[[[1,2],[1,2],0]],yes,no,['MTH','NLMSubSyn','SNOMEDCT_US'],[245/14],0,0)]),map(-1000,[ev(-1000,'C1271104','Blood Pressure','Blood pressure finding',[blood,pressure],[fndg],[[[1,2],[1,2],0]],yes,no,['MTH','NCI','NLMSubSyn'],[245/14],0,0)]),map(-1000,[ev(-1000,'C1272641','Blood pressure','Systemic arterial pressure',[blood,pressure],[fndg],[[[1,2],[1,2],0]],yes,no,['CHV','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[245/14],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],260/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('134/74 mm Hg,',[shapes([inputmatch(['134',/,'74']),features([fraction]),tokens(['134','74'])]),head([lexmatch(['mm hg']),inputmatch([mm,'Hg']),tag(noun),tokens([mm,hg])]),punc([inputmatch([',']),tokens([])])],263/13,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-861,[ev(-861,'C0439475',mmHg,mmHg,[mmhg],[qnco],[[[3,4],[1,1],0]],yes,no,['SNOMEDCT_US'],[270/5],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],277/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('her pulse',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),head([lexmatch([pulse]),inputmatch([pulse]),tag(noun),tokens([pulse])])],281/9,[]).
+candidates(4,1,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0232117','PULSE','Pulse Rate',[pulse],[clna],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NCI','SNOMEDCT_US'],[285/5],0,0)]),map(-1000,[ev(-1000,'C0391850','Pulse','Physiologic pulse',[pulse],[phsf],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','SNMI','SNOMEDCT_US'],[285/5],0,0)]),map(-1000,[ev(-1000,'C1947910','Pulse','Pulse phenomenon',[pulse],[phpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[285/5],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],291/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('87/min.',[shapes([inputmatch(['87']),features([integer]),tokens(['87'])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([min]),inputmatch([min]),tag(noun),tokens([min])]),punc([inputmatch(['.']),tokens([])])],294/7,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-861,[ev(-861,'C0702093','/min','/minute',[min],[tmco],[[[2,2],[1,1],0]],yes,no,['NCI','NLMSubSyn','SNOMEDCT_US'],[297/3],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants. ",302/95,[]).
+phrase('Physical examination',[head([lexmatch(['physical examination']),inputmatch(['Physical',examination]),tag(noun),tokens([physical,examination])])],302/20,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0031809','Physical Examination','Physical Examination',[physical,examination],[hlca],[[[1,2],[1,2],0]],yes,no,['AIR','CHV','ICD9CM','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[302/20],0,0)])]).
+phrase(reveals,[verb([lexmatch([reveals]),inputmatch([reveals]),tag(verb),tokens([reveals])])],323/7,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0443289',reveal,'Revealed',[reveal],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[323/7],0,0)])]).
+phrase('a tender abdomen with guarding',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([tender]),inputmatch([tender]),tag(noun),tokens([tender])]),head([lexmatch([abdomen]),inputmatch([abdomen]),tag(noun),tokens([abdomen])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([guarding]),inputmatch([guarding]),tag(noun),tokens([guarding])])],331/30,[]).
+candidates(6,0,0,6,[]).
+mappings([map(-745,[ev(-806,'C0573980','tender abdomen','Abdominal tenderness absent',[tender,abdomen],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['CHV','SNOMEDCT_US'],[333/14],0,0),ev(-593,'C0427198','Guarding','Protective muscle spasm',[guarding],[fndg],[[[5,5],[1,1],0]],no,no,['SNOMEDCT_US'],[353/8],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],362/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('rebound in all four quadrants.',[head([lexmatch([rebound]),inputmatch([rebound]),tag(noun),tokens([rebound])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([all]),inputmatch([all]),tag(det),tokens([all])]),shapes([inputmatch([four]),features([word_numeral]),tokens([four])]),mod([lexmatch([quadrants]),inputmatch([quadrants]),tag(noun),tokens([quadrants])]),punc([inputmatch(['.']),tokens([])])],366/30,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-640,[ev(-640,'C0439738','Four quadrants','Four quadrants',[four,quadrants],[spco],[[[4,4],[1,1],0],[[5,5],[2,2],0]],no,no,['SNOMEDCT_US'],[381/14],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"She has no bowel sounds. ",397/25,[421]).
+phrase('She',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])])],397/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],401/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('no bowel sounds.',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch(['bowel sounds']),inputmatch([bowel,sounds]),tag(noun),tokens([bowel,sounds])]),punc([inputmatch(['.']),tokens([])])],405/16,[]).
+candidates(5,2,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0232693','Bowel sounds','Bowel sounds',[bowel,sounds],[fndg],[[[1,2],[1,2],0]],yes,no,['MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[408/12],0,1)])]).
+'EOU'.
+utterance('00000000.tx.8',"32-year-old unbelted driver status post car accident. ",422/54,[]).
+phrase('32-year-old unbelted driver status post car accident.',[shapes([inputmatch(['32']),features([integer]),tokens(['32'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),mod([lexmatch([unbelted]),inputmatch([unbelted]),tag(adj),tokens([unbelted])]),head([lexmatch([driver]),inputmatch([driver]),tag(noun),tokens([driver])]),prep([lexmatch(['status post']),inputmatch([status,post]),tag(prep),tokens([status,post])]),mod([lexmatch([car]),inputmatch([car]),tag(noun),tokens([car])]),mod([lexmatch([accident]),inputmatch([accident]),tag(noun),tokens([accident])]),punc([inputmatch(['.']),tokens([])])],422/53,[]).
+candidates(20,2,0,18,[]).
+mappings([map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C0684312',driver,'Drivers of Vehicles',[driver],[popg],[[[5,5],[1,1],0]],yes,no,['AOD','CHV','MTH','SNOMEDCT_US'],[443/6],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C0684312',driver,'Drivers of Vehicles',[driver],[popg],[[[5,5],[1,1],0]],yes,no,['AOD','CHV','MTH','SNOMEDCT_US'],[443/6],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1556026','Driver','Other Service Providers - Driver',[driver],[prog],[[[5,5],[1,1],0]],yes,no,['HL7V3.0','MTH'],[443/6],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1556026','Driver','Other Service Providers - Driver',[driver],[prog],[[[5,5],[1,1],0]],yes,no,['HL7V3.0','MTH'],[443/6],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1705366','Driver','Driver Device Component',[driver],[medd],[[[5,5],[1,1],0]],yes,no,['MTH','NCI'],[443/6],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1705366','Driver','Driver Device Component',[driver],[medd],[[[5,5],[1,1],0]],yes,no,['MTH','NCI'],[443/6],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C0000924','Accident, NOS','Accidents',[accident],[inpo],[[[9,9],[1,1],0]],no,no,['CHV','ICD9CM','MTH','SNMI','SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C1961149','Accident','Accidental physical contact (event)',[accident],[phpr],[[[9,9],[1,1],0]],no,no,['SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C0000924','Accident, NOS','Accidents',[accident],[inpo],[[[9,9],[1,1],0]],no,no,['CHV','ICD9CM','MTH','SNMI','SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C1961149','Accident','Accidental physical contact (event)',[accident],[phpr],[[[9,9],[1,1],0]],no,no,['SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C0684312',driver,'Drivers of Vehicles',[driver],[popg],[[[5,5],[1,1],0]],yes,no,['AOD','CHV','MTH','SNOMEDCT_US'],[443/6],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C0684312',driver,'Drivers of Vehicles',[driver],[popg],[[[5,5],[1,1],0]],yes,no,['AOD','CHV','MTH','SNOMEDCT_US'],[443/6],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1556026','Driver','Other Service Providers - Driver',[driver],[prog],[[[5,5],[1,1],0]],yes,no,['HL7V3.0','MTH'],[443/6],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1556026','Driver','Other Service Providers - Driver',[driver],[prog],[[[5,5],[1,1],0]],yes,no,['HL7V3.0','MTH'],[443/6],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1705366','Driver','Driver Device Component',[driver],[medd],[[[5,5],[1,1],0]],yes,no,['MTH','NCI'],[443/6],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-742,'C1705366','Driver','Driver Device Component',[driver],[medd],[[[5,5],[1,1],0]],yes,no,['MTH','NCI'],[443/6],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-598,'C1579887','Car accident','Car accident',[car,accident],[inpo],[[[8,8],[1,1],0],[[9,9],[2,2],0]],no,no,['MTH'],[462/12],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C0000924','Accident, NOS','Accidents',[accident],[inpo],[[[9,9],[1,1],0]],no,no,['CHV','ICD9CM','MTH','SNMI','SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0231290','Status post','Status post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C1961149','Accident','Accidental physical contact (event)',[accident],[phpr],[[[9,9],[1,1],0]],no,no,['SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C0000924','Accident, NOS','Accidents',[accident],[inpo],[[[9,9],[1,1],0]],no,no,['CHV','ICD9CM','MTH','SNMI','SNOMEDCT_US'],[466/8],0,0)]),map(-719,[ev(-575,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[425/4],0,0),ev(-575,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[430/3],0,0),ev(-598,'C0687676','Status Post','Post',[status,post],[tmco],[[[6,7],[1,2],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[450/11],0,0),ev(-762,'C0403130','Car driver','Motor vehicle driver',[car,driver],[prog],[[[8,8],[1,1],0],[[5,5],[2,2],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[443/6,462/3],0,0),ev(-575,'C1961149','Accident','Accidental physical contact (event)',[accident],[phpr],[[[9,9],[1,1],0]],no,no,['SNOMEDCT_US'],[466/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.9',"Has multiple extremity fractures and severe abdominal pain with rebound and guarding.",476/85,[]).
+phrase('Has',[aux([lexmatch([has]),inputmatch(['Has']),tag(aux),tokens([has])])],476/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('multiple extremity fractures',[mod([lexmatch([multiple]),inputmatch([multiple]),tag(adj),tokens([multiple])]),mod([lexmatch([extremity]),inputmatch([extremity]),tag(noun),tokens([extremity])]),head([lexmatch([fractures]),inputmatch([fractures]),tag(noun),tokens([fractures])])],480/28,[]).
+candidates(9,4,0,5,[]).
+mappings([map(-901,[ev(-913,'C0016655','Multiple fractures','Multiple fractures',[multiple,fractures],[inpo],[[[1,1],[1,1],0],[[3,3],[2,2],0]],yes,no,['NLMSubSyn','OMIM','SNOMEDCT_US'],[480/8,499/9],0,0),ev(-660,'C0015385','Extremity','Limb structure',[extremity],[bpoc],[[[2,2],[1,1],0]],no,no,['MSH','MTH','SNOMEDCT_US'],[489/9],0,0)]),map(-901,[ev(-660,'C0439064','Multiple','Numerous',[multiple],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[480/8],0,0),ev(-901,'C0518447','extremity fractures','extremity fractures',[extremity,fractures],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['CHV','NLMSubSyn'],[489/19],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],509/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('severe abdominal pain with rebound',[mod([lexmatch([severe]),inputmatch([severe]),tag(adj),tokens([severe])]),head([lexmatch(['abdominal pain']),inputmatch([abdominal,pain]),tag(noun),tokens([abdominal,pain])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([rebound]),inputmatch([rebound]),tag(noun),tokens([rebound])])],513/34,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-816,[ev(-593,'C0205082','Severe','Severe (severity modifier)',[severe],[qlco],[[[1,1],[1,1],0]],no,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[513/6],0,0),ev(-844,'C0234246','rebound abdominal pain','Rebound tenderness',[rebound,abdominal,pain],[sosy],[[[5,5],[1,1],0],[[2,3],[2,3],0]],yes,no,['CHV','SNOMEDCT_US'],[520/14,540/7],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],548/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('guarding.',[head([lexmatch([guarding]),inputmatch([guarding]),tag(noun),tokens([guarding])]),punc([inputmatch(['.']),tokens([])])],552/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0427198','Guarding','Protective muscle spasm',[guarding],[fndg],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[552/8],0,0)])]).
+'EOU'.
+'EOT'.

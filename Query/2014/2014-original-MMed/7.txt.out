@@ -1,0 +1,200 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2014-original/7.txt ../../TREC-CDS/results/7.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2014-original/7.txt',outfile-'../../TREC-CDS/results/7.txt.out']).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"diagnosis. ",0/11,[10]).
+phrase('diagnosis.',[head([lexmatch([diagnosis]),inputmatch([diagnosis]),tag(noun),tokens([diagnosis])]),punc([inputmatch(['.']),tokens([])])],0/10,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0011900','Diagnosis','Diagnosis',[diagnosis],[fndg],[[[1,1],[1,1],0]],yes,no,['CCS','CHV','LNC','MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1704338',diagnosis,'diagnosis aspect',[diagnosis],[qlco],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1704656','DIAGNOSIS','Diagnosis Study',[diagnosis],[resa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed. ",11/159,[]).
+phrase('A 26-year-old obese woman with a history of bipolar disorder',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['26']),features([integer]),tokens(['26'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(adj),tokens([old])]),mod([lexmatch([obese]),inputmatch([obese]),tag(adj),tokens([obese])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([history]),inputmatch([history]),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch(['bipolar disorder']),inputmatch([bipolar,disorder]),tag(noun),tokens([bipolar,disorder])])],11/60,[]).
+candidates(18,2,0,16,[]).
+mappings([map(-684,[ev(-570,'C0439234',year,year,[year],[tmco],[[[3,3],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-570,'C0580836','Old','Old',[old],[tmco],[[[4,4],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-570,'C0028754','Obese','Obesity',[obese],[dsyn],[[[5,5],[1,1],0]],no,no,['ICD10CM','MTH','SNM','SNMI','SNOMEDCT_US'],[25/5],0,0),ev(-736,'C0043210','Woman','Woman',[woman],[popg],[[[6,6],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[31/5],0,0),ev(-601,'C0730226','History of disorder','H/O: Disorder',[history,of,disorder],[fndg],[[[9,9],[1,1],0],[[10,10],[2,2],0],[[12,12],[3,3],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[44/10,63/8],0,0),ev(-570,'C0443156','Bipolar','Bipolar',[bipolar],[spco],[[[11,11],[1,1],0]],no,no,['SNOMEDCT_US'],[55/7],0,0)]),map(-684,[ev(-570,'C0439508','/year','per year',[year],[tmco],[[[3,3],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[16/4],0,0),ev(-570,'C0580836','Old','Old',[old],[tmco],[[[4,4],[1,1],0]],no,no,['MTH'],[21/3],0,0),ev(-570,'C0028754','Obese','Obesity',[obese],[dsyn],[[[5,5],[1,1],0]],no,no,['ICD10CM','MTH','SNM','SNMI','SNOMEDCT_US'],[25/5],0,0),ev(-736,'C0043210','Woman','Woman',[woman],[popg],[[[6,6],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[31/5],0,0),ev(-601,'C0730226','History of disorder','H/O: Disorder',[history,of,disorder],[fndg],[[[9,9],[1,1],0],[[10,10],[2,2],0],[[12,12],[3,3],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[44/10,63/8],0,0),ev(-570,'C0443156','Bipolar','Bipolar',[bipolar],[spco],[[[11,11],[1,1],0]],no,no,['SNOMEDCT_US'],[55/7],0,0)])]).
+phrase(complains,[verb([lexmatch([complains]),inputmatch([complains]),tag(verb),tokens([complains])])],72/9,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],82/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('her recent struggles with her weight',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch([recent]),inputmatch([recent]),tag(adj),tokens([recent])]),head([lexmatch([struggles]),inputmatch([struggles]),tag(noun),tokens([struggles])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch([weight]),inputmatch([weight]),tag(noun),tokens([weight])])],87/36,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-506,[ev(-586,'C0332185','Recent','Recent',[recent],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[91/6],0,0),ev(-586,'C0005910',weight,'Body Weight',[weight],[orga],[[[6,6],[1,1],0]],no,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[117/6],0,0)]),map(-506,[ev(-586,'C0332185','Recent','Recent',[recent],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[91/6],0,0),ev(-586,'C0043100','Weight','Weight',[weight],[qnco],[[[6,6],[1,1],0]],no,no,['CHV','MSH','MTH'],[117/6],0,0)]),map(-506,[ev(-586,'C0332185','Recent','Recent',[recent],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[91/6],0,0),ev(-586,'C1305866',weight,'Weighing patient',[weight],[diap],[[[6,6],[1,1],0]],no,no,['AOD','CHV','MTH','NLMSubSyn','SNOMEDCT_US'],[117/6],0,0)]),map(-506,[ev(-586,'C0332185','Recent','Recent',[recent],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[91/6],0,0),ev(-586,'C1705104','Weight','Importance Weight',[weight],[idcn],[[[6,6],[1,1],0]],no,no,['MTH','NCI'],[117/6],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],124/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(eating,[head([lexmatch([eating]),inputmatch([eating]),tag(noun),tokens([eating])])],128/6,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0013470','Eating','Eating',[eating],[orgf],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI'],[128/6],0,0)])]).
+phrase(have,[aux([lexmatch([have]),inputmatch([have]),tag(aux),tokens([have])])],135/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(caused,[verb([lexmatch([caused]),inputmatch([caused]),tag(verb),tokens([caused])])],140/6,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-966,[ev(-966,'C0015127',cause,'Etiology aspects',[cause],[ftcn],[[[1,1],[1,1],1]],yes,no,['CHV','MSH','MTH'],[140/6],0,0)]),map(-966,[ev(-966,'C1524003','Cause','Science of Etiology',[cause],[cnce],[[[1,1],[1,1],1]],yes,no,['MTH','NCI'],[140/6],0,0)])]).
+phrase('her to',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],147/6,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1883351','To','To',[to],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH'],[151/2],0,0)])]).
+phrase(feel,[verb([lexmatch([feel]),inputmatch([feel]),tag(verb),tokens([feel])])],154/4,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0013987',feel,'Emotions',[feel],[menp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','ICF','MTH','NCI','SNOMEDCT_US'],[154/4],0,0)])]).
+phrase('depressed.',[verb([lexmatch([depressed]),inputmatch([depressed]),tag(verb),tokens([depressed])]),punc([inputmatch(['.']),tokens([])])],159/10,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0344315','Depressed','Depressed mood',[depressed],[fndg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MTH','OMIM','SNMI','SNOMEDCT_US'],[159/9],0,0)]),map(-1000,[ev(-1000,'C0549249','DEPRESSED','Depressed Level of Consciousness',[depressed],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[159/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"She states that she has recently had difficulty sleeping and feels excessively anxious and agitated. ",170/101,[]).
+phrase('She',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])])],170/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(states,[verb([lexmatch([states]),inputmatch([states]),tag(verb),tokens([states])])],174/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C1301808','State','Geographic state',[state],[geoa],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[174/6],0,0)]),map(-1000,[ev(-1000,'C1442792','State','State',[state],[ftcn],[[[1,1],[1,1],0]],yes,no,['LNC','MTH'],[174/6],0,0)]),map(-1000,[ev(-1000,'C3148680','State','US State',[state],[geoa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[174/6],0,0)])]).
+phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],181/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],186/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],190/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(recently,[adv([lexmatch([recently]),inputmatch([recently]),tag(adv),tokens([recently])])],194/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332185','Recently','Recent',[recently],[tmco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[194/8],0,0)])]).
+phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],203/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('difficulty sleeping',[mod([lexmatch([difficulty]),inputmatch([difficulty]),tag(noun),tokens([difficulty])]),head([lexmatch([sleeping]),inputmatch([sleeping]),tag(noun),tokens([sleeping])])],207/19,[]).
+candidates(5,1,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0235162','Difficulty sleeping','Difficulty sleeping',[difficulty,sleeping],[sosy],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','OMIM','SNOMEDCT_US'],[207/19],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],227/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(feels,[verb([lexmatch([feels]),inputmatch([feels]),tag(verb),tokens([feels])])],231/5,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0013987',feel,'Emotions',[feel],[menp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','ICF','MTH','NCI','SNOMEDCT_US'],[231/5],0,0)])]).
+phrase('excessively anxious',[adv([lexmatch([excessively]),inputmatch([excessively]),tag(adv),tokens([excessively])]),head([lexmatch([anxious]),inputmatch([anxious]),tag(adj),tokens([anxious])])],237/19,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-888,[ev(-694,'C0442802','Excessively','Excessive',[excessively],[qlco],[[[1,1],[1,1],0]],no,no,['NCI','SNOMEDCT_US'],[237/11],0,0),ev(-861,'C0003467','Anxious','Anxiety',[anxious],[menp],[[[2,2],[1,1],0]],yes,no,['AOD','CST','MSH','MTH','SNMI','SNOMEDCT_US','SNOMEDCT_VET'],[249/7],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],257/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('agitated.',[verb([lexmatch([agitated]),inputmatch([agitated]),tag(verb),tokens([agitated])]),punc([inputmatch(['.']),tokens([])])],261/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0085631','Agitated','Agitation',[agitated],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CST','MSH','MTH','NCI','SNOMEDCT_US'],[261/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"She also states that she has had thoughts of suicide. ",271/54,[]).
+phrase('She also',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])]),adv([lexmatch([also]),inputmatch([also]),tag(adv),tokens([also])])],271/8,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(states,[verb([lexmatch([states]),inputmatch([states]),tag(verb),tokens([states])])],280/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C1301808','State','Geographic state',[state],[geoa],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[280/6],0,0)]),map(-1000,[ev(-1000,'C1442792','State','State',[state],[ftcn],[[[1,1],[1,1],0]],yes,no,['LNC','MTH'],[280/6],0,0)]),map(-1000,[ev(-1000,'C3148680','State','US State',[state],[geoa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[280/6],0,0)])]).
+phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],287/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],292/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],296/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],300/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('thoughts of suicide.',[head([lexmatch([thoughts]),inputmatch([thoughts]),tag(noun),tokens([thoughts])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([suicide]),inputmatch([suicide]),tag(noun),tokens([suicide])]),punc([inputmatch(['.']),tokens([])])],304/20,[]).
+candidates(5,2,0,3,[]).
+mappings([map(-858,[ev(-858,'C0424000','suicide thoughts','Feeling suicidal (finding)',[suicide,thoughts],[fndg],[[[3,3],[1,1],0],[[1,1],[2,2],0]],yes,no,['AOD','CHV','MSH','SNOMEDCT_US'],[304/8,316/7],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"She often finds herself fidgety and unable to sit still for extended periods of time. ",325/86,[]).
+phrase('She often',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])]),adv([lexmatch([often]),inputmatch([often]),tag(adv),tokens([often])])],325/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332183','Often','Frequent',[often],[tmco],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[329/5],0,0)])]).
+phrase(finds,[verb([lexmatch([finds]),inputmatch([finds]),tag(verb),tokens([finds])])],335/5,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0243095','Find','Finding',[find],[fndg],[[[1,1],[1,1],0]],yes,no,['LNC','MTH','NCI','NLMSubSyn'],[335/5],0,0)])]).
+phrase('herself fidgety',[pron([lexmatch([herself]),inputmatch([herself]),tag(pron),tokens([herself])]),head([lexmatch([fidgety]),inputmatch([fidgety]),tag(adj),tokens([fidgety])])],341/15,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0424235','Fidgety','Fidgeting',[fidgety],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[349/7],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],357/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('unable to',[mod([lexmatch([unable]),inputmatch([unable]),tag(adj),tokens([unable])]),adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],361/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-861,[ev(-861,'C1299582','Unable','Unable',[unable],[fndg],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[361/6],0,0)])]).
+phrase(sit,[verb([lexmatch([sit]),inputmatch([sit]),tag(verb),tokens([sit])])],371/3,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0277814','Sit','Sitting position',[sit],[fndg],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','SNOMEDCT_US'],[371/3],0,0)]),map(-1000,[ev(-1000,'C0728713',sit,'Does sit',[sit],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[371/3],0,0)])]).
+phrase('still for extended periods of time.',[adv([lexmatch([still]),inputmatch([still]),tag(adv),tokens([still])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([extended]),inputmatch([extended]),tag(adj),tokens([extended])]),mod([lexmatch([periods]),inputmatch([periods]),tag(noun),tokens([periods])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([time]),inputmatch([time]),tag(noun),tokens([time])]),punc([inputmatch(['.']),tokens([])])],375/35,[]).
+candidates(15,7,0,8,[]).
+mappings([map(-722,[ev(-753,'C0231448','Extended','Extension',[extended],[ftcn],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI'],[385/8],0,0),ev(-783,'C0439582','Time periods','Time periods',[time,periods],[tmco],[[[6,6],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','LNC','NLMSubSyn','SNOMEDCT_US'],[394/7,405/4],0,0)]),map(-722,[ev(-753,'C0231449','Extended','Extended',[extended],[spco],[[[3,3],[1,1],0]],yes,no,['MTH'],[385/8],0,0),ev(-783,'C0439582','Time periods','Time periods',[time,periods],[tmco],[[[6,6],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','LNC','NLMSubSyn','SNOMEDCT_US'],[394/7,405/4],0,0)]),map(-722,[ev(-753,'C0439792',extended,'Extent',[extended],[spco],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[385/8],0,0),ev(-783,'C0439582','Time periods','Time periods',[time,periods],[tmco],[[[6,6],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','LNC','NLMSubSyn','SNOMEDCT_US'],[394/7,405/4],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"Her family tells her that she is increasingly irritable. ",411/57,[]).
+phrase('Her family',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),head([lexmatch([family]),inputmatch([family]),tag(noun),tokens([family])])],411/10,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0015576','Family','Family',[family],[famg],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NCI','NLMSubSyn'],[415/6],0,0)]),map(-1000,[ev(-1000,'C1704727','Family','Family (taxonomic)',[family],[cnce],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_VET'],[415/6],0,0)])]).
+phrase(tells,[verb([lexmatch([tells]),inputmatch([tells]),tag(verb),tokens([tells])])],422/5,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(her,[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])])],428/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],432/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],437/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],441/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('increasingly irritable.',[adv([lexmatch([increasingly]),inputmatch([increasingly]),tag(adv),tokens([increasingly])]),head([lexmatch([irritable]),inputmatch([irritable]),tag(adj),tokens([irritable])]),punc([inputmatch(['.']),tokens([])])],444/23,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-861,[ev(-861,'C0022107',irritable,'Irritable Mood',[irritable],[fndg],[[[2,2],[1,1],0]],yes,no,['AOD','MSH','MTH','OMIM','SNOMEDCT_US'],[457/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"Her current medications include lithium carbonate and zolpidem. ",468/64,[531]).
+phrase('Her current medications',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),mod([lexmatch([current]),inputmatch([current]),tag(adj),tokens([current])]),head([lexmatch([medications]),inputmatch([medications]),tag(noun),tokens([medications])])],468/23,[]).
+candidates(7,1,0,6,[]).
+mappings([map(-983,[ev(-983,'C0746467','current medication','Medication.current',[current,medication],[fndg],[[[1,1],[1,1],0],[[2,2],[2,2],1]],yes,no,['CHV','LNC','NLMSubSyn'],[472/19],0,0)])]).
+phrase(include,[verb([lexmatch([include]),inputmatch([include]),tag(verb),tokens([include])])],492/7,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0332257',include,'Including (qualifier)',[include],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[492/7],0,0)]),map(-1000,[ev(-1000,'C1552866',include,'include - SetOperator',[include],[idcn],[[[1,1],[1,1],0]],yes,no,['HL7V3.0','MTH'],[492/7],0,0)]),map(-1000,[ev(-1000,'C2700399','Include','Include (action)',[include],[acty],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[492/7],0,0)])]).
+phrase('lithium carbonate',[head([lexmatch(['lithium carbonate']),inputmatch([lithium,carbonate]),tag(noun),tokens([lithium,carbonate])])],500/17,[]).
+candidates(5,2,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0085217','Lithium Carbonate','Lithium Carbonate',[lithium,carbonate],[inch,phsu],[[[1,2],[1,2],0]],yes,no,['CHV','MSH','MTH','SNOMEDCT_US'],[500/17],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],518/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('zolpidem.',[head([lexmatch([zolpidem]),inputmatch([zolpidem]),tag(noun),tokens([zolpidem])]),punc([inputmatch(['.']),tokens([])])],522/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0078839',zolpidem,zolpidem,[zolpidem],[orch,phsu],[[[1,1],[1,1],0]],yes,no,['MSH','PDQ'],[522/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.8',"26-year-old obese woman with bipolar disorder, on zolpidem and lithium, with recent difficulty sleeping, agitation, suicidal ideation, and irritability.",532/152,[]).
+phrase('26-year-old obese woman with bipolar disorder,',[shapes([inputmatch(['26']),features([integer]),tokens(['26'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(adj),tokens([old])]),mod([lexmatch([obese]),inputmatch([obese]),tag(adj),tokens([obese])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch(['bipolar disorder']),inputmatch([bipolar,disorder]),tag(noun),tokens([bipolar,disorder])]),punc([inputmatch([',']),tokens([])])],532/46,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-709,[ev(-578,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[535/4],0,0),ev(-578,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[540/3],0,0),ev(-578,'C0028754','Obese','Obesity',[obese],[dsyn],[[[4,4],[1,1],0]],no,no,['ICD10CM','MTH','SNM','SNMI','SNOMEDCT_US'],[544/5],0,0),ev(-744,'C0043210','Woman','Woman',[woman],[popg],[[[5,5],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[550/5],0,0),ev(-604,'C0005586','Bipolar Disorder','Bipolar Disorder',[bipolar,disorder],[mobd],[[[7,8],[1,2],0]],no,no,['AOD','CHV','CST','ICD10CM','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[561/16],0,0)]),map(-709,[ev(-578,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[535/4],0,0),ev(-578,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[540/3],0,0),ev(-578,'C0028754','Obese','Obesity',[obese],[dsyn],[[[4,4],[1,1],0]],no,no,['ICD10CM','MTH','SNM','SNMI','SNOMEDCT_US'],[544/5],0,0),ev(-744,'C0043210','Woman','Woman',[woman],[popg],[[[5,5],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[550/5],0,0),ev(-604,'C0005586','Bipolar Disorder','Bipolar Disorder',[bipolar,disorder],[mobd],[[[7,8],[1,2],0]],no,no,['AOD','CHV','CST','ICD10CM','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[561/16],0,0)])]).
+phrase('on zolpidem',[prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),head([lexmatch([zolpidem]),inputmatch([zolpidem]),tag(noun),tokens([zolpidem])])],579/11,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0078839',zolpidem,zolpidem,[zolpidem],[orch,phsu],[[[1,1],[1,1],0]],yes,no,['MSH','PDQ'],[582/8],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],591/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('lithium,',[head([lexmatch([lithium]),inputmatch([lithium]),tag(noun),tokens([lithium])]),punc([inputmatch([',']),tokens([])])],595/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0023870','Lithium','Lithium',[lithium],[elii,phsu],[[[1,1],[1,1],0]],yes,no,['CSP','MTH','NCI','SNOMEDCT_US'],[595/7],0,0)])]).
+phrase('with recent difficulty sleeping,',[prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([recent]),inputmatch([recent]),tag(adj),tokens([recent])]),mod([lexmatch([difficulty]),inputmatch([difficulty]),tag(noun),tokens([difficulty])]),head([lexmatch([sleeping]),inputmatch([sleeping]),tag(noun),tokens([sleeping])]),punc([inputmatch([',']),tokens([])])],604/32,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-901,[ev(-660,'C0332185','Recent','Recent',[recent],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[609/6],0,0),ev(-901,'C0235162','Difficulty sleeping','Difficulty sleeping',[difficulty,sleeping],[sosy],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['CHV','OMIM','SNOMEDCT_US'],[616/19],0,0)])]).
+phrase('agitation,',[head([lexmatch([agitation]),inputmatch([agitation]),tag(noun),tokens([agitation])]),punc([inputmatch([',']),tokens([])])],637/10,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0085631','Agitation','Agitation',[agitation],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CST','MSH','MTH','NCI','SNOMEDCT_US'],[637/9],0,0)])]).
+phrase('suicidal ideation,',[head([lexmatch(['suicidal ideation']),inputmatch([suicidal,ideation]),tag(noun),tokens([suicidal,ideation])]),punc([inputmatch([',']),tokens([])])],648/18,[]).
+candidates(5,2,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0424000','Suicidal Ideation','Feeling suicidal (finding)',[suicidal,ideation],[fndg],[[[1,2],[1,2],0]],yes,no,['AOD','CHV','MSH','SNOMEDCT_US'],[648/17],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],667/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('irritability.',[head([lexmatch([irritability]),inputmatch([irritability]),tag(noun),tokens([irritability])]),punc([inputmatch(['.']),tokens([])])],671/13,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0022107','Irritability','Irritable Mood',[irritability],[fndg],[[[1,1],[1,1],0]],yes,no,['AOD','MSH','MTH','OMIM','SNOMEDCT_US'],[671/12],0,0)]),map(-1000,[ev(-1000,'C2700617','Irritability','Irritation - emotion',[irritability],[menp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[671/12],0,0)])]).
+'EOU'.
+'EOT'.

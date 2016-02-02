@@ -1,0 +1,160 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Hypothyroidism",0/14,[]).
+phrase('Hypothyroidism',[head([lexmatch([hypothyroidism]),inputmatch(['Hypothyroidism']),tag(noun),tokens([hypothyroidism])])],0/14,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0020676','Hypothyroidism','Hypothyroidism',[hypothyroidism],[dsyn],[[[1,1],[1,1],0]],yes,no,['CST','ICD10CM','ICD9CM','MSH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/14],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Bacterial Meningitis",0/20,[]).
+phrase('Bacterial Meningitis',[head([lexmatch(['bacterial meningitis']),inputmatch(['Bacterial','Meningitis']),tag(noun),tokens([bacterial,meningitis])])],0/20,[]).
+candidates(6,3,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0085437','Meningitis, Bacterial','Meningitis, Bacterial',[bacterial,meningitis],[dsyn],[[[1,2],[1,2],0]],yes,no,['ICD10CM','ICD9CM','MSH','SNOMEDCT_US'],[0/20],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Epiglottitis",0/12,[]).
+phrase('Epiglottitis',[head([lexmatch([epiglottitis]),inputmatch(['Epiglottitis']),tag(noun),tokens([epiglottitis])])],0/12,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0014541','Epiglottitis','Epiglottitis',[epiglottitis],[dsyn],[[[1,1],[1,1],0]],yes,no,['MSH'],[0/12],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Paroxysmal nocturnal hemoglobinuria",0/35,[]).
+phrase('Paroxysmal nocturnal hemoglobinuria',[head([lexmatch(['paroxysmal nocturnal hemoglobinuria']),inputmatch(['Paroxysmal',nocturnal,hemoglobinuria]),tag(noun),tokens([paroxysmal,nocturnal,hemoglobinuria])])],0/35,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-1000,[ev(-1000,'C0024790','Paroxysmal nocturnal haemoglobinuria','Paroxysmal nocturnal hemoglobinuria',[paroxysmal,nocturnal,haemoglobinuria],[dsyn],[[[1,3],[1,3],0]],yes,no,['CSP','MSH','MTH','NCI','SNOMEDCT_US'],[0/35],0,0)]),map(-1000,[ev(-1000,'C1418558','PAROXYSMAL NOCTURNAL HEMOGLOBINURIA','PIGA gene',[paroxysmal,nocturnal,hemoglobinuria],[gngm],[[[1,3],[1,3],0]],yes,no,['HGNC','MTH','OMIM'],[0/35],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Paroxysmal  atrial fibrillation",0/31,[]).
+phrase('Paroxysmal  atrial fibrillation',[head([lexmatch(['paroxysmal atrial fibrillation']),inputmatch(['Paroxysmal',atrial,fibrillation]),tag(noun),tokens([paroxysmal,atrial,fibrillation])])],0/31,[]).
+candidates(8,2,0,6,[]).
+mappings([map(-1000,[ev(-1000,'C0235480','Paroxysmal atrial fibrillation','Paroxysmal atrial fibrillation',[paroxysmal,atrial,fibrillation],[dsyn],[[[1,3],[1,3],0]],yes,no,['CHV','CST','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/10,12/19],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Foreign Body Aspiration",0/23,[]).
+phrase('Foreign Body Aspiration',[mod([lexmatch(['foreign body']),inputmatch(['Foreign','Body']),tag(noun),tokens([foreign,body])]),head([lexmatch([aspiration]),inputmatch(['Aspiration']),tag(noun),tokens([aspiration])])],0/23,[]).
+candidates(12,1,0,11,[]).
+mappings([map(-1000,[ev(-1000,'C0232070','Aspiration, foreign body','Aspiration of foreign body',[foreign,body,aspiration],[inpo],[[[1,2],[1,2],0],[[3,3],[3,3],0]],yes,no,['NLMSubSyn','SNM','SNOMEDCT_US'],[0/23],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Cervical Cancer precursor",0/25,[]).
+phrase('Cervical Cancer precursor',[mod([lexmatch(['cervical cancer']),inputmatch(['Cervical','Cancer']),tag(noun),tokens([cervical,cancer])]),head([lexmatch([precursor]),inputmatch([precursor]),tag(noun),tokens([precursor])])],0/25,[]).
+candidates(9,0,0,9,[]).
+mappings([map(-901,[ev(-734,'C0007847','Cervical Cancer','Malignant tumor of cervix',[cervical,cancer],[neop],[[[1,2],[1,2],0]],no,no,['CHV','ICPC','MEDLINEPLUS','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[0/15],0,0),ev(-827,'C1709634','Precursor','Precursor',[precursor],[idcn],[[[3,3],[1,1],0]],yes,no,['NCI'],[16/9],0,0)]),map(-901,[ev(-734,'C0302592','Cervical Cancer','Cervix carcinoma',[cervical,cancer],[neop],[[[1,2],[1,2],0]],no,no,['CST','DXP','MSH','MTH','NCI','NLMSubSyn','OMIM','PDQ','SNOMEDCT_US'],[0/15],0,0),ev(-827,'C1709634','Precursor','Precursor',[precursor],[idcn],[[[3,3],[1,1],0]],yes,no,['NCI'],[16/9],0,0)]),map(-901,[ev(-734,'C3539064','Cervical Cancer','NCI CTEP SDC Cervical Cancer Sub-Category Terminology',[cervical,cancer],[inpr],[[[1,2],[1,2],0]],no,no,['MTH','NCI','NLMSubSyn'],[0/15],0,0),ev(-827,'C1709634','Precursor','Precursor',[precursor],[idcn],[[[3,3],[1,1],0]],yes,no,['NCI'],[16/9],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Congestive Heart Failure",0/24,[]).
+phrase('Congestive Heart Failure',[head([lexmatch(['congestive heart failure']),inputmatch(['Congestive','Heart','Failure']),tag(noun),tokens([congestive,heart,failure])])],0/24,[]).
+candidates(8,0,0,8,[]).
+mappings([map(-1000,[ev(-1000,'C0018802','Congestive heart failure','Congestive heart failure',[congestive,heart,failure],[dsyn],[[[1,3],[1,3],0]],yes,no,['CHV','ICD9CM','MTH','NCI','NDFRT','NLMSubSyn','SNOMEDCT_US'],[0/24],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Chronic Obstructive Pulmonary Disease",0/37,[]).
+phrase('Chronic Obstructive Pulmonary Disease',[head([lexmatch(['chronic obstructive pulmonary disease']),inputmatch(['Chronic','Obstructive','Pulmonary','Disease']),tag(noun),tokens([chronic,obstructive,pulmonary,disease])])],0/37,[]).
+candidates(16,3,0,13,[]).
+mappings([map(-1000,[ev(-1000,'C0024117','Pulmonary Disease, Chronic Obstructive','Chronic Obstructive Airway Disease',[chronic,obstructive,pulmonary,disease],[dsyn],[[[1,4],[1,4],0]],yes,no,['CHV','CSP','DXP','ICD10CM','MSH','MTH','MTHICD9','NCI','NLMSubSyn','SNMI','SNOMEDCT_US','SNOMEDCT_VET'],[0/37],0,0)]),map(-1000,[ev(-1000,'C1847014','PULMONARY DISEASE, CHRONIC OBSTRUCTIVE','PULMONARY DISEASE, CHRONIC OBSTRUCTIVE, SEVERE EARLY-ONSET',[chronic,obstructive,pulmonary,disease],[dsyn],[[[1,4],[1,4],0]],yes,no,['MTH','OMIM'],[0/37],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Creutzfeldt-Jakob disease",0/25,[]).
+phrase('Creutzfeldt-Jakob disease',[head([lexmatch(['creutzfeldt-jakob disease']),inputmatch(['Creutzfeldt',-,'Jakob',disease]),tag(noun),tokens([creutzfeldt,jakob,disease])])],0/25,[]).
+candidates(6,3,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0022336','Creutzfeldt-Jakob disease','Creutzfeldt-Jakob disease',[creutzfeldt,jakob,disease],[dsyn],[[[1,3],[1,3],0]],yes,no,['ICD10CM','MSH','MTH','NLMSubSyn','SNM','SNOMEDCT_US'],[0/25],0,0)]),map(-1000,[ev(-1000,'C1418941','CREUTZFELDT-JAKOB DISEASE','PRNP gene',[creutzfeldt,jakob,disease],[gngm],[[[1,3],[1,3],0]],yes,no,['HGNC','MTH','OMIM'],[0/25],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Giardiasis",0/10,[]).
+phrase('Giardiasis',[head([lexmatch([giardiasis]),inputmatch(['Giardiasis']),tag(noun),tokens([giardiasis])])],0/10,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0017536','Giardiasis','Giardiasis',[giardiasis],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NLMSubSyn','RAM','SNOMEDCT_US','SNOMEDCT_VET'],[0/10],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Aspergillosis / Aspergilloma",0/28,[]).
+phrase('Aspergillosis / Aspergilloma',[mod([lexmatch([aspergillosis]),inputmatch(['Aspergillosis']),tag(noun),tokens([aspergillosis])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([aspergilloma]),inputmatch(['Aspergilloma']),tag(noun),tokens([aspergilloma])])],0/28,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-888,[ev(-694,'C0004030','Aspergillosis','Aspergillosis',[aspergillosis],[dsyn],[[[1,1],[1,1],0]],no,no,['CHV','ICD10CM','MSH','MTH','SNOMEDCT_US'],[0/13],0,0),ev(-861,'C0276651','Aspergilloma','Aspergilloma',[aspergilloma],[dsyn],[[[2,2],[1,1],0]],yes,no,['SNOMEDCT_US'],[16/12],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Dengue",0/6,[]).
+phrase('Dengue',[head([lexmatch([dengue]),inputmatch(['Dengue']),tag(noun),tokens([dengue])])],0/6,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0011311','Dengue','Dengue Fever',[dengue],[dsyn],[[[1,1],[1,1],0]],yes,no,['DXP','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[0/6],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas(["CAP"*"Community Acquired Pneumonia"*(1,3,5,28)*[]]).
+neg_list([]).
+utterance('00000000.tx.1',"Community Acquired Pneumonia (CAP)",0/34,[]).
+phrase('Community Acquired Pneumonia',[head([lexmatch(['community acquired pneumonia']),inputmatch(['Community','Acquired','Pneumonia']),tag(noun),tokens([community,acquired,pneumonia])])],0/28,[]).
+candidates(17,11,0,6,[]).
+mappings([map(-1000,[ev(-1000,'C0694549','Community acquired pneumonia','Community acquired pneumonia',[community,acquired,pneumonia],[dsyn],[[[1,3],[1,3],0]],yes,no,['CHV','SNOMEDCT_US'],[0/28],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"osteomyelitis",0/13,[]).
+phrase(osteomyelitis,[head([lexmatch([osteomyelitis]),inputmatch([osteomyelitis]),tag(noun),tokens([osteomyelitis])])],0/13,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0029443','Osteomyelitis','Osteomyelitis',[osteomyelitis],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','ICD10CM','ICD9CM','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[0/13],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"ectopic pregnancy",0/17,[]).
+phrase('ectopic pregnancy',[head([lexmatch(['ectopic pregnancy']),inputmatch([ectopic,pregnancy]),tag(noun),tokens([ectopic,pregnancy])])],0/17,[]).
+candidates(8,4,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0032987','Ectopic Pregnancy','Ectopic Pregnancy',[ectopic,pregnancy],[dsyn],[[[1,2],[1,2],0]],yes,no,['ICD10CM','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[0/17],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Iron-Deficiency Anemia",0/22,[]).
+phrase('Iron-Deficiency Anemia',[head([lexmatch(['iron-deficiency anemia']),inputmatch(['Iron',-,'Deficiency','Anemia']),tag(noun),tokens([iron,deficiency,anemia])])],0/22,[]).
+candidates(13,2,0,11,[]).
+mappings([map(-1000,[ev(-1000,'C0162316','Iron deficiency anaemia','Iron deficiency anemia',[iron,deficiency,anaemia],[dsyn],[[[1,3],[1,3],0]],yes,no,['AOD','ICD10CM','MSH','MTH','NLMSubSyn','RAM','SNOMEDCT_US'],[0/22],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Lyme arthritis",0/14,[]).
+phrase('Lyme arthritis',[head([lexmatch(['lyme arthritis']),inputmatch(['Lyme',arthritis]),tag(noun),tokens([lyme,arthritis])])],0/14,[]).
+candidates(3,1,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0242381','Lyme Arthritis','Lyme Arthritis',[lyme,arthritis],[dsyn],[[[1,2],[1,2],0]],yes,no,['CHV','MSH','SNOMEDCT_US'],[0/14],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"Kawasaki disease",0/16,[]).
+phrase('Kawasaki disease',[head([lexmatch(['kawasaki disease']),inputmatch(['Kawasaki',disease]),tag(noun),tokens([kawasaki,disease])])],0/16,[]).
+candidates(5,3,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0026691','Kawasaki Disease','Mucocutaneous Lymph Node Syndrome',[kawasaki,disease],[dsyn],[[[1,2],[1,2],0]],yes,no,['CHV','DXP','MSH','MTH','MTHICD9','OMIM','SNOMEDCT_US'],[0/16],0,0)])]).
+'EOU'.
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"elbow dislocation",0/17,[]).
+phrase('elbow dislocation',[mod([lexmatch([elbow]),inputmatch([elbow]),tag(noun),tokens([elbow])]),head([lexmatch([dislocation]),inputmatch([dislocation]),tag(noun),tokens([dislocation])])],0/17,[]).
+candidates(9,4,0,5,[]).
+mappings([map(-1000,[ev(-1000,'C2720437','Elbow dislocation','Dislocation of elbow joint',[elbow,dislocation],[inpo],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','NLMSubSyn','OMIM','SNOMEDCT_US','SNOMEDCT_VET'],[0/17],0,0)])]).
+'EOU'.

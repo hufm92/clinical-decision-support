@@ -1,0 +1,216 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2015-original/27.txt ../../TREC-CDS/2015-original-MMed/27.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2015-original/27.txt',outfile-'../../TREC-CDS/2015-original-MMed/27.txt.out']).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"treatment. ",0/11,[10]).
+phrase('treatment.',[head([lexmatch([treatment]),inputmatch([treatment]),tag(noun),tokens([treatment])]),punc([inputmatch(['.']),tokens([])])],0/10,[]).
+candidates(6,0,0,6,[]).
+mappings([map(-1000,[ev(-1000,'C0039798',treatment,'therapeutic aspects',[treatment],[ftcn],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn'],[0/9],0,0)]),map(-1000,[ev(-1000,'C0087111','Treatment','Therapeutic procedure',[treatment],[topp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LNC','MSH','MTH','MTHHH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1522326','Treatment','Treating',[treatment],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1533734','Treatment','Administration procedure',[treatment],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[0/9],0,0)]),map(-1000,[ev(-1000,'C1705169','Treatment','Biomaterial Treatment',[treatment],[cnce],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[0/9],0,0)]),map(-1000,[ev(-1000,'C3538994','TREATMENT','Treatment Epoch',[treatment],[resa],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[0/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 15 yo girl accompanied by her mother is referred for evaluation by the school. ",11/81,[]).
+phrase('A 15 yo girl',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['15']),features([integer]),tokens(['15'])]),mod([lexmatch([yo]),inputmatch([yo]),tag(noun),tokens([yo])]),head([lexmatch([girl]),inputmatch([girl]),tag(noun),tokens([girl])])],11/12,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-790,[ev(-660,'C1413296','Yo','CDR2 gene',[yo],[gngm],[[[2,2],[1,1],0]],no,no,['HGNC','MTH','OMIM'],[16/2],0,0),ev(-827,'C0870604','Girl','Female child',[girl],[aggp],[[[3,3],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[19/4],0,0)])]).
+phrase('accompanied by her mother',[verb([lexmatch([accompanied]),inputmatch([accompanied]),tag(verb),tokens([accompanied])]),prep([lexmatch([by]),inputmatch([by]),tag(prep),tokens([by])]),pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch([mother]),inputmatch([mother]),tag(noun),tokens([mother])])],24/25,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-770,[ev(-770,'C0026591','Mother','Mother (person)',[mother],[famg],[[[4,4],[1,1],0]],yes,no,['AOD','CHV','MSH','SNOMEDCT_US'],[43/6],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],50/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('referred for evaluation',[verb([lexmatch([referred]),inputmatch([referred]),tag(verb),tokens([referred])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([evaluation]),inputmatch([evaluation]),tag(noun),tokens([evaluation])])],53/23,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-746,[ev(-790,'C0205543',referred,'Referring',[referred],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH'],[53/8],0,0),ev(-790,'C0220825','Evaluation','Evaluation',[evaluation],[ftcn],[[[3,3],[1,1],0]],yes,no,['AOD','MSH','MTH','NCI','NLMSubSyn'],[66/10],0,0)]),map(-746,[ev(-790,'C0205543',referred,'Referring',[referred],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH'],[53/8],0,0),ev(-790,'C1261322','Evaluation','Evaluation procedure',[evaluation],[hlca],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[66/10],0,0)]),map(-746,[ev(-790,'C1691010','Referred','Referral placed',[referred],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','SNMI','SNOMEDCT_US'],[53/8],0,0),ev(-790,'C0220825','Evaluation','Evaluation',[evaluation],[ftcn],[[[3,3],[1,1],0]],yes,no,['AOD','MSH','MTH','NCI','NLMSubSyn'],[66/10],0,0)]),map(-746,[ev(-790,'C1691010','Referred','Referral placed',[referred],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH','SNMI','SNOMEDCT_US'],[53/8],0,0),ev(-790,'C1261322','Evaluation','Evaluation procedure',[evaluation],[hlca],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[66/10],0,0)])]).
+phrase('by the school.',[prep([lexmatch([by]),inputmatch([by]),tag(prep),tokens([by])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([school]),inputmatch([school]),tag(noun),tokens([school])]),punc([inputmatch(['.']),tokens([])])],77/14,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0036375','School','School',[school],[mnob,orgt],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MSH','MTH','NCI'],[84/6],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"The girl has more than expected absences in the last three month, appears to be constantly tired and sleepy in class. ",92/118,[]).
+phrase('The girl',[det([lexmatch([the]),inputmatch(['The']),tag(det),tokens([the])]),head([lexmatch([girl]),inputmatch([girl]),tag(noun),tokens([girl])])],92/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0870604','Girl','Female child',[girl],[aggp],[[[1,1],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[96/4],0,0)])]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],101/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('more than expected absences',[adv([lexmatch([more]),inputmatch([more]),tag(adv),tokens([more])]),prep([lexmatch([than]),inputmatch([than]),tag(prep),tokens([than])]),mod([lexmatch([expected]),inputmatch([expected]),tag(adj),tokens([expected])]),mod([lexmatch([absences]),inputmatch([absences]),tag(noun),tokens([absences])])],105/27,[]).
+candidates(6,3,0,3,[]).
+mappings([map(-733,[ev(-770,'C0205172','More','More',[more],[ftcn],[[[1,1],[1,1],0]],yes,no,['MTH'],[105/4],0,0),ev(-770,'C1517001','Expected','Expected',[expected],[idcn],[[[3,3],[1,1],0]],yes,no,['NCI'],[115/8],0,0),ev(-770,'C0424530','Absences','Absences finding',[absences],[fndg],[[[4,4],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[124/8],0,0)])]).
+phrase('in the last three month,',[prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),shapes([inputmatch([three]),features([word_numeral]),tokens([three])]),head([lexmatch([month]),inputmatch([month]),tag(noun),tokens([month])]),punc([inputmatch([',']),tokens([])])],133/24,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-851,[ev(-660,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[140/4],0,0),ev(-660,'C0205449','Three','Three',[three],[qnco],[[[2,2],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[145/5],0,0),ev(-827,'C0439231',month,month,[month],[tmco],[[[3,3],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[151/5],0,0)]),map(-851,[ev(-660,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[140/4],0,0),ev(-660,'C0205449','Three','Three',[three],[qnco],[[[2,2],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[145/5],0,0),ev(-827,'C0439507','/month','per month (qualifier value)',[month],[tmco],[[[3,3],[1,1],0]],yes,no,['NCI','SNOMEDCT_US'],[151/5],0,0)])]).
+phrase(appears,[verb([lexmatch([appears]),inputmatch([appears]),tag(verb),tokens([appears])])],158/7,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0700364','APPEAR','Appearance',[appear],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[158/7],0,0)])]).
+phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],166/2,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1883351','To','To',[to],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH'],[166/2],0,0)])]).
+phrase(be,[aux([lexmatch([be]),inputmatch([be]),tag(aux),tokens([be])])],169/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(constantly,[adv([lexmatch([constantly]),inputmatch([constantly]),tag(adv),tokens([constantly])])],172/10,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(tired,[verb([lexmatch([tired]),inputmatch([tired]),tag(verb),tokens([tired])])],183/5,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0557875','Tired','Tired',[tired],[sosy],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[183/5],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],189/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('sleepy in class.',[head([lexmatch([sleepy]),inputmatch([sleepy]),tag(adj),tokens([sleepy])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([class]),inputmatch([class]),tag(noun),tokens([class])]),punc([inputmatch(['.']),tokens([])])],193/16,[]).
+candidates(5,2,0,3,[]).
+mappings([map(-746,[ev(-790,'C0013144','Sleepy','Drowsiness',[sleepy],[fndg],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','SNMI','SNOMEDCT_US'],[193/6],0,0),ev(-623,'C0456387','Class','Class',[class],[inpr],[[[3,3],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[203/5],0,0)]),map(-746,[ev(-790,'C0013144','Sleepy','Drowsiness',[sleepy],[fndg],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','SNMI','SNOMEDCT_US'],[193/6],0,0),ev(-623,'C1705943','Class','Class (taxonomic)',[class],[clas],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[203/5],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"Her mother assures the girl is well fed, and getting the proper sleep at night but admits the girls tires easily when they go out on weekend hikes. ",210/148,[]).
+phrase('Her mother',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),head([lexmatch([mother]),inputmatch([mother]),tag(noun),tokens([mother])])],210/10,[]).
+candidates(3,2,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0026591','Mother','Mother (person)',[mother],[famg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','MSH','SNOMEDCT_US'],[214/6],0,0)])]).
+phrase(assures,[verb([lexmatch([assures]),inputmatch([assures]),tag(verb),tokens([assures])])],221/7,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('the girl',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([girl]),inputmatch([girl]),tag(noun),tokens([girl])])],229/8,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0870604','Girl','Female child',[girl],[aggp],[[[1,1],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[233/4],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],238/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('well fed,',[head([lexmatch(['well fed']),inputmatch([well,fed]),tag(adj),tokens([well,fed])]),punc([inputmatch([',']),tokens([])])],241/9,[]).
+candidates(5,2,0,3,[]).
+mappings([map(-888,[ev(-861,'C0205170','Well','Good',[well],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[241/4],0,0),ev(-861,'C0342895','FED','Fish-Eye Disease',[fed],[dsyn],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','OMIM','SNOMEDCT_US'],[246/3],0,0)]),map(-888,[ev(-861,'C3146287','Well','Well',[well],[mnob],[[[1,1],[1,1],0]],yes,no,['MTH'],[241/4],0,0),ev(-861,'C0342895','FED','Fish-Eye Disease',[fed],[dsyn],[[[2,2],[1,1],0]],yes,no,['MSH','MTH','OMIM','SNOMEDCT_US'],[246/3],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],251/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(getting,[head([lexmatch([getting]),inputmatch([getting]),tag(noun),tokens([getting])])],255/7,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('the proper sleep at night',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([proper]),inputmatch([proper]),tag(adj),tokens([proper])]),head([lexmatch([sleep]),inputmatch([sleep]),tag(noun),tokens([sleep])]),prep([lexmatch([at]),inputmatch([at]),tag(prep),tokens([at])]),mod([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])])],263/25,[]).
+candidates(4,2,0,2,[]).
+mappings([map(-686,[ev(-760,'C0037313','Sleep','Sleep',[sleep],[orgf],[[[3,3],[1,1],0]],yes,no,['CHV','ICF','MTH','SNOMEDCT_US'],[274/5],0,0),ev(-593,'C0240526','Night','Night time',[night],[tmco],[[[5,5],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[283/5],0,0)])]).
+phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],289/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(admits,[verb([lexmatch([admits]),inputmatch([admits]),tag(verb),tokens([admits])])],293/6,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0184666',admit,'Hospital admission',[admit],[hlca],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNMI','SNOMEDCT_US'],[293/6],0,0)])]).
+phrase('the girls',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([girls]),inputmatch([girls]),tag(noun),tokens([girls])])],300/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0870604',girls,'Female child',[girls],[aggp],[[[1,1],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[304/5],0,0)])]).
+phrase(tires,[verb([lexmatch([tires]),inputmatch([tires]),tag(verb),tokens([tires])])],310/5,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0475255','Tire','Tire shape',[tire],[spco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[310/5],0,0)])]).
+phrase(easily,[adv([lexmatch([easily]),inputmatch([easily]),tag(adv),tokens([easily])])],316/6,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0332219','Easily','Easy',[easily],[qlco],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[316/6],0,0)])]).
+phrase(when,[conj([lexmatch([when]),inputmatch([when]),tag(conj),tokens([when])])],323/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(they,[pron([lexmatch([they]),inputmatch([they]),tag(pron),tokens([they])])],328/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(go,[verb([lexmatch([go]),inputmatch([go]),tag(verb),tokens([go])])],333/2,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1822658','GO','GORAB gene',[go],[gngm],[[[1,1],[1,1],0]],yes,no,['HGNC','MTH','OMIM'],[333/2],0,0)])]).
+phrase('out on weekend hikes.',[adv([lexmatch([out]),inputmatch([out]),tag(adv),tokens([out])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),mod([lexmatch([weekend]),inputmatch([weekend]),tag(noun),tokens([weekend])]),mod([lexmatch([hikes]),inputmatch([hikes]),tag(noun),tokens([hikes])]),punc([inputmatch(['.']),tokens([])])],336/21,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-708,[ev(-770,'C0439787','Out','Out (direction)',[out],[spco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[336/3],0,0),ev(-770,'C0680190',weekend,weekend,[weekend],[tmco],[[[3,3],[1,1],0]],yes,no,['AOD','CHV'],[343/7],0,0)]),map(-708,[ev(-770,'C0849355','Out','Removed',[out],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[336/3],0,0),ev(-770,'C0680190',weekend,weekend,[weekend],[tmco],[[[3,3],[1,1],0]],yes,no,['AOD','CHV'],[343/7],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"Physical examination: BP: 90/60. ",358/33,[]).
+phrase('Physical examination',[head([lexmatch(['physical examination']),inputmatch(['Physical',examination]),tag(noun),tokens([physical,examination])])],358/20,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0031809','Physical Examination','Physical Examination',[physical,examination],[hlca],[[[1,2],[1,2],0]],yes,no,['AIR','CHV','ICD9CM','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[358/20],0,0)])]).
+phrase(:,[punc([inputmatch([:]),tokens([])])],378/1,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('BP',[head([lexmatch([bp]),inputmatch(['BP']),tag(noun),tokens([bp])])],380/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(:,[punc([inputmatch([:]),tokens([])])],382/1,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('90/60.',[shapes([inputmatch(['90',/,'60']),features([fraction]),tokens(['90','60'])]),punc([inputmatch(['.']),tokens([])])],384/6,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-861,[ev(-861,'C0439083','>90','>90',['90'],[qnco],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[384/2],0,0)]),map(-861,[ev(-861,'C0439087','<90','<90',['90'],[qnco],[[[1,1],[1,1],0]],yes,no,['SNOMEDCT_US'],[384/2],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"HR 130/min the only remarkable findings are extremely pale skin and mucosae. ",391/77,[]).
+phrase('HR 130/min',[mod([lexmatch([hr]),inputmatch(['HR']),tag(noun),tokens([hr])]),shapes([inputmatch(['130']),features([integer]),tokens(['130'])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([min]),inputmatch([min]),tag(noun),tokens([min])])],391/10,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-827,[ev(-827,'C0702093','/min','/minute',[min],[tmco],[[[3,3],[1,1],0]],yes,no,['NCI','NLMSubSyn','SNOMEDCT_US'],[398/3],0,0)])]).
+phrase('the only remarkable findings',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),adv([lexmatch([only]),inputmatch([only]),tag(adv),tokens([only])]),mod([lexmatch([remarkable]),inputmatch([remarkable]),tag(adj),tokens([remarkable])]),head([lexmatch([findings]),inputmatch([findings]),tag(noun),tokens([findings])])],402/28,[]).
+candidates(8,3,0,5,[]).
+mappings([map(-802,[ev(-660,'C0205171','Only','Singular',[only],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[406/4],0,0),ev(-827,'C2607943',findings,'findings aspects',[findings],[ftcn],[[[3,3],[1,1],0]],yes,no,['MSH','MTH'],[422/8],0,0)]),map(-802,[ev(-660,'C0205171','Only','Singular',[only],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[406/4],0,0),ev(-827,'C2926606','Findings','Procedure findings:Finding:Point in time:^Patient:Narrative',[findings],[clna],[[[3,3],[1,1],0]],yes,no,['LNC'],[422/8],0,0)]),map(-802,[ev(-660,'C0205171','Only','Singular',[only],[qnco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[406/4],0,0),ev(-827,'C3539655','Findings','CDISC Findings Class',[findings],[inpr],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[422/8],0,0)]),map(-802,[ev(-660,'C1720467','Only','Only - dosing instruction fragment',[only],[inpr],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[406/4],0,0),ev(-827,'C2607943',findings,'findings aspects',[findings],[ftcn],[[[3,3],[1,1],0]],yes,no,['MSH','MTH'],[422/8],0,0)]),map(-802,[ev(-660,'C1720467','Only','Only - dosing instruction fragment',[only],[inpr],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[406/4],0,0),ev(-827,'C2926606','Findings','Procedure findings:Finding:Point in time:^Patient:Narrative',[findings],[clna],[[[3,3],[1,1],0]],yes,no,['LNC'],[422/8],0,0)]),map(-802,[ev(-660,'C1720467','Only','Only - dosing instruction fragment',[only],[inpr],[[[1,1],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[406/4],0,0),ev(-827,'C3539655','Findings','CDISC Findings Class',[findings],[inpr],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[422/8],0,0)])]).
+phrase(are,[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])],431/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('extremely pale skin',[adv([lexmatch([extremely]),inputmatch([extremely]),tag(adv),tokens([extremely])]),mod([lexmatch([pale]),inputmatch([pale]),tag(adj),tokens([pale])]),head([lexmatch([skin]),inputmatch([skin]),tag(noun),tokens([skin])])],435/19,[]).
+candidates(12,4,0,8,[]).
+mappings([map(-901,[ev(-901,'C0030232','pale skin','Pallor',[pale,skin],[sosy],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['CHV','MSH','MTH','NCI','SNMI','SNOMEDCT_US','SNOMEDCT_VET'],[445/9],0,0)]),map(-901,[ev(-901,'C0241137','Pale skin','Pallor of skin',[pale,skin],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],yes,no,['CHV','DXP','MTH','NLMSubSyn','OMIM'],[445/9],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],455/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('mucosae.',[head([lexmatch([mucosae]),inputmatch([mucosae]),tag(noun),tokens([mucosae])]),punc([inputmatch(['.']),tokens([])])],459/8,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-966,[ev(-966,'C0026724','Mucosa','Mucous Membrane',[mucosa],[tisu],[[[1,1],[1,1],1]],yes,no,['FMA','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[459/7],0,0)]),map(-966,[ev(-966,'C1561514','Mucosa','Specimen Source Codes - Mucosa',[mucosa],[inpr],[[[1,1],[1,1],1]],yes,no,['HL7V2.5','MTH'],[459/7],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"Grade 3/6 systolic murmur. ",468/27,[]).
+phrase('Grade 3/6 systolic murmur.',[mod([lexmatch(['grade 3']),inputmatch(['Grade','3']),tag(noun),tokens([grade,'3'])]),punc([inputmatch([/]),tokens([])]),shapes([inputmatch(['6']),features([integer]),tokens(['6'])]),head([lexmatch(['systolic murmur']),inputmatch([systolic,murmur]),tag(noun),tokens([systolic,murmur])]),punc([inputmatch(['.']),tokens([])])],468/26,[]).
+candidates(10,0,0,10,[]).
+mappings([map(-822,[ev(-686,'C0681407','grade 6','grade 6',[grade,'6'],[inpr],[[[1,1],[1,1],0],[[3,3],[2,2],0]],no,no,['AOD'],[468/5,476/1],0,0),ev(-840,'C0232257','Systolic murmur','Systolic Murmurs',[systolic,murmur],[fndg],[[[4,5],[1,2],0]],yes,no,['COSTAR','MSH','NLMSubSyn','SNOMEDCT_US'],[478/15],0,0)])]).
+'EOU'.
+utterance('00000000.tx.8',"Lab tests report Hb: 4.2 g/dL, MCV 61.8 fL, serum iron < 1.8 umol/L and ferritin of 2 ng/mL. ",495/93,[]).
+phrase('Lab tests',[mod([lexmatch([lab]),inputmatch(['Lab']),tag(noun),tokens([lab])]),head([lexmatch([tests]),inputmatch([tests]),tag(noun),tokens([tests])])],495/9,[]).
+candidates(7,3,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0022885','Lab Tests','Laboratory Procedures',[lab,tests],[lbpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','MEDLINEPLUS','MTH','NCI','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[495/9],0,0)])]).
+phrase(report,[verb([lexmatch([report]),inputmatch([report]),tag(verb),tokens([report])])],505/6,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0684224','Report','Report (document)',[report],[inpr],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI'],[505/6],0,0)]),map(-1000,[ev(-1000,'C0700287','Report','Reporting',[report],[hlca],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','SNOMEDCT_US'],[505/6],0,0)]),map(-1000,[ev(-1000,'C3273238','Report','Regulatory Report',[report],[inpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[505/6],0,0)])]).
+phrase('Hb',[head([lexmatch([hb]),inputmatch(['Hb']),tag(noun),tokens([hb])])],512/2,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0019046','Hb','Hemoglobin',[hb],[aapp,bacs],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','SNOMEDCT_US'],[512/2],0,0)])]).
+phrase(:,[punc([inputmatch([:]),tokens([])])],514/1,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('4.2 g/dL,',[shapes([inputmatch(['4','.','2']),features([real_number]),tokens(['4','2'])]),mod([lexmatch([g]),inputmatch([g,/]),tag(noun),tokens([g])]),head([lexmatch([dl]),inputmatch([dL]),tag(noun),tokens([dl])]),punc([inputmatch([',']),tokens([])])],516/9,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-861,[ev(-861,'C0439267','g/dL','Gram per Deciliter',[g,dl],[qnco],[[[3,3],[1,1],0],[[4,4],[2,2],0]],yes,no,['MTH','NCI','SNOMEDCT_US'],[520/4],0,0)])]).
+phrase('MCV 61.8 fL,',[mod([lexmatch([mcv]),inputmatch(['MCV']),tag(noun),tokens([mcv])]),shapes([inputmatch(['61','.','8']),features([real_number]),tokens(['61','8'])]),head([lexmatch([fl]),inputmatch([fL]),tag(noun),tokens([fl])]),punc([inputmatch([',']),tokens([])])],526/12,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-645,[ev(-645,'C0524587','MCV - NOS','Mean Corpuscular Volume (result)',[mcv],[lbtr],[[[1,1],[1,1],0]],no,no,['CHV','MSH','MTH','NLMSubSyn','SNMI','SNOMEDCT_US'],[526/3],0,0)])]).
+phrase('serum iron',[head([lexmatch(['serum iron']),inputmatch([serum,iron]),tag(noun),tokens([serum,iron])])],539/10,[]).
+candidates(7,0,0,7,[]).
+mappings([map(-1000,[ev(-1000,'C1318312','serum iron','Serum iron measurement',[serum,iron],[lbpr],[[[1,2],[1,2],0]],yes,no,['CHV','MTH','NLMSubSyn','SNOMEDCT_US'],[539/10],0,0)])]).
+phrase('< 1.8 umol/L',[punc([inputmatch([<]),tokens([])]),shapes([inputmatch(['1','.','8']),features([real_number]),tokens(['1','8'])]),mod([lexmatch([umol]),inputmatch([umol]),tag(noun),tokens([umol])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([l]),inputmatch(['L']),tag(noun),tokens([l])])],550/12,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-824,[ev(-645,'C2827734','1+','1+ Score',['1'],[qnco],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[552/1],0,0),ev(-861,'C0439300','umol/L','Micromole/liter',[umol,l],[qnco],[[[3,3],[1,1],0],[[4,4],[2,2],0]],yes,no,['MTH','NCI','SNOMEDCT_US'],[556/6],0,0)]),map(-824,[ev(-645,'C2981698','1+','1+ Score, WHO',['1'],[clas],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[552/1],0,0),ev(-861,'C0439300','umol/L','Micromole/liter',[umol,l],[qnco],[[[3,3],[1,1],0],[[4,4],[2,2],0]],yes,no,['MTH','NCI','SNOMEDCT_US'],[556/6],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],563/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('ferritin of 2 ng/mL.',[head([lexmatch([ferritin]),inputmatch([ferritin]),tag(noun),tokens([ferritin])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),shapes([inputmatch(['2']),features([integer]),tokens(['2'])]),mod([lexmatch([ng]),inputmatch([ng]),tag(noun),tokens([ng])]),punc([inputmatch([/]),tokens([])]),mod([lexmatch([ml]),inputmatch([mL]),tag(noun),tokens([ml])]),punc([inputmatch(['.']),tokens([])])],567/20,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-745,[ev(-760,'C0015879','Ferritin','Ferritin',[ferritin],[aapp,bacs,phsu],[[[1,1],[1,1],0]],yes,no,['MSH','MTH'],[567/8],0,0),ev(-640,'C0439275','ng/mL','Microgram per Liter',[ng,ml],[qnco],[[[4,4],[1,1],0],[[5,5],[2,2],0]],no,no,['MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[581/5],0,0)])]).
+'EOU'.
+utterance('00000000.tx.9',"Fecal occult blood is negative. ",588/32,[619]).
+phrase('Fecal occult blood',[head([lexmatch(['fecal occult blood']),inputmatch(['Fecal',occult,blood]),tag(noun),tokens([fecal,occult,blood])])],588/18,[]).
+candidates(17,7,0,10,[]).
+mappings([map(-1000,[ev(-1000,'C0201811','Faecal occult blood NOS','Fecal occult blood test',[faecal,occult,blood],[lbpr],[[[1,3],[1,3],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn','SNM','SNOMEDCT_US'],[588/18],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],607/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('negative.',[head([lexmatch([negative]),inputmatch([negative]),tag(adj),tokens([negative])]),punc([inputmatch(['.']),tokens([])])],610/9,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0205160','Negative','Negative',[negative],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','SNOMEDCT_US'],[610/8],0,0)]),map(-1000,[ev(-1000,'C1513916','Negative','Negative Finding',[negative],[fndg],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[610/8],0,0)]),map(-1000,[ev(-1000,'C2825415','Negative','Negative Number',[negative],[cnce],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[610/8],0,0)]),map(-1000,[ev(-1000,'C2825491','Negative','Negative Charge',[negative],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[610/8],0,0)])]).
+'EOU'.
+utterance('00000000.tx.10',"A 15 yo girl with fatigue, pale skin, low hemoglobin and ferritin.",620/66,[]).
+phrase('A 15 yo girl with fatigue,',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['15']),features([integer]),tokens(['15'])]),mod([lexmatch([yo]),inputmatch([yo]),tag(noun),tokens([yo])]),head([lexmatch([girl]),inputmatch([girl]),tag(noun),tokens([girl])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([fatigue]),inputmatch([fatigue]),tag(noun),tokens([fatigue])]),punc([inputmatch([',']),tokens([])])],620/26,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-672,[ev(-586,'C1413296','Yo','CDR2 gene',[yo],[gngm],[[[3,3],[1,1],0]],no,no,['HGNC','MTH','OMIM'],[625/2],0,0),ev(-753,'C0870604','Girl','Female child',[girl],[aggp],[[[4,4],[1,1],0]],yes,no,['CHV','NLMSubSyn','SNOMEDCT_US'],[628/4],0,0),ev(-586,'C0015672','Fatigue','Fatigue',[fatigue],[sosy],[[[6,6],[1,1],0]],no,no,['AOD','CHV','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[638/7],0,0)])]).
+phrase('pale skin,',[mod([lexmatch([pale]),inputmatch([pale]),tag(adj),tokens([pale])]),head([lexmatch([skin]),inputmatch([skin]),tag(noun),tokens([skin])]),punc([inputmatch([',']),tokens([])])],647/10,[]).
+candidates(12,4,0,8,[]).
+mappings([map(-1000,[ev(-1000,'C0030232','pale skin','Pallor',[pale,skin],[sosy],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','MSH','MTH','NCI','SNMI','SNOMEDCT_US','SNOMEDCT_VET'],[647/9],0,0)]),map(-1000,[ev(-1000,'C0241137','Pale skin','Pallor of skin',[pale,skin],[fndg],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','DXP','MTH','NLMSubSyn','OMIM'],[647/9],0,0)])]).
+phrase('low hemoglobin',[mod([lexmatch([low]),inputmatch([low]),tag(adj),tokens([low])]),head([lexmatch([hemoglobin]),inputmatch([hemoglobin]),tag(noun),tokens([hemoglobin])])],658/14,[]).
+candidates(5,0,0,5,[]).
+mappings([map(-1000,[ev(-1000,'C0162119','Low hemoglobin','Hemoglobin low',[low,hemoglobin],[fndg],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','MTHICD9','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[658/14],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],673/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('ferritin.',[head([lexmatch([ferritin]),inputmatch([ferritin]),tag(noun),tokens([ferritin])]),punc([inputmatch(['.']),tokens([])])],677/9,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0015879','Ferritin','Ferritin',[ferritin],[aapp,bacs,phsu],[[[1,1],[1,1],0]],yes,no,['MSH','MTH'],[677/8],0,0)])]).
+'EOU'.
+'EOT'.

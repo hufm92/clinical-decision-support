@@ -1,0 +1,152 @@
+args('metamap14.BINARY.Darwin --lexicon db -Z 2014AA -qE -Q 4 ../../TREC-CDS/2014-original/13.txt ../../TREC-CDS/results/13.txt.out',[lexicon-db,mm_data_year-'2014AA',machine_output-[],indicate_citation_end-[],composite_phrases-4,infile-'../../TREC-CDS/2014-original/13.txt',outfile-'../../TREC-CDS/results/13.txt.out']).
+aas([]).
+neg_list([negation(nega,no,[133/2],['C0156543':'ABORTIONS'],[182/9])]).
+utterance('00000000.tx.1',"test. ",0/6,[5]).
+phrase('test.',[head([lexmatch([test]),inputmatch([test]),tag(noun),tokens([test])]),punc([inputmatch(['.']),tokens([])])],0/5,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0022885','Test','Laboratory Procedures',[test],[lbpr],[[[1,1],[1,1],0]],yes,no,['CHV','MEDLINEPLUS','MTH','NCI','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[0/4],0,0)]),map(-1000,[ev(-1000,'C0039593','Test','Testing',[test],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI','NLMSubSyn'],[0/4],0,0)]),map(-1000,[ev(-1000,'C0392366',test,'Tests (qualifier value)',[test],[inpr],[[[1,1],[1,1],0]],yes,no,['CHV','SNOMEDCT_US'],[0/4],0,0)])]).
+'EOU'.
+utterance('00000000.tx.2',"A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission. ",6/115,[]).
+phrase('A 30-year-old generally healthy woman',[det([lexmatch([a]),inputmatch(['A']),tag(det),tokens([a])]),shapes([inputmatch(['30']),features([integer]),tokens(['30'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),adv([lexmatch([generally]),inputmatch([generally]),tag(adv),tokens([generally])]),mod([lexmatch([healthy]),inputmatch([healthy]),tag(adj),tokens([healthy])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])])],6/37,[]).
+candidates(6,0,0,6,[]).
+mappings([map(-710,[ev(-632,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[11/4],0,0),ev(-632,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[16/3],0,0),ev(-561,'C0018684','Health','Health',[health],[idcn],[[[5,5],[1,1],3]],no,no,['AOD','MTH','NCI'],[30/7],0,0),ev(-799,'C0043210','Woman','Woman',[woman],[popg],[[[6,6],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[38/5],0,0)]),map(-710,[ev(-632,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[11/4],0,0),ev(-632,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[16/3],0,0),ev(-561,'C0031206',healthiness,'Personal Satisfaction',[healthiness],[fndg],[[[5,5],[1,1],3]],no,no,['AOD','MTH','NLMSubSyn','SNOMEDCT_US'],[30/7],0,0),ev(-799,'C0043210','Woman','Woman',[woman],[popg],[[[6,6],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[38/5],0,0)]),map(-710,[ev(-632,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[11/4],0,0),ev(-632,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[16/3],0,0),ev(-561,'C0018684','Health','Health',[health],[idcn],[[[5,5],[1,1],3]],no,no,['AOD','MTH','NCI'],[30/7],0,0),ev(-799,'C0043210','Woman','Woman',[woman],[popg],[[[6,6],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[38/5],0,0)]),map(-710,[ev(-632,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[11/4],0,0),ev(-632,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[16/3],0,0),ev(-561,'C0031206',healthiness,'Personal Satisfaction',[healthiness],[fndg],[[[5,5],[1,1],3]],no,no,['AOD','MTH','NLMSubSyn','SNOMEDCT_US'],[30/7],0,0),ev(-799,'C0043210','Woman','Woman',[woman],[popg],[[[6,6],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[38/5],0,0)])]).
+phrase('presents with shortness of breath',[verb([lexmatch([presents]),inputmatch([presents]),tag(verb),tokens([presents])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([shortness]),inputmatch([shortness]),tag(noun),tokens([shortness])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([breath]),inputmatch([breath]),tag(noun),tokens([breath])])],44/33,[]).
+candidates(10,1,0,9,[]).
+mappings([map(-816,[ev(-760,'C0150312','Present','Present',[present],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[44/8],0,0),ev(-862,'C0013404','Shortness of Breath','Dyspnea',[shortness,of,breath],[sosy],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['CHV','CSP','CST','DXP','ICD10CM','ICPC','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[58/19],0,0)]),map(-816,[ev(-760,'C0150312','Present','Present',[present],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[44/8],0,0),ev(-862,'C2707305','Shortness of breath','Shortness of breath:-:Point in time:^Patient:-',[shortness,of,breath],[clna],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['LNC'],[58/19],0,0)]),map(-816,[ev(-760,'C0449450','Present','Presentation',[present],[idcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[44/8],0,0),ev(-862,'C0013404','Shortness of Breath','Dyspnea',[shortness,of,breath],[sosy],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['CHV','CSP','CST','DXP','ICD10CM','ICPC','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[58/19],0,0)]),map(-816,[ev(-760,'C0449450','Present','Presentation',[present],[idcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[44/8],0,0),ev(-862,'C2707305','Shortness of breath','Shortness of breath:-:Point in time:^Patient:-',[shortness,of,breath],[clna],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['LNC'],[58/19],0,0)])]).
+phrase(that,[pron([lexmatch([that]),inputmatch([that]),tag(pron),tokens([that])])],78/4,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],83/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(started,[verb([lexmatch([started]),inputmatch([started]),tag(verb),tokens([started])])],87/7,[]).
+candidates(2,1,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C1272689','Started','Started',[started],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH'],[87/7],0,0)])]).
+phrase('2 hours before admission.',[shapes([inputmatch(['2']),features([integer]),tokens(['2'])]),head([lexmatch([hours]),inputmatch([hours]),tag(noun),tokens([hours])]),prep([lexmatch([before]),inputmatch([before]),tag(prep),tokens([before])]),mod([lexmatch([admission]),inputmatch([admission]),tag(noun),tokens([admission])]),punc([inputmatch(['.']),tokens([])])],95/25,[]).
+candidates(8,1,0,7,[]).
+mappings([map(-783,[ev(-833,'C1292425','2 Hours','2 Hours',['2',hours],[tmco],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LNC','MTH'],[95/7],0,0),ev(-604,'C0184666',admission,'Hospital admission',[admission],[hlca],[[[4,4],[1,1],0]],no,no,['CHV','MTH','SNMI','SNOMEDCT_US'],[110/9],0,0)]),map(-783,[ev(-833,'C1292425','2 Hours','2 Hours',['2',hours],[tmco],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LNC','MTH'],[95/7],0,0),ev(-604,'C0809949','Admission','Admission activity',[admission],[hlca],[[[4,4],[1,1],0]],no,no,['MTH','NCI'],[110/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.3',"She has had no health problems in the past besides 2 natural abortions. ",121/72,[]).
+phrase('She',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])])],121/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],125/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],129/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('no health problems in the past',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),mod([lexmatch([health]),inputmatch([health]),tag(noun),tokens([health])]),head([lexmatch([problems]),inputmatch([problems]),tag(noun),tokens([problems])]),prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([past]),inputmatch([past]),tag(noun),tokens([past])])],133/30,[]).
+candidates(7,2,0,5,[]).
+mappings([map(-697,[ev(-586,'C1298908',no,no,[no],[idcn],[[[1,1],[1,1],0]],no,no,['MTH'],[133/2],0,0),ev(-586,'C0018684','Health','Health',[health],[idcn],[[[2,2],[1,1],0]],no,no,['AOD','MTH','NCI'],[136/6],0,0),ev(-753,'C1546466','Problems','Problems - What subject filter',[problems],[idcn],[[[3,3],[1,1],0]],yes,no,['HL7V2.5','MTH'],[143/8],0,0),ev(-586,'C1444637','Past','Past',[past],[tmco],[[[6,6],[1,1],0]],no,no,['SNOMEDCT_US'],[159/4],0,0)]),map(-697,[ev(-586,'C1549444','No','No - yes/no indicator',[no],[idcn],[[[1,1],[1,1],0]],no,no,['HL7V2.5','MTH'],[133/2],0,0),ev(-586,'C0018684','Health','Health',[health],[idcn],[[[2,2],[1,1],0]],no,no,['AOD','MTH','NCI'],[136/6],0,0),ev(-753,'C1546466','Problems','Problems - What subject filter',[problems],[idcn],[[[3,3],[1,1],0]],yes,no,['HL7V2.5','MTH'],[143/8],0,0),ev(-586,'C1444637','Past','Past',[past],[tmco],[[[6,6],[1,1],0]],no,no,['SNOMEDCT_US'],[159/4],0,0)])]).
+phrase('besides 2 natural abortions.',[prep([lexmatch([besides]),inputmatch([besides]),tag(prep),tokens([besides])]),shapes([inputmatch(['2']),features([integer]),tokens(['2'])]),mod([lexmatch([natural]),inputmatch([natural]),tag(adj),tokens([natural])]),head([lexmatch([abortions]),inputmatch([abortions]),tag(noun),tokens([abortions])]),punc([inputmatch(['.']),tokens([])])],164/28,[]).
+candidates(6,0,0,6,[]).
+mappings([map(-851,[ev(-660,'C0740116','+2','Integer +2',['2'],[qnco],[[[1,1],[1,1],0]],no,no,['SNOMEDCT_US'],[172/1],0,0),ev(-660,'C0205296','Natural','Natural',[natural],[ftcn],[[[2,2],[1,1],0]],no,no,['SNOMEDCT_US'],[174/7],0,0),ev(-827,'C0156543','ABORTIONS','Unspecified Abortion',[abortions],[fndg],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[182/9],0,1)]),map(-851,[ev(-660,'C0740116','+2','Integer +2',['2'],[qnco],[[[1,1],[1,1],0]],no,no,['SNOMEDCT_US'],[172/1],0,0),ev(-660,'C0205296','Natural','Natural',[natural],[ftcn],[[[2,2],[1,1],0]],no,no,['SNOMEDCT_US'],[174/7],0,0),ev(-827,'C0392535',abortions,'Induced abortion (procedure)',[abortions],[topp],[[[3,3],[1,1],0]],yes,no,['CHV','CSP','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NLMSubSyn','SNOMEDCT_US'],[182/9],0,0)]),map(-851,[ev(-660,'C2827735','2+','2+ Score',['2'],[qnco],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[172/1],0,0),ev(-660,'C0205296','Natural','Natural',[natural],[ftcn],[[[2,2],[1,1],0]],no,no,['SNOMEDCT_US'],[174/7],0,0),ev(-827,'C0156543','ABORTIONS','Unspecified Abortion',[abortions],[fndg],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[182/9],0,1)]),map(-851,[ev(-660,'C2827735','2+','2+ Score',['2'],[qnco],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[172/1],0,0),ev(-660,'C0205296','Natural','Natural',[natural],[ftcn],[[[2,2],[1,1],0]],no,no,['SNOMEDCT_US'],[174/7],0,0),ev(-827,'C0392535',abortions,'Induced abortion (procedure)',[abortions],[topp],[[[3,3],[1,1],0]],yes,no,['CHV','CSP','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NLMSubSyn','SNOMEDCT_US'],[182/9],0,0)]),map(-851,[ev(-660,'C2981700','2+','2+ Score, WHO',['2'],[clas],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[172/1],0,0),ev(-660,'C0205296','Natural','Natural',[natural],[ftcn],[[[2,2],[1,1],0]],no,no,['SNOMEDCT_US'],[174/7],0,0),ev(-827,'C0156543','ABORTIONS','Unspecified Abortion',[abortions],[fndg],[[[3,3],[1,1],0]],yes,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[182/9],0,1)]),map(-851,[ev(-660,'C2981700','2+','2+ Score, WHO',['2'],[clas],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[172/1],0,0),ev(-660,'C0205296','Natural','Natural',[natural],[ftcn],[[[2,2],[1,1],0]],no,no,['SNOMEDCT_US'],[174/7],0,0),ev(-827,'C0392535',abortions,'Induced abortion (procedure)',[abortions],[topp],[[[3,3],[1,1],0]],yes,no,['CHV','CSP','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NLMSubSyn','SNOMEDCT_US'],[182/9],0,0)])]).
+'EOU'.
+utterance('00000000.tx.4',"She had given birth to a healthy child 3 weeks before. ",193/55,[]).
+phrase('She',[pron([lexmatch([she]),inputmatch(['She']),tag(pron),tokens([she])])],193/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],197/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('given birth to a healthy child 3 weeks before.',[mod([lexmatch([given]),inputmatch([given]),tag(adj),tokens([given])]),head([lexmatch([birth]),inputmatch([birth]),tag(noun),tokens([birth])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([healthy]),inputmatch([healthy]),tag(adj),tokens([healthy])]),mod([lexmatch([child]),inputmatch([child]),tag(noun),tokens([child])]),shapes([inputmatch(['3']),features([integer]),tokens(['3'])]),mod([lexmatch([weeks]),inputmatch([weeks]),tag(noun),tokens([weeks])]),adv([lexmatch([before]),inputmatch([before]),tag(adv),tokens([before])]),punc([inputmatch(['.']),tokens([])])],201/46,[]).
+candidates(29,15,0,14,[]).
+mappings([map(-667,[ev(-575,'C1442162','GIVEN','GIVEN',[given],[cnce],[[[1,1],[1,1],0]],no,no,['MTH'],[201/5],0,0),ev(-742,'C0005615','Birth','Birth',[birth],[orgf],[[[2,2],[1,1],0]],yes,no,['CHV','GO','MSH','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C1442162','GIVEN','GIVEN',[given],[cnce],[[[1,1],[1,1],0]],no,no,['MTH'],[201/5],0,0),ev(-742,'C1550722',birth,'Entity Name Part Qualifier - birth',[birth],[idcn],[[[2,2],[1,1],0]],yes,no,['HL7V3.0','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C1442162','GIVEN','GIVEN',[given],[cnce],[[[1,1],[1,1],0]],no,no,['MTH'],[201/5],0,0),ev(-742,'C3245487',birth,'Name Given at Birth',[birth],[inpr],[[[2,2],[1,1],0]],yes,no,['HL7V3.0','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C1550718',given,'Entity Name Part Type - given',[given],[idcn],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH'],[201/5],0,0),ev(-742,'C0005615','Birth','Birth',[birth],[orgf],[[[2,2],[1,1],0]],yes,no,['CHV','GO','MSH','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C1550718',given,'Entity Name Part Type - given',[given],[idcn],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH'],[201/5],0,0),ev(-742,'C1550722',birth,'Entity Name Part Qualifier - birth',[birth],[idcn],[[[2,2],[1,1],0]],yes,no,['HL7V3.0','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C1550718',given,'Entity Name Part Type - given',[given],[idcn],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH'],[201/5],0,0),ev(-742,'C3245487',birth,'Name Given at Birth',[birth],[inpr],[[[2,2],[1,1],0]],yes,no,['HL7V3.0','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C3244317',given,'Given name',[given],[inpr],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH'],[201/5],0,0),ev(-742,'C0005615','Birth','Birth',[birth],[orgf],[[[2,2],[1,1],0]],yes,no,['CHV','GO','MSH','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C3244317',given,'Given name',[given],[inpr],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH'],[201/5],0,0),ev(-742,'C1550722',birth,'Entity Name Part Qualifier - birth',[birth],[idcn],[[[2,2],[1,1],0]],yes,no,['HL7V3.0','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)]),map(-667,[ev(-575,'C3244317',given,'Given name',[given],[inpr],[[[1,1],[1,1],0]],no,no,['HL7V3.0','MTH'],[201/5],0,0),ev(-742,'C3245487',birth,'Name Given at Birth',[birth],[inpr],[[[2,2],[1,1],0]],yes,no,['HL7V3.0','MTH'],[207/5],0,0),ev(-598,'C0686744','Healthy child','Well child',[healthy,child],[fndg],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn','SNOMEDCT_US'],[218/13],0,0),ev(-575,'C0439230',weeks,week,[weeks],[tmco],[[[8,8],[1,1],0]],no,no,['MTH','SNOMEDCT_US'],[234/5],0,0)])]).
+'EOU'.
+utterance('00000000.tx.5',"On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%. ",248/125,[]).
+phrase('On examination,',[prep([lexmatch([on]),inputmatch(['On']),tag(prep),tokens([on])]),head([lexmatch([examination]),inputmatch([examination]),tag(noun),tokens([examination])]),punc([inputmatch([',']),tokens([])])],248/15,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(she,[pron([lexmatch([she]),inputmatch([she]),tag(pron),tokens([she])])],264/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],268/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('apprehensive, tachypneic',[mod([lexmatch([apprehensive]),inputmatch([apprehensive]),tag(adj),tokens([apprehensive])]),punc([inputmatch([',']),tokens([])]),head([lexmatch([tachypneic]),inputmatch([tachypneic]),tag(adj),tokens([tachypneic])])],271/24,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-888,[ev(-694,'C0233485','Apprehensive',apprehension,[apprehensive],[fndg],[[[1,1],[1,1],0]],no,no,['MTH','SNMI','SNOMEDCT_US','SNOMEDCT_VET'],[271/12],0,0),ev(-861,'C0231835','Tachypneic','Tachypnea',[tachypneic],[sosy],[[[2,2],[1,1],0]],yes,no,['CHV','CST','DXP','MSH','NLMSubSyn','SNOMEDCT_US','SNOMEDCT_VET'],[285/10],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],296/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('tachycardic,',[head([lexmatch([tachycardic]),inputmatch([tachycardic]),tag(adj),tokens([tachycardic])]),punc([inputmatch([',']),tokens([])])],300/12,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-928,[ev(-928,'C0039231','Tachycardia','Tachycardia',[tachycardia],[fndg],[[[1,1],[1,1],3]],yes,no,['CHV','CST','DXP','ICD10CM','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[300/11],0,0)])]).
+phrase('her blood pressure',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),head([lexmatch(['blood pressure']),inputmatch([blood,pressure]),tag(noun),tokens([blood,pressure])])],313/18,[]).
+candidates(16,7,0,9,[]).
+mappings([map(-1000,[ev(-1000,'C0005823','Blood Pressure','Blood Pressure',[blood,pressure],[orgf],[[[1,2],[1,2],0]],yes,no,['MTH','NLMSubSyn','SNOMEDCT_US'],[317/14],0,0)]),map(-1000,[ev(-1000,'C1271104','Blood Pressure','Blood pressure finding',[blood,pressure],[fndg],[[[1,2],[1,2],0]],yes,no,['MTH','NCI','NLMSubSyn'],[317/14],0,0)]),map(-1000,[ev(-1000,'C1272641','Blood pressure','Systemic arterial pressure',[blood,pressure],[fndg],[[[1,2],[1,2],0]],yes,no,['CHV','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[317/14],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],332/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('110/70',[shapes([inputmatch(['110',/,'70']),features([fraction]),tokens(['110','70'])])],335/6,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],342/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('her oxygen saturation 92%.',[pron([lexmatch([her]),inputmatch([her]),tag(pron),tokens([her])]),mod([lexmatch(['oxygen saturation']),inputmatch([oxygen,saturation]),tag(noun),tokens([oxygen,saturation])]),shapes([inputmatch(['92','%']),features([percentage,integer]),tokens(['92'])]),punc([inputmatch(['.']),tokens([])])],346/26,[]).
+candidates(5,1,0,4,[]).
+mappings([map(-901,[ev(-901,'C0369768','Oxygen saturation','Molecular oxygen saturation',[oxygen,saturation],[moft],[[[1,2],[1,2],0]],yes,no,['CHV','MTH','SNM'],[350/17],0,0)]),map(-901,[ev(-901,'C0483415','Oxygen saturation','Oxygen saturation test result',[oxygen,saturation],[orga],[[[1,2],[1,2],0]],yes,no,['CHV','LNC','MTH','NLMSubSyn'],[350/17],0,0)])]).
+'EOU'.
+utterance('00000000.tx.6',"Otherwise, physical examination is unremarkable. ",373/49,[]).
+phrase('Otherwise,',[adv([lexmatch([otherwise]),inputmatch(['Otherwise']),tag(adv),tokens([otherwise])]),punc([inputmatch([',']),tokens([])])],373/10,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('physical examination',[head([lexmatch(['physical examination']),inputmatch([physical,examination]),tag(noun),tokens([physical,examination])])],384/20,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0031809','Physical Examination','Physical Examination',[physical,examination],[hlca],[[[1,2],[1,2],0]],yes,no,['AIR','CHV','ICD9CM','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[384/20],0,0)])]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],405/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('unremarkable.',[head([lexmatch([unremarkable]),inputmatch([unremarkable]),tag(adj),tokens([unremarkable])]),punc([inputmatch(['.']),tokens([])])],408/13,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0205307','Unremarkable','Normal',[unremarkable],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[408/12],0,0)])]).
+'EOU'.
+utterance('00000000.tx.7',"Her chest x-ray and CBC are normal. ",422/36,[457]).
+phrase('Her chest x-ray',[pron([lexmatch([her]),inputmatch(['Her']),tag(pron),tokens([her])]),head([lexmatch(['chest x-ray']),inputmatch([chest,x,-,ray]),tag(noun),tokens([chest,x,ray])])],422/15,[]).
+candidates(18,6,0,12,[]).
+mappings([map(-1000,[ev(-1000,'C0039985','Chest X-ray','Chest X-ray',[chest,x,ray],[diap],[[[1,3],[1,3],0]],yes,no,['CHV','CSP','MTH','MTHICD9','NCI','NLMSubSyn','SNOMEDCT_US'],[426/11],0,0)]),map(-1000,[ev(-1000,'C1114557','Chest X-ray','Views:Finding:Point in time:Chest:Narrative:XR',[chest,x,ray],[clna],[[[1,3],[1,3],0]],yes,no,['LNC','MTH'],[426/11],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],438/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('CBC',[head([lexmatch([cbc]),inputmatch(['CBC']),tag(noun),tokens([cbc])])],442/3,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0009555','CBC','Complete Blood Count',[cbc],[lbpr],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn','SNOMEDCT_US'],[442/3],0,0)]),map(-1000,[ev(-1000,'C2263086','CBC','Nuclear cap binding complex location',[cbc],[celc],[[[1,1],[1,1],0]],yes,no,['GO','MTH'],[442/3],0,0)])]).
+phrase(are,[aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])],446/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('normal.',[head([lexmatch([normal]),inputmatch([normal]),tag(adj),tokens([normal])]),punc([inputmatch(['.']),tokens([])])],450/7,[]).
+candidates(3,0,0,3,[]).
+mappings([map(-1000,[ev(-1000,'C0205307','Normal','Normal',[normal],[qlco],[[[1,1],[1,1],0]],yes,no,['MTH','SNOMEDCT_US'],[450/6],0,0)]),map(-1000,[ev(-1000,'C0439166','% normal','Percent normal',[normal],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[450/6],0,0)]),map(-1000,[ev(-1000,'C2347086','% Normal','Mean Percent of Normal',[normal],[qnco],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[450/6],0,0)])]).
+'EOU'.
+utterance('00000000.tx.8',"30-year-old woman who is 3 weeks post-partum, presents with shortness of breath, tachypnea, and hypoxia.",458/104,[]).
+phrase('30-year-old woman',[shapes([inputmatch(['30']),features([integer]),tokens(['30'])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([old]),inputmatch([old]),tag(noun),tokens([old])]),head([lexmatch([woman]),inputmatch([woman]),tag(noun),tokens([woman])])],458/17,[]).
+candidates(4,0,0,4,[]).
+mappings([map(-775,[ev(-645,'C0439234',year,year,[year],[tmco],[[[2,2],[1,1],0]],no,no,['MTH','NCI','SNOMEDCT_US'],[461/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[466/3],0,0),ev(-812,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[470/5],0,0)]),map(-775,[ev(-645,'C0439508','/year','per year',[year],[tmco],[[[2,2],[1,1],0]],no,no,['CHV','MTH','NCI','SNOMEDCT_US'],[461/4],0,0),ev(-645,'C0580836','Old','Old',[old],[tmco],[[[3,3],[1,1],0]],no,no,['MTH'],[466/3],0,0),ev(-812,'C0043210','Woman','Woman',[woman],[popg],[[[4,4],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','NLMSubSyn'],[470/5],0,0)])]).
+phrase(who,[pron([lexmatch([who]),inputmatch([who]),tag(pron),tokens([who])])],476/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase(is,[aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])],480/2,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('3 weeks',[shapes([inputmatch(['3']),features([integer]),tokens(['3'])]),head([lexmatch([weeks]),inputmatch([weeks]),tag(noun),tokens([weeks])])],483/7,[]).
+candidates(6,1,0,5,[]).
+mappings([map(-1000,[ev(-1000,'C1442462','3 Weeks','3 Weeks',['3',weeks],[tmco],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['MTH'],[483/7],0,0)])]).
+phrase('post-partum,',[head([lexmatch(['post-partum']),inputmatch([post,-,partum]),tag(adj),tokens([post,partum])]),punc([inputmatch([',']),tokens([])])],491/12,[]).
+candidates(5,1,0,4,[]).
+mappings([map(-1000,[ev(-1000,'C0086839','Postpartum','Postpartum Period',[postpartum],[tmco],[[[1,2],[1,1],0]],yes,no,['CHV','DXP','LNC','MSH','MTH','NLMSubSyn','SNOMEDCT_US'],[491/11],0,0)])]).
+phrase('presents with shortness of breath,',[verb([lexmatch([presents]),inputmatch([presents]),tag(verb),tokens([presents])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([shortness]),inputmatch([shortness]),tag(noun),tokens([shortness])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([breath]),inputmatch([breath]),tag(noun),tokens([breath])]),punc([inputmatch([',']),tokens([])])],504/34,[]).
+candidates(10,1,0,9,[]).
+mappings([map(-816,[ev(-760,'C0150312','Present','Present',[present],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[504/8],0,0),ev(-862,'C0013404','Shortness of Breath','Dyspnea',[shortness,of,breath],[sosy],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['CHV','CSP','CST','DXP','ICD10CM','ICPC','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[518/19],0,0)]),map(-816,[ev(-760,'C0150312','Present','Present',[present],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[504/8],0,0),ev(-862,'C2707305','Shortness of breath','Shortness of breath:-:Point in time:^Patient:-',[shortness,of,breath],[clna],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['LNC'],[518/19],0,0)]),map(-816,[ev(-760,'C0449450','Present','Presentation',[present],[idcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[504/8],0,0),ev(-862,'C0013404','Shortness of Breath','Dyspnea',[shortness,of,breath],[sosy],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['CHV','CSP','CST','DXP','ICD10CM','ICPC','MSH','MTH','NCI','NLMSubSyn','OMIM','SNOMEDCT_US'],[518/19],0,0)]),map(-816,[ev(-760,'C0449450','Present','Presentation',[present],[idcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[504/8],0,0),ev(-862,'C2707305','Shortness of breath','Shortness of breath:-:Point in time:^Patient:-',[shortness,of,breath],[clna],[[[3,3],[1,1],0],[[4,4],[2,2],0],[[5,5],[3,3],0]],yes,no,['LNC'],[518/19],0,0)])]).
+phrase('tachypnea,',[head([lexmatch([tachypnea]),inputmatch([tachypnea]),tag(noun),tokens([tachypnea])]),punc([inputmatch([',']),tokens([])])],539/10,[]).
+candidates(1,0,0,1,[]).
+mappings([map(-1000,[ev(-1000,'C0231835','Tachypnea','Tachypnea',[tachypnea],[sosy],[[[1,1],[1,1],0]],yes,no,['CHV','CST','DXP','MSH','NLMSubSyn','SNOMEDCT_US','SNOMEDCT_VET'],[539/9],0,0)])]).
+phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],550/3,[]).
+candidates(0,0,0,0,[]).
+mappings([]).
+phrase('hypoxia.',[head([lexmatch([hypoxia]),inputmatch([hypoxia]),tag(noun),tokens([hypoxia])]),punc([inputmatch(['.']),tokens([])])],554/8,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0242184','Hypoxia','Hypoxia',[hypoxia],[patf],[[[1,1],[1,1],0]],yes,no,['MSH','MTH','NLMSubSyn','SNM','SNOMEDCT_US'],[554/7],0,0)]),map(-1000,[ev(-1000,'C1963140','HYPOXIA','Hypoxia Adverse Event',[hypoxia],[fndg],[[[1,1],[1,1],0]],yes,no,['CST','MTH'],[554/7],0,0)])]).
+'EOU'.
+'EOT'.
