@@ -17,4 +17,4 @@ class utterance():
     Component = []    
 
     def __init__(self, utterance_tmp):
-	info = parse.utterance_info(utterance_tmp['Info'])
+        info = parse.utterance_info(utterance_tmp['Info'])
